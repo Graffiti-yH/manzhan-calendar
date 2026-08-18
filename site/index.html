@@ -131,8 +131,8 @@
   }
   function googleUrl(city) {
     var path = city === 'all' ? 'ics/all.ics' : icsPath(city);
-    // 直接传 https 地址，路径仅编码一次，避免中文文件名被二次编码
-    return 'https://calendar.google.com/calendar/render?cid=' + base + path;
+    // 整个订阅地址做一次 URL 编码：Google 解码 cid 后即得到与「复制」相同的 %-encoded 路径
+    return 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(base + path);
   }
   function appleUrl(city) {
     var path = city === 'all' ? 'ics/all.ics' : icsPath(city);
