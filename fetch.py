@@ -37,7 +37,8 @@ SITE_DIR = "site"
 ICS_DIR = os.path.join(SITE_DIR, "ics")
 CHINA_TZ = datetime.timezone(datetime.timedelta(hours=8))
 MAX_PAGES = 200
-DELAY_LIST = 0.2
+PAGESIZE = 20
+DELAY_LIST = 0.3
 
 
 def http_json(url, cookies=None):
@@ -59,17 +60,43 @@ def get_buvid():
     return None
 
 
-def fetch_list(cookies):
-    """分页拉取频道全部活动（以 isLastBrush 判尾）。"""
+def _paginate(cookies):
+    """单次分页抓取，返回 (items, 末页条数)。单页失败重试，不跳页。"""
     items = []
+    last_page_size = 0
     for page in range(1, MAX_PAGES + 1):
-        data = http_json(LIST_API.format(page=page), cookies).get("data") or {}
+        data = None
+        for retry in range(3):
+            try:
+                data = http_json(LIST_API.format(page=page), cookies).get("data") or {}
+                break
+            except Exception:
+                time.sleep(1.0 * (retry + 1))
+        if data is None:
+            break  # 连续失败，放弃本次抓取
         result = data.get("result") or []
         items.extend(result)
+        last_page_size = len(result)
         if data.get("isLastBrush") or not result:
             break
         time.sleep(DELAY_LIST)
-    return items
+    return items, last_page_size
+
+
+def fetch_list():
+    """分页拉取频道全部活动，多次尝试取最长结果，防止限流导致数据截断。"""
+    best = []
+    for attempt in range(3):
+        cookies = get_buvid()
+        items, last_page_size = _paginate(cookies)
+        print(f"      第 {attempt + 1} 次抓取 {len(items)} 条（末页 {last_page_size} 条）")
+        if len(items) > len(best):
+            best = items
+        # 末页不足一页说明是自然结尾（数据完整），无需再重试
+        if last_page_size < PAGESIZE and items:
+            break
+        time.sleep(2.0)
+    return best
 
 
 def build_events(raw_items):
@@ -166,9 +193,8 @@ def ics_calendar(calname, events):
 
 
 def main():
-    cookies = get_buvid()
     print("[1/4] 抓取漫展列表 ...")
-    raw = fetch_list(cookies)
+    raw = fetch_list()
     print(f"      频道活动 {len(raw)} 条")
 
     print("[2/4] 筛选漫展分类 ...")
