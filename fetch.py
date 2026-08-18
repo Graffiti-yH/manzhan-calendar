@@ -113,6 +113,25 @@ def ics_escape(text):
                 .replace("\n", "\\n"))
 
 
+def fold_line(text):
+    """RFC 5545 折行：每行不超过 75 八位字节，续行以空格开头，不拆多字节字符。"""
+    data = text.encode("utf-8")
+    if len(data) <= 75:
+        return text
+    chunks = []
+    start = 0
+    first = True
+    while start < len(data):
+        limit = 75 if first else 74  # 续行前导空格占 1 字节
+        end = min(start + limit, len(data))
+        while end > start and end < len(data) and (data[end] & 0xC0) == 0x80:
+            end -= 1
+        chunks.append(data[start:end].decode("utf-8"))
+        start = end
+        first = False
+    return "\r\n ".join(chunks)
+
+
 def ics_calendar(calname, events):
     lines = [
         "BEGIN:VCALENDAR",
@@ -144,7 +163,7 @@ def ics_calendar(calname, events):
         lines.append("DESCRIPTION:" + ics_escape(desc))
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
-    return "\r\n".join(lines) + "\r\n"
+    return "\r\n".join(fold_line(l) for l in lines) + "\r\n"
 
 
 def main():
