@@ -1,0 +1,32 @@
+name: update
+
+on:
+  schedule:
+    - cron: "0 16 * * *"  # 每日 UTC 16:00（北京时间 00:00）刷新
+  workflow_dispatch: {}    # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch & generate calendar
+        run: python fetch.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+          force_orphan: true
