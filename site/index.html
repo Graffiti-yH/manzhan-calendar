@@ -118,26 +118,14 @@
 </div>
 <div class="toast" id="toast"></div>
 
+<script src="urls.js"></script>
 <script>
 (function () {
   var data = null;
   var base = location.href.replace(/index\.html?$/, '');
 
-  function webcalUrl(path) {
-    return base.replace(/^https?:\/\//, 'webcal://') + path;
-  }
-  function icsPath(city) {
-    return 'ics/' + encodeURIComponent(city) + '.ics';
-  }
-  function googleUrl(city) {
-    var path = city === 'all' ? 'ics/all.ics' : icsPath(city);
-    // 整个订阅地址做一次 URL 编码：Google 解码 cid 后即得到与「复制」相同的 %-encoded 路径
-    return 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(base + path);
-  }
-  function appleUrl(city) {
-    var path = city === 'all' ? 'ics/all.ics' : icsPath(city);
-    return webcalUrl(path);
-  }
+  function googleUrl(city) { return manzhanUrls.googleUrl(base, city); }
+  function appleUrl(city) { return manzhanUrls.appleUrl(base, city); }
 
   function el(tag, cls, text) {
     var n = document.createElement(tag);
@@ -217,8 +205,7 @@
   document.addEventListener('click', function (ev) {
     var sub = ev.target.dataset && ev.target.dataset.sub;
     if (sub) {
-      var path = sub === 'all' ? 'ics/all.ics' : icsPath(sub);
-      copyText(base + path);
+      copyText(manzhanUrls.icsUrl(base, sub));
     }
   });
 

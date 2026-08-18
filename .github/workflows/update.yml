@@ -23,6 +23,9 @@ jobs:
       - name: Fetch & generate calendar
         run: python fetch.py
 
+      - name: Run regression tests
+        run: node test/urls.test.js
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
