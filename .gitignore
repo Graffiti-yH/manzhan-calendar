@@ -1,0 +1,5 @@
+site/data.json
+site/ics/
+__pycache__/
+*.pyc
+.DS_Store
