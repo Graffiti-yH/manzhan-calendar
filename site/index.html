@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B站漫展日历订阅</title>
+<style>
+  :root {
+    --bg: #f7f7fa;
+    --card: #ffffff;
+    --primary: #fb7299;
+    --text: #1f2329;
+    --muted: #8a8f99;
+    --border: #e8e8ee;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+      "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 60px; }
+  header { margin-bottom: 20px; }
+  header h1 { font-size: 22px; display: flex; align-items: center; gap: 8px; }
+  header h1 .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); }
+  header .meta { color: var(--muted); font-size: 13px; margin-top: 6px; }
+  .grid { display: grid; grid-template-columns: 340px 1fr; gap: 20px; align-items: start; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .card h2 { font-size: 15px; margin-bottom: 12px; }
+  .search { width: 100%; padding: 8px 10px; border: 1px solid var(--border);
+    border-radius: 8px; margin-bottom: 10px; font-size: 14px; }
+  .city-list { max-height: 420px; overflow-y: auto; }
+  .city-item {
+    display: flex; align-items: center; gap: 8px;
+    padding: 6px 8px; border-radius: 8px; cursor: pointer; font-size: 14px;
+  }
+  .city-item:hover { background: #f4f4f8; }
+  .city-item input { accent-color: var(--primary); }
+  .city-item .cnt { margin-left: auto; color: var(--muted); font-size: 12px; }
+  .toolbar { display: flex; gap: 8px; margin-bottom: 10px; }
+  .toolbar button {
+    border: 1px solid var(--border); background: #fff; border-radius: 8px;
+    padding: 4px 12px; font-size: 13px; cursor: pointer; color: var(--text);
+  }
+  .toolbar button:hover { border-color: var(--primary); color: var(--primary); }
+  .empty { color: var(--muted); font-size: 14px; text-align: center; padding: 24px 0; }
+  .selected .row {
+    display: flex; align-items: center; gap: 8px; padding: 10px 0;
+    border-bottom: 1px solid var(--border); font-size: 14px;
+  }
+  .selected .row:last-child { border-bottom: none; }
+  .selected .row .name { flex: 1; min-width: 0; }
+  .selected .row .sub { color: var(--muted); font-size: 12px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 4px;
+    border: 1px solid var(--border); border-radius: 8px; padding: 5px 10px;
+    font-size: 13px; cursor: pointer; text-decoration: none; color: var(--text);
+    background: #fff; white-space: nowrap;
+  }
+  .btn:hover { border-color: var(--primary); color: var(--primary); }
+  .btn.primary { background: var(--primary); border-color: var(--primary); color: #fff; }
+  .btn.primary:hover { opacity: .9; color: #fff; }
+  .all-row {
+    display: flex; align-items: center; gap: 8px; margin-bottom: 12px;
+    padding-bottom: 12px; border-bottom: 1px dashed var(--border);
+  }
+  .toast {
+    position: fixed; left: 50%; bottom: 30px; transform: translateX(-50%);
+    background: #333; color: #fff; padding: 8px 16px; border-radius: 8px;
+    font-size: 13px; opacity: 0; transition: opacity .25s; pointer-events: none;
+  }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="dot"></span>B站漫展日历订阅</h1>
+    <div class="meta" id="meta">加载中…</div>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <h2>选择城市（多选）</h2>
+      <input class="search" id="search" type="text" placeholder="搜索城市…">
+      <div class="toolbar">
+        <button id="select-all">全选</button>
+        <button id="clear-all">清空</button>
+      </div>
+      <div class="city-list" id="city-list"></div>
+    </div>
+
+    <div class="card">
+      <h2>订阅链接</h2>
+      <div class="all-row">
+        <div style="flex:1">
+          <div class="name"><strong>全部城市</strong></div>
+          <div class="sub">一个订阅源包含所有城市</div>
+        </div>
+        <button class="btn" data-sub="all">复制</button>
+        <a class="btn" data-add="all" target="_blank">Google</a>
+        <a class="btn" data-web="all" target="_blank">Apple</a>
+      </div>
+      <div id="selected" class="selected"></div>
+      <div id="empty" class="empty" style="display:none">
+        勾选左侧城市后，这里会列出对应的订阅链接
+      </div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function () {
+  var data = null;
+  var base = location.href.replace(/index\.html?$/, '');
+
+  function webcalUrl(path) {
+    return base.replace(/^https?:\/\//, 'webcal://') + path;
+  }
+  function icsPath(city) {
+    return 'ics/' + encodeURIComponent(city) + '.ics';
+  }
+  function googleUrl(city) {
+    var path = city === 'all' ? 'ics/all.ics' : icsPath(city);
+    return 'https://calendar.google.com/calendar/render?cid=' +
+      encodeURIComponent(webcalUrl(path));
+  }
+  function appleUrl(city) {
+    var path = city === 'all' ? 'ics/all.ics' : icsPath(city);
+    return webcalUrl(path);
+  }
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function toast(msg) {
+    var t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(function () { t.classList.remove('show'); }, 1500);
+  }
+
+  function copyText(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { toast('已复制'); },
+        function () { fallbackCopy(text); });
+    } else { fallbackCopy(text); }
+  }
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text; document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); toast('已复制'); } catch (e) { toast('复制失败'); }
+    document.body.removeChild(ta);
+  }
+
+  function renderCities() {
+    var list = document.getElementById('city-list');
+    var kw = document.getElementById('search').value.trim();
+    list.innerHTML = '';
+    var cities = data.cities;
+    if (kw) cities = cities.filter(function (c) { return c.indexOf(kw) >= 0; });
+    cities.forEach(function (c) {
+      var n = data.events.filter(function (e) { return e.city === c; }).length;
+      var label = el('label', 'city-item');
+      var cb = document.createElement('input');
+      cb.type = 'checkbox'; cb.value = c;
+      cb.addEventListener('change', renderSelected);
+      label.appendChild(cb);
+      label.appendChild(document.createTextNode(c));
+      label.appendChild(el('span', 'cnt', n + ' 场'));
+      list.appendChild(label);
+    });
+  }
+
+  function selectedCities() {
+    var boxes = document.querySelectorAll('#city-list input:checked');
+    return Array.prototype.map.call(boxes, function (b) { return b.value; });
+  }
+
+  function renderSelected() {
+    var sel = selectedCities();
+    var box = document.getElementById('selected');
+    var empty = document.getElementById('empty');
+    box.innerHTML = '';
+    if (sel.length === 0) { empty.style.display = 'block'; return; }
+    empty.style.display = 'none';
+    sel.forEach(function (c) {
+      var row = el('div', 'row');
+      var name = el('div', 'name');
+      name.appendChild(el('strong', null, c));
+      var n = data.events.filter(function (e) { return e.city === c; }).length;
+      name.appendChild(el('div', 'sub', n + ' 场活动'));
+      row.appendChild(name);
+      var cp = el('button', 'btn', '复制');
+      cp.dataset.sub = c; row.appendChild(cp);
+      var g = el('a', 'btn', 'Google'); g.href = googleUrl(c);
+      g.target = '_blank'; row.appendChild(g);
+      var a = el('a', 'btn', 'Apple'); a.href = appleUrl(c);
+      a.target = '_blank'; row.appendChild(a);
+      box.appendChild(row);
+    });
+  }
+
+  document.addEventListener('click', function (ev) {
+    var sub = ev.target.dataset && ev.target.dataset.sub;
+    if (sub) {
+      var path = sub === 'all' ? 'ics/all.ics' : icsPath(sub);
+      copyText(base + path);
+    }
+  });
+
+  document.getElementById('search').addEventListener('input', renderCities);
+  document.getElementById('select-all').addEventListener('click', function () {
+    document.querySelectorAll('#city-list input').forEach(function (b) { b.checked = true; });
+    renderSelected();
+  });
+  document.getElementById('clear-all').addEventListener('click', function () {
+    document.querySelectorAll('#city-list input').forEach(function (b) { b.checked = false; });
+    renderSelected();
+  });
+
+  fetch('data.json')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      data = d;
+      document.getElementById('meta').textContent =
+        '共 ' + d.count + ' 场漫展活动 · ' + d.cities.length + ' 个城市 · 更新于 ' +
+        d.updated.replace('T', ' ').slice(0, 16);
+      renderCities();
+      renderSelected();
+    })
+    .catch(function () {
+      document.getElementById('meta').textContent = '加载失败，请刷新重试';
+    });
+})();
+</script>
+</body>
+</html>
