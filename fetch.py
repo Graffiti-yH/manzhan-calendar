@@ -19,7 +19,6 @@ import datetime
 import json
 import os
 import time
-import urllib.parse
 import urllib.request
 
 # 只保留真正的漫展活动（排除主题餐厅/音乐会/电竞赛事等同类频道的其他内容）
@@ -186,7 +185,7 @@ def main():
         f.write(ics_calendar("B站漫展日历 · 全部", events))
     for city in cities:
         subset = [e for e in events if e["city"] == city]
-        fname = urllib.parse.quote(city, safe="") + ".ics"
+        fname = city + ".ics"  # 中文文件名，URL 编码交给前端 encodeURIComponent
         with open(os.path.join(ICS_DIR, fname), "w", encoding="utf-8") as f:
             f.write(ics_calendar("B站漫展日历 · " + city, subset))
     print(f"      城市 {len(cities)} 个")
