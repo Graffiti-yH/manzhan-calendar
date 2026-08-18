@@ -131,8 +131,8 @@
   }
   function googleUrl(city) {
     var path = city === 'all' ? 'ics/all.ics' : icsPath(city);
-    return 'https://calendar.google.com/calendar/render?cid=' +
-      encodeURIComponent(webcalUrl(path));
+    // 直接传 https 地址，路径仅编码一次，避免中文文件名被二次编码
+    return 'https://calendar.google.com/calendar/render?cid=' + base + path;
   }
   function appleUrl(city) {
     var path = city === 'all' ? 'ics/all.ics' : icsPath(city);
