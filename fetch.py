@@ -20,6 +20,7 @@ import json
 import os
 import time
 import urllib.request
+import urllib.parse
 
 # 只保留真正的漫展活动（排除主题餐厅/音乐会/电竞赛事等同类频道的其他内容）
 CATEGORIES = {"漫展", "Only同人展"}
@@ -112,6 +113,18 @@ def cover_url(item):
         if value.startswith(("https://", "http://")):
             return value
     return ""
+
+
+def image_mime_type(url):
+    """根据封面 URL 的文件扩展名返回 iCalendar IMAGE 的媒体类型。"""
+    suffix = os.path.splitext(urllib.parse.urlparse(url).path.lower())[1]
+    return {
+        ".jpg": "image/jpeg",
+        ".jpeg": "image/jpeg",
+        ".png": "image/png",
+        ".webp": "image/webp",
+        ".gif": "image/gif",
+    }.get(suffix, "image/jpeg")
 
 
 def build_events(raw_items):
@@ -208,7 +221,12 @@ def ics_calendar(calname, events):
             lines.append("LOCATION:" + ics_escape(location))
         lines.append("DESCRIPTION:" + ics_escape(desc))
         if e.get("image"):
-            lines.append("IMAGE;VALUE=URI:" + e["image"])
+            # RFC 7986 默认 DISPLAY=BADGE；明确声明 GRAPHIC 才是事件题图/大图语义。
+            lines.append(
+                "IMAGE;VALUE=URI;DISPLAY=GRAPHIC;FMTTYPE="
+                + image_mime_type(e["image"])
+                + ":" + e["image"]
+            )
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
     return "\r\n".join(fold_line(l) for l in lines) + "\r\n"

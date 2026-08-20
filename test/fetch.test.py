@@ -38,7 +38,18 @@ class FetchTests(unittest.TestCase):
             "link": "https://show.bilibili.com/platform/detail.html?id=42",
             "image": "https://i0.hdslb.com/bfs/show/test.jpg",
         }])
-        self.assertIn("IMAGE;VALUE=URI:https://i0.hdslb.com/bfs/show/test.jpg", ics)
+        unfolded = ics.replace("\r\n ", "")
+        self.assertIn(
+            "IMAGE;VALUE=URI;DISPLAY=GRAPHIC;FMTTYPE=image/jpeg:"
+            "https://i0.hdslb.com/bfs/show/test.jpg",
+            unfolded,
+        )
+
+    def test_image_mime_type_ignores_url_query(self):
+        self.assertEqual(
+            fetch.image_mime_type("https://i0.hdslb.com/test.png?width=480"),
+            "image/png",
+        )
 
 
 if __name__ == "__main__":
