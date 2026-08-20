@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>漫展日历订阅 · 二次元风格预览</title>
+<style>
+  /* ============ 基础 ============ */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans", sans-serif; }
+
+  .nav {
+    position: fixed; left: 0; right: 0; top: 0; z-index: 100;
+    display: flex; gap: 8px; align-items: center; justify-content: center;
+    padding: 10px 12px; background: rgba(255,255,255,.82);
+    backdrop-filter: blur(8px); border-bottom: 1px solid #e8e8ee; font-size: 12px;
+  }
+  .nav a { color: #555; text-decoration: none; padding: 4px 12px; border-radius: 999px; }
+  .nav a:hover { background: #f0f0f6; }
+
+  .demo { position: relative; min-height: 100vh; padding: 84px 24px 90px; overflow: hidden; }
+  .page { max-width: 940px; margin: 0 auto; position: relative; z-index: 2; }
+
+  .hd { margin-bottom: 34px; }
+  .hd .tag { display: inline-block; font-size: 11px; letter-spacing: .2em; margin-bottom: 14px; padding: 4px 12px; border-radius: 999px; }
+  .hd h1 { font-size: 26px; font-weight: 700; letter-spacing: .02em; }
+  .hd .meta { font-size: 13px; margin-top: 8px; opacity: .75; }
+
+  .cols { display: grid; grid-template-columns: 320px 1fr; gap: 22px; align-items: start; }
+  @media (max-width: 760px) { .cols { grid-template-columns: 1fr; } }
+
+  .panel { padding: 20px; }
+  .panel-title { font-size: 14px; font-weight: 600; margin-bottom: 14px; display: flex; align-items: baseline; gap: 8px; }
+  .panel-title .en { font-size: 10px; letter-spacing: .24em; text-transform: uppercase; opacity: .55; }
+
+  .search {
+    width: 100%; padding: 9px 12px; border-radius: 10px; border: 1px solid;
+    font-size: 14px; margin-bottom: 10px; font-family: inherit; outline: none;
+  }
+  .toolbar { display: flex; gap: 8px; margin-bottom: 12px; }
+  .city-list { max-height: 400px; overflow-y: auto; }
+  .city {
+    display: flex; align-items: center; gap: 9px; padding: 7px 4px;
+    font-size: 14px; cursor: pointer; border-radius: 8px; transition: background .15s;
+  }
+  .city:hover { }
+  .city .cnt { margin-left: auto; font-size: 12px; opacity: .6; }
+
+  .row { display: flex; align-items: center; gap: 9px; padding: 12px 0; font-size: 14px; }
+  .row + .row { border-top: 1px solid; }
+  .row .name { flex: 1; min-width: 0; }
+  .row .sub { font-size: 12px; margin-top: 2px; opacity: .6; }
+  .row-all { border-bottom: 1px dashed; margin-bottom: 6px; }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 4px; border: 1px solid;
+    border-radius: 999px; padding: 5px 13px; font-size: 12px; cursor: pointer;
+    text-decoration: none; white-space: nowrap; font-family: inherit;
+    transition: transform .15s, box-shadow .15s;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn.primary { color: #fff; }
+
+  /* ============ 方向 A · 梦幻渐变 ============ */
+  .demo-a {
+    background:
+      radial-gradient(90% 60% at 20% 0%, #4c2f9e 0%, transparent 55%),
+      radial-gradient(80% 60% at 90% 20%, #7b2f8f 0%, transparent 50%),
+      radial-gradient(100% 70% at 50% 110%, #1e1250 0%, transparent 60%),
+      linear-gradient(165deg, #241558 0%, #3a1f74 45%, #2a1460 100%);
+    color: #f4f0ff;
+  }
+  .demo-a::before { /* 极光弧光 */
+    content: ""; position: absolute; top: -120px; left: 50%; transform: translateX(-50%);
+    width: 900px; height: 340px; border-radius: 50%; z-index: 0;
+    background: radial-gradient(50% 60% at 50% 50%, rgba(166,132,255,.35), transparent 70%);
+    filter: blur(8px);
+  }
+  .demo-a .spark { position: absolute; z-index: 0; border-radius: 50%;
+    background: #fff; opacity: 0; animation: twinkle 3.2s ease-in-out infinite; }
+  .demo-a .s1 { width: 3px; height: 3px; top: 18%; left: 12%; }
+  .demo-a .s2 { width: 2px; height: 2px; top: 30%; right: 18%; animation-delay: .7s; }
+  .demo-a .s3 { width: 3px; height: 3px; bottom: 26%; left: 28%; animation-delay: 1.3s; }
+  .demo-a .s4 { width: 2px; height: 2px; bottom: 16%; right: 30%; animation-delay: 1.9s; }
+  .demo-a .s5 { width: 4px; height: 4px; top: 12%; right: 40%; animation-delay: 2.4s; }
+  @keyframes twinkle { 0%,100% { opacity: 0; transform: scale(.6); } 50% { opacity: .9; transform: scale(1.15); } }
+
+  .demo-a .hd .tag { background: rgba(255,255,255,.12); color: #e9d5ff; border: 1px solid rgba(255,255,255,.22); }
+  .demo-a .hd h1 { background: linear-gradient(90deg, #ffb6d9, #c4b5fd, #a5b4fc);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .demo-a .hd .meta { color: #c9c0ee; }
+
+  .demo-a .panel {
+    background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.18);
+    border-radius: 18px; backdrop-filter: blur(14px);
+    box-shadow: 0 18px 40px rgba(20,10,60,.35);
+  }
+  .demo-a .panel-title .en { color: #b7a8ef; }
+  .demo-a .search { background: rgba(255,255,255,.09); border-color: rgba(255,255,255,.2); color: #f4f0ff; }
+  .demo-a .search::placeholder { color: #9d93cd; }
+  .demo-a .search:focus { border-color: #fb7299; box-shadow: 0 0 0 3px rgba(251,114,153,.22); }
+  .demo-a .city:hover { background: rgba(255,255,255,.08); }
+  .demo-a .city input { accent-color: #fb7299; width: 15px; height: 15px; }
+  .demo-a .toolbar button, .demo-a .btn {
+    background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.2); color: #eee7ff;
+  }
+  .demo-a .toolbar button:hover, .demo-a .btn:hover { border-color: #fb7299; color: #ffc2da; }
+  .demo-a .btn.primary {
+    background: linear-gradient(135deg, #fb7299 0%, #a855f7 100%);
+    border: none; box-shadow: 0 6px 18px rgba(251,114,153,.4);
+  }
+  .demo-a .btn.primary:hover { box-shadow: 0 8px 24px rgba(251,114,153,.55); color: #fff; }
+  .demo-a .row + .row { border-color: rgba(255,255,255,.14); }
+  .demo-a .row-all { border-color: rgba(255,255,255,.22); }
+
+  /* ============ 方向 B · 赛博霓虹 ============ */
+  .demo-b {
+    background:
+      linear-gradient(rgba(34,211,238,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(34,211,238,.05) 1px, transparent 1px),
+      #0a0a12;
+    background-size: 34px 34px;
+    color: #d6f7ff;
+  }
+  .demo-b .glowbar { position: absolute; top: 0; left: 0; right: 0; height: 3px; z-index: 3;
+    background: linear-gradient(90deg, #22d3ee, #e879f9, #22d3ee); }
+  .demo-b .orb { position: absolute; border-radius: 50%; z-index: 0; filter: blur(60px); opacity: .5; }
+  .demo-b .o1 { width: 320px; height: 320px; top: -80px; right: -60px; background: #0891b2; }
+  .demo-b .o2 { width: 260px; height: 260px; bottom: -60px; left: -40px; background: #a21caf; }
+
+  .demo-b .hd .tag { background: rgba(34,211,238,.1); color: #22d3ee; border: 1px solid rgba(34,211,238,.4); }
+  .demo-b .hd h1 { color: #eef9ff; text-shadow: 0 0 14px rgba(34,211,238,.6); }
+  .demo-b .hd .meta { color: #7fd7ec; }
+
+  .demo-b .panel {
+    background: rgba(14,14,24,.82); border: 1px solid rgba(34,211,238,.35);
+    border-radius: 6px; backdrop-filter: blur(8px);
+    box-shadow: 0 0 22px rgba(34,211,238,.12), inset 0 0 30px rgba(34,211,238,.04);
+  }
+  .demo-b .panel-title { color: #22d3ee; letter-spacing: .1em; }
+  .demo-b .panel-title .en { color: #e879f9; }
+  .demo-b .search {
+    background: rgba(0,0,0,.45); border-color: rgba(34,211,238,.3); color: #d6f7ff;
+    border-radius: 4px; font-family: "SF Mono", ui-monospace, monospace; font-size: 13px;
+  }
+  .demo-b .search::placeholder { color: #3f6a75; }
+  .demo-b .search:focus { border-color: #e879f9; box-shadow: 0 0 12px rgba(232,121,249,.35); }
+  .demo-b .city { font-family: "SF Mono", ui-monospace, monospace; font-size: 13px; }
+  .demo-b .city:hover { background: rgba(34,211,238,.06); }
+  .demo-b .city input { accent-color: #22d3ee; }
+  .demo-b .city .cnt { color: #e879f9; font-family: "SF Mono", ui-monospace, monospace; }
+  .demo-b .toolbar button, .demo-b .btn {
+    background: transparent; border-color: rgba(34,211,238,.5); color: #22d3ee;
+    font-family: "SF Mono", ui-monospace, monospace; font-size: 11px; letter-spacing: .12em;
+    border-radius: 4px;
+  }
+  .demo-b .toolbar button:hover, .demo-b .btn:hover { background: rgba(34,211,238,.1); color: #7df3ff; box-shadow: 0 0 10px rgba(34,211,238,.35); }
+  .demo-b .btn.primary {
+    background: linear-gradient(90deg, #0891b2, #a21caf); border: none;
+    color: #fff; box-shadow: 0 0 16px rgba(34,211,238,.4);
+  }
+  .demo-b .btn.primary:hover { box-shadow: 0 0 26px rgba(34,211,238,.6); color: #fff; }
+  .demo-b .row + .row { border-color: rgba(34,211,238,.18); }
+  .demo-b .row-all { border-color: rgba(232,121,249,.4); }
+
+  /* ============ 方向 C · 清新甜酷 ============ */
+  .demo-c {
+    background:
+      radial-gradient(60% 40% at 12% 8%, #ffe9f0 0%, transparent 60%),
+      radial-gradient(55% 40% at 92% 16%, #e5f7ec 0%, transparent 60%),
+      radial-gradient(60% 45% at 85% 100%, #eef0ff 0%, transparent 60%),
+      #fffaf5;
+    color: #5b4a55;
+  }
+  .demo-c .sticker { position: absolute; z-index: 0; border-radius: 50%; opacity: .7; }
+  .demo-c .st1 { width: 120px; height: 120px; top: 12%; right: 6%; background: radial-gradient(circle at 35% 35%, #ffe3ee, #ffd0e2); }
+  .demo-c .st2 { width: 90px; height: 90px; bottom: 14%; left: 8%; background: radial-gradient(circle at 35% 35%, #d9f6e4, #c3ecd2); }
+  .demo-c .st3 { width: 64px; height: 64px; top: 40%; left: 3%; background: radial-gradient(circle at 35% 35%, #e6e2ff, #d6d0fa); }
+
+  .demo-c .hd .tag { background: #fff; color: #f472b6; border: 2px solid #ffd6e6; }
+  .demo-c .hd h1 { color: #ec6a9e; letter-spacing: .03em; }
+  .demo-c .hd .meta { color: #b59aa6; }
+
+  .demo-c .panel {
+    background: rgba(255,255,255,.85); border: 2px solid #ffe0ec;
+    border-radius: 22px; box-shadow: 0 12px 28px rgba(236,106,158,.12);
+  }
+  .demo-c .panel-title { color: #ec6a9e; }
+  .demo-c .panel-title .en { color: #c9a8b6; }
+  .demo-c .search { background: #fff; border-color: #ffd6e6; border-radius: 14px; color: #5b4a55; }
+  .demo-c .search::placeholder { color: #d6bcc6; }
+  .demo-c .search:focus { border-color: #f472b6; box-shadow: 0 0 0 4px rgba(244,114,182,.14); }
+  .demo-c .city:hover { background: #fff0f6; }
+  .demo-c .city input { accent-color: #f472b6; }
+  .demo-c .city .cnt { color: #c99cae; }
+  .demo-c .toolbar button, .demo-c .btn {
+    background: #fff; border-color: #ffd6e6; color: #ec6a9e;
+    border-width: 2px; font-weight: 600;
+  }
+  .demo-c .toolbar button:hover, .demo-c .btn:hover { background: #fff0f6; color: #d1518a; }
+  .demo-c .btn.primary {
+    background: linear-gradient(135deg, #ff9ecb, #f472b6); border: none;
+    color: #fff; box-shadow: 0 6px 16px rgba(244,114,182,.35);
+  }
+  .demo-c .btn.primary:hover { box-shadow: 0 8px 22px rgba(244,114,182,.5); color: #fff; }
+  .demo-c .row + .row { border-color: #ffe9f1; }
+  .demo-c .row-all { border-color: #ffd6e6; }
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="#a">梦幻渐变</a>
+  <a href="#b">赛博霓虹</a>
+  <a href="#c">清新甜酷</a>
+</div>
+
+<!-- ================= 方向 A · 梦幻渐变 ================= -->
+<section class="demo demo-a" id="a">
+  <div class="spark s1"></div><div class="spark s2"></div><div class="spark s3"></div>
+  <div class="spark s4"></div><div class="spark s5"></div>
+  <div class="page">
+    <header class="hd">
+      <span class="tag">方向 A · 梦幻渐变</span>
+      <h1>✨ B站漫展日历订阅</h1>
+      <p class="meta">共 128 场漫展活动 · 26 个城市 · 更新于 08-18 00:00</p>
+    </header>
+    <div class="cols">
+      <aside class="panel">
+        <h2 class="panel-title">选择城市 <span class="en">cities</span></h2>
+        <input class="search" type="text" placeholder="搜索城市…">
+        <div class="toolbar">
+          <button class="btn">全选</button>
+          <button class="btn">清空</button>
+        </div>
+        <div class="city-list">
+          <label class="city"><input type="checkbox" checked> 上海市 <span class="cnt">18 场</span></label>
+          <label class="city"><input type="checkbox"> 广州市 <span class="cnt">12 场</span></label>
+          <label class="city"><input type="checkbox"> 北京市 <span class="cnt">11 场</span></label>
+          <label class="city"><input type="checkbox"> 成都市 <span class="cnt">9 场</span></label>
+          <label class="city"><input type="checkbox"> 杭州市 <span class="cnt">7 场</span></label>
+        </div>
+      </aside>
+      <main class="panel">
+        <h2 class="panel-title">订阅链接 <span class="en">subscribe</span></h2>
+        <div class="row row-all">
+          <div class="name">全部城市<div class="sub">一个订阅源包含所有城市</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">上海市<div class="sub">18 场活动</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">广州市<div class="sub">12 场活动</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 方向 B · 赛博霓虹 ================= -->
+<section class="demo demo-b" id="b">
+  <div class="glowbar"></div>
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <div class="page">
+    <header class="hd">
+      <span class="tag">方向 B · 赛博霓虹</span>
+      <h1>B站漫展日历订阅</h1>
+      <p class="meta">共 128 场漫展活动 · 26 个城市 · 更新于 08-18 00:00</p>
+    </header>
+    <div class="cols">
+      <aside class="panel">
+        <h2 class="panel-title">选择城市 <span class="en">cities</span></h2>
+        <input class="search" type="text" placeholder="搜索城市…">
+        <div class="toolbar">
+          <button class="btn">全选</button>
+          <button class="btn">清空</button>
+        </div>
+        <div class="city-list">
+          <label class="city"><input type="checkbox" checked> 上海市 <span class="cnt">18 场</span></label>
+          <label class="city"><input type="checkbox"> 广州市 <span class="cnt">12 场</span></label>
+          <label class="city"><input type="checkbox"> 北京市 <span class="cnt">11 场</span></label>
+          <label class="city"><input type="checkbox"> 成都市 <span class="cnt">9 场</span></label>
+          <label class="city"><input type="checkbox"> 杭州市 <span class="cnt">7 场</span></label>
+        </div>
+      </aside>
+      <main class="panel">
+        <h2 class="panel-title">订阅链接 <span class="en">subscribe</span></h2>
+        <div class="row row-all">
+          <div class="name">全部城市<div class="sub">一个订阅源包含所有城市</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">上海市<div class="sub">18 场活动</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">广州市<div class="sub">12 场活动</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 方向 C · 清新甜酷 ================= -->
+<section class="demo demo-c" id="c">
+  <div class="sticker st1"></div><div class="sticker st2"></div><div class="sticker st3"></div>
+  <div class="page">
+    <header class="hd">
+      <span class="tag">方向 C · 清新甜酷</span>
+      <h1>B站漫展日历订阅</h1>
+      <p class="meta">共 128 场漫展活动 · 26 个城市 · 更新于 08-18 00:00</p>
+    </header>
+    <div class="cols">
+      <aside class="panel">
+        <h2 class="panel-title">选择城市 <span class="en">cities</span></h2>
+        <input class="search" type="text" placeholder="搜索城市…">
+        <div class="toolbar">
+          <button class="btn">全选</button>
+          <button class="btn">清空</button>
+        </div>
+        <div class="city-list">
+          <label class="city"><input type="checkbox" checked> 上海市 <span class="cnt">18 场</span></label>
+          <label class="city"><input type="checkbox"> 广州市 <span class="cnt">12 场</span></label>
+          <label class="city"><input type="checkbox"> 北京市 <span class="cnt">11 场</span></label>
+          <label class="city"><input type="checkbox"> 成都市 <span class="cnt">9 场</span></label>
+          <label class="city"><input type="checkbox"> 杭州市 <span class="cnt">7 场</span></label>
+        </div>
+      </aside>
+      <main class="panel">
+        <h2 class="panel-title">订阅链接 <span class="en">subscribe</span></h2>
+        <div class="row row-all">
+          <div class="name">全部城市<div class="sub">一个订阅源包含所有城市</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">上海市<div class="sub">18 场活动</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">广州市<div class="sub">12 场活动</div></div>
+          <button class="btn">复制</button><a class="btn primary">Google</a><a class="btn">Apple</a>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

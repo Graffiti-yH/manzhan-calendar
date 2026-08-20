@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>漫展日历订阅 · 视觉方向预览</title>
+<style>
+  /* ============ 基础 ============ */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; }
+
+  .hint {
+    position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
+    z-index: 50; font-size: 12px; letter-spacing: .2em; color: #999;
+    background: rgba(255,255,255,.8); border: 1px solid #ddd; padding: 6px 14px;
+    backdrop-filter: blur(6px);
+  }
+
+  /* ============ 版式骨架（各方向共用） ============ */
+  .demo {
+    --ink:#333; --muted:#999; --accent:#666; --line:#ddd; --card:#fff; --ff:serif;
+    color: var(--ink);
+    background: var(--bg);
+    font-family: var(--ff);
+    min-height: 100vh;
+    padding: 76px 28px 110px;
+    position: relative;
+    overflow: hidden;
+  }
+  .tag {
+    position: absolute; top: 22px; right: 28px;
+    font-size: 11px; letter-spacing: .18em; color: var(--muted);
+    border: 1px solid var(--line); padding: 5px 12px;
+  }
+  .page { max-width: 940px; margin: 0 auto; position: relative; z-index: 2; }
+
+  .hd { margin-bottom: 42px; }
+  .hd .title { font-size: 26px; font-weight: 500; letter-spacing: .16em; }
+  .hd .meta { color: var(--muted); font-size: 12px; letter-spacing: .06em; margin-top: 12px; }
+
+  .cols { display: grid; grid-template-columns: 300px 1fr; gap: 28px; align-items: start; }
+  @media (max-width: 720px) { .cols { grid-template-columns: 1fr; } }
+
+  .panel { background: var(--card); border: 1px solid var(--line); padding: 22px 24px; }
+  .panel-title {
+    font-size: 14px; font-weight: 500; letter-spacing: .2em; margin-bottom: 18px;
+    display: flex; align-items: baseline; gap: 10px;
+  }
+  .panel-title .en { font-size: 10px; color: var(--muted); letter-spacing: .28em; text-transform: uppercase; }
+  .panel-title::after { content:""; flex:1; height:1px; background: var(--line); transform: translateY(-3px); }
+
+  .search {
+    width: 100%; padding: 9px 12px; border: 1px solid var(--line);
+    background: transparent; color: var(--ink); font-family: inherit;
+    font-size: 13px; letter-spacing: .04em; margin-bottom: 6px;
+  }
+  .search::placeholder { color: var(--muted); }
+  .search:focus { outline: none; border-color: var(--accent); }
+
+  .city { display: flex; align-items: center; gap: 10px; padding: 8px 2px;
+    font-size: 14px; letter-spacing: .06em; cursor: pointer; }
+  .city input { accent-color: var(--accent); }
+  .city .cnt { margin-left: auto; color: var(--muted); font-size: 12px; }
+  .city + .city { border-top: 1px dashed var(--line); }
+
+  .row { display: flex; align-items: center; gap: 10px; padding: 13px 0;
+    font-size: 14px; letter-spacing: .04em; }
+  .row + .row { border-top: 1px solid var(--line); }
+  .row .name { flex: 1; min-width: 0; }
+  .row .sub { color: var(--muted); font-size: 12px; margin-top: 2px; letter-spacing: .03em; }
+  .row-all { border-bottom: 1px dashed var(--line); margin-bottom: 4px; }
+
+  .btn {
+    display: inline-flex; align-items: center;
+    border: 1px solid var(--line); background: transparent; color: var(--ink);
+    font-family: inherit; font-size: 12px; letter-spacing: .1em; cursor: pointer;
+    padding: 6px 13px; text-decoration: none; white-space: nowrap;
+    transition: all .2s;
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg2, #fff); }
+  .btn.primary:hover { opacity: .85; color: var(--bg2, #fff); }
+
+  /* ============ 方向一 · 侘寂 Wabi-sabi ============ */
+  .demo-1 {
+    --bg:#f3eee2; --bg2:#f3eee2;
+    --ink:#443d32; --muted:#9a8f7c; --accent:#a05538; --line:#ddd4be; --card:#faf6ec;
+    --ff:"Hiragino Mincho ProN","Yu Mincho","Songti SC","STSong",serif;
+  }
+  .demo-1 .hd .title { font-weight: 400; }
+  .demo-1 .vert {
+    position: absolute; right: 18px; top: 50%; transform: translateY(-50%);
+    writing-mode: vertical-rl; letter-spacing: .6em; font-size: 13px; color: var(--muted);
+    opacity: .55; z-index: 1;
+  }
+
+  /* ============ 方向二 · 幽玄 Yugen ============ */
+  .demo-2 {
+    --bg:radial-gradient(120% 90% at 50% -10%, #23262e 0%, #14161b 55%, #101216 100%);
+    --bg2:#14161b;
+    --ink:#cdc7ba; --muted:#6f6c64; --accent:#d7c28a; --line:#2a2d35; --card:rgba(30,32,38,.55);
+    --ff:"Hiragino Mincho ProN","Yu Mincho","Songti SC","STSong",serif;
+  }
+  .demo-2 .panel { backdrop-filter: blur(4px); }
+  .demo-2 .search { background: rgba(0,0,0,.18); }
+  .demo-2 .moon {
+    position: absolute; top: 40px; right: 14%; width: 180px; height: 180px;
+    border-radius: 50%; z-index: 0;
+    background: radial-gradient(circle at 50% 50%, rgba(216,196,140,.5), rgba(216,196,140,.08) 60%, transparent 70%);
+    filter: blur(2px);
+  }
+  .demo-2 .hd .title { color: #e6e0d2; }
+
+  /* ============ 方向三 · 物哀 Mono no aware ============ */
+  .demo-3 {
+    --bg:linear-gradient(180deg, #fbf6f1 0%, #f7eceb 70%, #f3e3e6 100%);
+    --bg2:#fdf8f4;
+    --ink:#4c4146; --muted:#b09aa1; --accent:#c28598; --line:#ecdcdf; --card:rgba(255,255,255,.55);
+    --ff:"Hiragino Mincho ProN","Yu Mincho","Songti SC","STSong",serif;
+  }
+  .demo-3 .panel { backdrop-filter: blur(6px); }
+  .demo-3 .petal {
+    position: absolute; width: 14px; height: 18px; border-radius: 80% 0 80% 0;
+    background: linear-gradient(135deg, #e6b6c4, #d89aa9); opacity: .55; z-index: 0;
+  }
+  .demo-3 .p1 { top: 90px; left: 12%; transform: rotate(18deg); }
+  .demo-3 .p2 { top: 160px; right: 20%; transform: rotate(-24deg); width: 10px; height: 13px; opacity:.4; }
+  .demo-3 .p3 { bottom: 120px; left: 22%; transform: rotate(52deg); width: 11px; height: 14px; opacity:.45; }
+  .demo-3 .hd .title { color: #5a4448; }
+
+  /* ============ 方向四 · 枯淡 Kare（和纸·矿物色） ============ */
+  .demo-4 {
+    --bg:#f5f4f1; --bg2:#f5f4f1;
+    --ink:#32363d; --muted:#939aa3; --accent:#5a6d80; --line:#e3e2dd; --card:#fbfbf9;
+    --ff:-apple-system,BlinkMacSystemFont,"PingFang SC","Yu Gothic","Hiragino Sans",sans-serif;
+  }
+  .demo-4 .panel { border-radius: 2px; }
+  .demo-4 .hd { display: flex; align-items: baseline; justify-content: space-between; }
+  .demo-4 .hd .title { font-weight: 300; font-size: 24px; }
+  .demo-4 .btn { border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<!-- ================= 方向一 · 侘寂 ================= -->
+<section class="demo demo-1">
+  <div class="tag">方向一 · 侘寂 Wabi-sabi</div>
+  <div class="vert">漫展日历</div>
+  <div class="page">
+    <header class="hd">
+      <h1 class="title">B站漫展日历订阅</h1>
+      <p class="meta">共 128 场漫展活动 · 26 个城市 · 更新于 08-18 00:00</p>
+    </header>
+    <div class="cols">
+      <aside class="panel">
+        <h2 class="panel-title">选择城市 <span class="en">cities</span></h2>
+        <input class="search" type="text" placeholder="搜索城市…">
+        <div>
+          <label class="city"><input type="checkbox" checked> 上海市 <span class="cnt">18 场</span></label>
+          <label class="city"><input type="checkbox"> 广州市 <span class="cnt">12 场</span></label>
+          <label class="city"><input type="checkbox"> 北京市 <span class="cnt">11 场</span></label>
+          <label class="city"><input type="checkbox"> 成都市 <span class="cnt">9 场</span></label>
+          <label class="city"><input type="checkbox"> 杭州市 <span class="cnt">7 场</span></label>
+        </div>
+      </aside>
+      <main class="panel">
+        <h2 class="panel-title">订阅链接 <span class="en">subscribe</span></h2>
+        <div class="row row-all">
+          <div class="name">全部城市<div class="sub">一个订阅源包含所有城市</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">上海市<div class="sub">18 场活动</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">广州市<div class="sub">12 场活动</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 方向二 · 幽玄 ================= -->
+<section class="demo demo-2">
+  <div class="tag">方向二 · 幽玄 Yugen</div>
+  <div class="moon"></div>
+  <div class="page">
+    <header class="hd">
+      <h1 class="title">B站漫展日历订阅</h1>
+      <p class="meta">共 128 场漫展活动 · 26 个城市 · 更新于 08-18 00:00</p>
+    </header>
+    <div class="cols">
+      <aside class="panel">
+        <h2 class="panel-title">选择城市 <span class="en">cities</span></h2>
+        <input class="search" type="text" placeholder="搜索城市…">
+        <div>
+          <label class="city"><input type="checkbox" checked> 上海市 <span class="cnt">18 场</span></label>
+          <label class="city"><input type="checkbox"> 广州市 <span class="cnt">12 场</span></label>
+          <label class="city"><input type="checkbox"> 北京市 <span class="cnt">11 场</span></label>
+          <label class="city"><input type="checkbox"> 成都市 <span class="cnt">9 场</span></label>
+          <label class="city"><input type="checkbox"> 杭州市 <span class="cnt">7 场</span></label>
+        </div>
+      </aside>
+      <main class="panel">
+        <h2 class="panel-title">订阅链接 <span class="en">subscribe</span></h2>
+        <div class="row row-all">
+          <div class="name">全部城市<div class="sub">一个订阅源包含所有城市</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">上海市<div class="sub">18 场活动</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">广州市<div class="sub">12 场活动</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 方向三 · 物哀 ================= -->
+<section class="demo demo-3">
+  <div class="tag">方向三 · 物哀 Mono no aware</div>
+  <div class="petal p1"></div><div class="petal p2"></div><div class="petal p3"></div>
+  <div class="page">
+    <header class="hd">
+      <h1 class="title">B站漫展日历订阅</h1>
+      <p class="meta">共 128 场漫展活动 · 26 个城市 · 更新于 08-18 00:00</p>
+    </header>
+    <div class="cols">
+      <aside class="panel">
+        <h2 class="panel-title">选择城市 <span class="en">cities</span></h2>
+        <input class="search" type="text" placeholder="搜索城市…">
+        <div>
+          <label class="city"><input type="checkbox" checked> 上海市 <span class="cnt">18 场</span></label>
+          <label class="city"><input type="checkbox"> 广州市 <span class="cnt">12 场</span></label>
+          <label class="city"><input type="checkbox"> 北京市 <span class="cnt">11 场</span></label>
+          <label class="city"><input type="checkbox"> 成都市 <span class="cnt">9 场</span></label>
+          <label class="city"><input type="checkbox"> 杭州市 <span class="cnt">7 场</span></label>
+        </div>
+      </aside>
+      <main class="panel">
+        <h2 class="panel-title">订阅链接 <span class="en">subscribe</span></h2>
+        <div class="row row-all">
+          <div class="name">全部城市<div class="sub">一个订阅源包含所有城市</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">上海市<div class="sub">18 场活动</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">广州市<div class="sub">12 场活动</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 方向四 · 枯淡 ================= -->
+<section class="demo demo-4">
+  <div class="tag">方向四 · 枯淡 Kare</div>
+  <div class="page">
+    <header class="hd">
+      <h1 class="title">B站漫展日历订阅</h1>
+      <p class="meta">共 128 场漫展活动 · 26 个城市 · 更新于 08-18 00:00</p>
+    </header>
+    <div class="cols">
+      <aside class="panel">
+        <h2 class="panel-title">选择城市 <span class="en">cities</span></h2>
+        <input class="search" type="text" placeholder="搜索城市…">
+        <div>
+          <label class="city"><input type="checkbox" checked> 上海市 <span class="cnt">18 场</span></label>
+          <label class="city"><input type="checkbox"> 广州市 <span class="cnt">12 场</span></label>
+          <label class="city"><input type="checkbox"> 北京市 <span class="cnt">11 场</span></label>
+          <label class="city"><input type="checkbox"> 成都市 <span class="cnt">9 场</span></label>
+          <label class="city"><input type="checkbox"> 杭州市 <span class="cnt">7 场</span></label>
+        </div>
+      </aside>
+      <main class="panel">
+        <h2 class="panel-title">订阅链接 <span class="en">subscribe</span></h2>
+        <div class="row row-all">
+          <div class="name">全部城市<div class="sub">一个订阅源包含所有城市</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">上海市<div class="sub">18 场活动</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+        <div class="row">
+          <div class="name">广州市<div class="sub">12 场活动</div></div>
+          <button class="btn">复制</button><a class="btn">Google</a><a class="btn">Apple</a>
+        </div>
+      </main>
+    </div>
+  </div>
+</section>
+
+<div class="hint">向下滚动查看四个方向</div>
+</body>
+</html>
