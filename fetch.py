@@ -99,6 +99,21 @@ def fetch_list():
     return best
 
 
+def cover_url(item):
+    """返回列表接口中的活动封面 URL；缺失或格式不可信时返回空字符串。"""
+    # listV2 的字段名在不同的活动类型中并不完全一致，按常见字段依次兼容。
+    for key in ("cover", "vertical_cover", "project_image", "image"):
+        value = item.get(key)
+        if not isinstance(value, str):
+            continue
+        value = value.strip()
+        if value.startswith("//"):
+            value = "https:" + value
+        if value.startswith(("https://", "http://")):
+            return value
+    return ""
+
+
 def build_events(raw_items):
     """筛选分类、规范化字段，返回事件列表。"""
     events = []
@@ -113,7 +128,7 @@ def build_events(raw_items):
             continue
         if "取消" in name or "延期" in name:  # 跳过已取消/延期的活动
             continue
-        events.append({
+        event = {
             "id": pid,
             "name": name,
             "city": (item.get("city") or "").strip(),
@@ -122,7 +137,12 @@ def build_events(raw_items):
             "start": start,
             "end": end,
             "link": DETAIL_URL.format(pid=pid),
-        })
+        }
+        # RFC 7986 的 IMAGE 属性让支持它的日历客户端将 B 站活动封面显示为事件头图。
+        image = cover_url(item)
+        if image:
+            event["image"] = image
+        events.append(event)
     return events
 
 
@@ -187,6 +207,8 @@ def ics_calendar(calname, events):
         if location:
             lines.append("LOCATION:" + ics_escape(location))
         lines.append("DESCRIPTION:" + ics_escape(desc))
+        if e.get("image"):
+            lines.append("IMAGE;VALUE=URI:" + e["image"])
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
     return "\r\n".join(fold_line(l) for l in lines) + "\r\n"
