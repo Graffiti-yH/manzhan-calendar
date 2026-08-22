@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 衡阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004284@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:衡阳·拾空暑期动漫展
+LOCATION:衡阳糖果洲际酒店(芙蓉店) · 蒸湘区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 284\n城市：衡阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004764@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:衡阳·第二十八届钰鸢动漫展
+LOCATION:青少年活动中心 · 石鼓区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 764\n城市：衡阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005085@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:耒阳·第十四届清墨漫展
+LOCATION:神龙新世界大酒店 · 耒阳市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 085\n城市：衡阳市
+END:VEVENT
+END:VCALENDAR

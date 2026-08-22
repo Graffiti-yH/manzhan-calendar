@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>B站漫展日历订阅</title>
+<style>
+  :root {
+    --ink: #f4f0ff;
+    --ink-soft: #c9c0ee;
+    --ink-faint: #9d93cd;
+    --accent-a: #fb7299;
+    --accent-b: #a855f7;
+    --card-border: rgba(255, 255, 255, .18);
+    --card-bg: rgba(255, 255, 255, .07);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+      "Hiragino Sans", "Microsoft YaHei", sans-serif;
+    color: var(--ink);
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background:
+      radial-gradient(90% 55% at 18% -5%, #4c2f9e 0%, transparent 55%),
+      radial-gradient(70% 55% at 95% 15%, #7b2f8f 0%, transparent 50%),
+      radial-gradient(110% 65% at 50% 115%, #1e1250 0%, transparent 62%),
+      linear-gradient(165deg, #241558 0%, #3a1f74 45%, #2a1460 100%);
+  }
+  body::before {
+    content: ""; position: fixed; top: -140px; left: 50%; transform: translateX(-50%);
+    width: 1100px; height: 360px; border-radius: 50%; pointer-events: none; z-index: 0;
+    background: radial-gradient(50% 60% at 50% 50%, rgba(166, 132, 255, .32), transparent 70%);
+    filter: blur(10px);
+  }
+  .spark { position: fixed; border-radius: 50%; background: #fff; opacity: 0;
+    animation: twinkle 3.4s ease-in-out infinite; pointer-events: none; z-index: 0; }
+  .s1 { width: 3px; height: 3px; top: 20%; left: 10%; }
+  .s2 { width: 2px; height: 2px; top: 34%; right: 16%; animation-delay: .7s; }
+  .s3 { width: 3px; height: 3px; top: 60%; left: 6%; animation-delay: 1.3s; }
+  .s4 { width: 2px; height: 2px; top: 78%; right: 10%; animation-delay: 1.9s; }
+  .s5 { width: 4px; height: 4px; top: 12%; right: 38%; animation-delay: 2.4s; }
+  @keyframes twinkle { 0%, 100% { opacity: 0; transform: scale(.6); } 50% { opacity: .9; transform: scale(1.15); } }
+
+  .wrap { position: relative; z-index: 1; max-width: 1060px; margin: 0 auto; padding: 44px 20px 40px; }
+
+  /* ============ 头部 ============ */
+  header { text-align: center; margin-bottom: 30px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 12px; letter-spacing: .14em;
+    color: #e9d5ff; padding: 5px 14px; border-radius: 999px;
+    background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .2);
+    margin-bottom: 16px;
+  }
+  header h1 {
+    font-size: 34px; font-weight: 800; letter-spacing: .02em;
+    background: linear-gradient(92deg, #ffb6d9, #c4b5fd, #a5b4fc);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .stats { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 14px; }
+  .stat {
+    font-size: 13px; color: var(--ink-soft); padding: 6px 14px; border-radius: 999px;
+    background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .14);
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .stat b { color: #ffd9ec; font-weight: 700; }
+
+  /* ============ 双栏 ============ */
+  .grid { display: grid; grid-template-columns: 360px 1fr; gap: 22px; align-items: stretch; }
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+
+  .card {
+    background: var(--card-bg); border: 1px solid var(--card-border);
+    border-radius: 20px; backdrop-filter: blur(16px);
+    box-shadow: 0 20px 48px rgba(20, 10, 60, .35);
+    padding: 22px; display: flex; flex-direction: column;
+  }
+  .card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; }
+  .card-head h2 { font-size: 16px; font-weight: 700; }
+  .card-head .en { font-size: 10px; letter-spacing: .24em; text-transform: uppercase; color: #b7a8ef; margin-top: 2px; }
+  .card-head .spacer { flex: 1; }
+
+  /* ============ 左栏：城市筛选 ============ */
+  .search-box { position: relative; margin-bottom: 10px; }
+  .search-box svg {
+    position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    width: 15px; height: 15px; stroke: var(--ink-faint); pointer-events: none;
+  }
+  .search {
+    width: 100%; padding: 9px 32px 9px 34px; border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, .2); background: rgba(255, 255, 255, .09);
+    color: var(--ink); font-size: 14px; font-family: inherit; outline: none; transition: border-color .2s, box-shadow .2s;
+  }
+  .search::placeholder { color: var(--ink-faint); }
+  .search:focus { border-color: var(--accent-a); box-shadow: 0 0 0 3px rgba(251, 114, 153, .22); }
+  .search-clear {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+    width: 20px; height: 20px; border-radius: 50%; border: none; cursor: pointer;
+    background: rgba(255, 255, 255, .12); color: var(--ink-soft); font-size: 12px; line-height: 1;
+    display: none; align-items: center; justify-content: center;
+  }
+  .search-clear:hover { background: rgba(255, 255, 255, .22); }
+
+  .toolbar { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .mini-btn {
+    border: 1px solid rgba(255, 255, 255, .2); background: rgba(255, 255, 255, .08);
+    color: #eee7ff; border-radius: 999px; padding: 4px 13px; font-size: 13px;
+    cursor: pointer; font-family: inherit; transition: all .2s;
+  }
+  .mini-btn:hover { border-color: var(--accent-a); color: #ffc2da; }
+  .sel-count {
+    margin-left: auto; font-size: 12px; color: var(--ink-faint);
+    background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .14);
+    padding: 3px 10px; border-radius: 999px;
+  }
+  .sel-count b { color: #ffd9ec; }
+
+  .city-list { flex: 1; overflow-y: auto; max-height: 452px; padding-right: 4px; }
+  .city-list::-webkit-scrollbar { width: 6px; }
+  .city-list::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, .18); border-radius: 3px; }
+  .city-list::-webkit-scrollbar-track { background: transparent; }
+  .city-item {
+    display: flex; align-items: center; gap: 9px; padding: 7px 8px;
+    border-radius: 10px; cursor: pointer; font-size: 14px; transition: background .15s;
+  }
+  .city-item:hover { background: rgba(255, 255, 255, .08); }
+  .city-item input { accent-color: var(--accent-a); width: 15px; height: 15px; cursor: pointer; flex: none; }
+  .city-item .cnt { margin-left: auto; color: var(--ink-faint); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .search-tip { text-align: center; color: var(--ink-faint); font-size: 13px; padding: 26px 0; }
+
+  /* ============ 右栏：订阅链接 ============ */
+  .summary {
+    display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--ink-soft);
+    background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 12px; padding: 10px 14px; margin-bottom: 14px;
+  }
+  .summary b { color: #ffd9ec; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .summary .light { color: var(--ink-faint); }
+
+  .all-row {
+    display: flex; align-items: center; gap: 10px; padding: 12px 14px; margin-bottom: 14px;
+    border-radius: 14px;
+    background: linear-gradient(120deg, rgba(251, 114, 153, .14), rgba(168, 85, 247, .16));
+    border: 1px solid rgba(251, 114, 153, .35);
+  }
+  .all-row .name { flex: 1; min-width: 0; }
+  .all-row .name strong { font-size: 15px; }
+  .all-row .sub { font-size: 12px; color: var(--ink-soft); margin-top: 2px; }
+
+  .selected { flex: 1; overflow-y: auto; max-height: 452px; padding-right: 4px; }
+  .selected::-webkit-scrollbar { width: 6px; }
+  .selected::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, .18); border-radius: 3px; }
+  .selected::-webkit-scrollbar-track { background: transparent; }
+  .row {
+    display: flex; align-items: center; gap: 8px; padding: 11px 6px; font-size: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, .12); animation: fadeUp .3s ease;
+  }
+  .row:last-child { border-bottom: none; }
+  .row .name { flex: 1; min-width: 0; }
+  .row .name strong { font-size: 14px; }
+  .row .sub { color: var(--ink-faint); font-size: 12px; margin-top: 1px; font-variant-numeric: tabular-nums; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 5px; border: 1px solid rgba(255, 255, 255, .22);
+    border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer;
+    text-decoration: none; color: #eee7ff; background: rgba(255, 255, 255, .08);
+    font-family: inherit; white-space: nowrap; transition: transform .15s, box-shadow .2s, color .2s, border-color .2s;
+  }
+  .btn:hover { border-color: var(--accent-a); color: #ffc2da; transform: translateY(-1px); }
+  .btn svg { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 2; }
+  .btn.primary {
+    background: linear-gradient(135deg, var(--accent-a), var(--accent-b));
+    border: none; color: #fff; box-shadow: 0 6px 18px rgba(251, 114, 153, .4);
+  }
+  .btn.primary:hover { box-shadow: 0 8px 26px rgba(251, 114, 153, .55); color: #fff; }
+  .btn.copied { background: rgba(255, 255, 255, .18); color: #b8f0c8; border-color: rgba(184, 240, 200, .4); }
+
+  .empty {
+    text-align: center; color: var(--ink-faint); font-size: 14px; padding: 40px 16px;
+    display: flex; flex-direction: column; align-items: center; gap: 10px;
+  }
+  .empty .big { font-size: 30px; opacity: .85; }
+  .empty .hint { font-size: 13px; color: var(--ink-faint); }
+
+  /* ============ 底部 ============ */
+  footer { text-align: center; margin-top: 26px; font-size: 12px; color: var(--ink-faint); }
+  footer a { color: #c9b8ff; text-decoration: none; }
+
+  /* ============ Toast ============ */
+  .toast {
+    position: fixed; left: 50%; bottom: 34px; transform: translateX(-50%) translateY(12px);
+    background: rgba(40, 22, 84, .9); border: 1px solid rgba(251, 114, 153, .5);
+    color: #fff; padding: 10px 20px; border-radius: 999px; font-size: 13px;
+    opacity: 0; pointer-events: none; transition: opacity .25s, transform .25s; z-index: 99;
+    backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(20, 10, 60, .5);
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  /* ============ 手机端 ============ */
+  .mobile-subscribe { display: none; }
+  @media (max-width: 600px) {
+    .wrap { padding: 28px 14px calc(28px + env(safe-area-inset-bottom)); }
+    header { margin-bottom: 20px; }
+    .badge { margin-bottom: 10px; font-size: 10px; padding: 4px 11px; }
+    header h1 { font-size: clamp(26px, 8vw, 32px); line-height: 1.25; }
+    .stats { margin-top: 12px; gap: 7px; }
+    .stat { font-size: 12px; padding: 5px 10px; }
+
+    .grid { gap: 14px; }
+    .card { padding: 16px; border-radius: 18px; }
+    .card-head { margin-bottom: 12px; }
+    .card-head h2 { font-size: 17px; }
+    .search { min-height: 42px; font-size: 16px; }
+    .toolbar { margin-bottom: 10px; }
+    .mini-btn { min-height: 34px; padding: 5px 13px; }
+    .city-list { max-height: min(38vh, 320px); overscroll-behavior: contain; }
+    .city-item { min-height: 40px; padding: 8px; font-size: 15px; }
+    .city-item input { width: 18px; height: 18px; }
+
+    .mobile-subscribe {
+      position: fixed; z-index: 50; left: 14px; right: 14px;
+      bottom: calc(14px + env(safe-area-inset-bottom));
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      padding: 13px 16px; border-radius: 14px;
+      color: #f8efff; font-size: 13px; text-decoration: none;
+      background: linear-gradient(120deg, rgba(251, 114, 153, .94), rgba(168, 85, 247, .94));
+      border: 1px solid rgba(251, 114, 153, .38);
+      box-shadow: 0 10px 28px rgba(42, 16, 94, .48);
+      opacity: 0; pointer-events: none; transform: translateY(18px);
+      transition: opacity .2s, transform .2s;
+    }
+    body.has-selection .mobile-subscribe { opacity: 1; pointer-events: auto; transform: translateY(0); }
+    body.has-selection .wrap { padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
+    .mobile-subscribe strong { color: #fff; font-variant-numeric: tabular-nums; }
+    .mobile-subscribe .arrow { font-size: 20px; line-height: 1; }
+
+    .summary { align-items: flex-start; flex-wrap: wrap; gap: 4px 8px; padding: 10px 12px; }
+    .summary .light:first-of-type { display: none; }
+    .all-row { flex-wrap: wrap; gap: 8px; padding: 12px; }
+    .all-row .name { flex-basis: 100%; }
+    .all-row .btn { flex: 1; justify-content: center; min-height: 40px; padding: 7px 8px; }
+    .selected { max-height: none; overflow: visible; padding-right: 0; }
+    .row { flex-wrap: wrap; gap: 8px; padding: 12px 2px; }
+    .row .name { flex-basis: 100%; }
+    .row .btn { flex: 1; justify-content: center; min-height: 40px; padding: 7px 8px; }
+    .empty { padding: 30px 10px; }
+    footer { margin-top: 20px; padding: 0 6px; }
+    .toast { bottom: calc(18px + env(safe-area-inset-bottom)); max-width: calc(100vw - 28px); text-align: center; }
+    body.has-selection .toast { bottom: calc(82px + env(safe-area-inset-bottom)); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  }
+</style>
+</head>
+<body>
+
+<span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span>
+<span class="spark s4"></span><span class="spark s5"></span>
+
+<div class="wrap">
+  <header>
+    <div class="badge">✨ MANZHAN · CALENDAR</div>
+    <h1>B站漫展日历订阅</h1>
+    <div class="stats" id="stats">
+      <span class="stat">加载中…</span>
+    </div>
+  </header>
+
+  <div class="grid">
+    <!-- 左栏：城市筛选 -->
+    <aside class="card">
+      <div class="card-head">
+        <h2>选择城市</h2>
+        <span class="en">cities</span>
+        <span class="spacer"></span>
+      </div>
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input class="search" id="search" type="text" placeholder="搜索城市…" autocomplete="off">
+        <button class="search-clear" id="search-clear" title="清空搜索">✕</button>
+      </div>
+      <div class="toolbar">
+        <button class="mini-btn" id="select-all">全选</button>
+        <button class="mini-btn" id="clear-all">清空</button>
+        <span class="sel-count">已选 <b id="sel-num">0</b> 城</span>
+      </div>
+      <div class="city-list" id="city-list"></div>
+    </aside>
+
+    <!-- 右栏：订阅链接 -->
+    <main class="card" id="subscriptions">
+      <div class="card-head">
+        <h2>订阅链接</h2>
+        <span class="en">subscribe</span>
+        <span class="spacer"></span>
+      </div>
+      <div class="summary" id="summary">
+        <span>已选 <b id="sum-city">0</b> 城 · 共 <b id="sum-events">0</b> 场活动</span>
+        <span class="light">｜</span>
+        <span class="light" id="sum-tip">勾选左侧城市生成订阅</span>
+      </div>
+
+      <div class="all-row">
+        <div class="name">
+          <strong>全部城市</strong>
+          <div class="sub">一个订阅源包含所有城市的漫展活动</div>
+        </div>
+        <button class="btn" id="copy-all">
+          <svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+          <span>复制</span>
+        </button>
+        <a class="btn primary" id="google-all" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 11h7.6a8 8 0 0 1-15.2 0H12Zm7.6 2H12v6.2a8 8 0 0 1-7.6-6.2h15.2Z"/></svg>
+          <span>Google</span>
+        </a>
+        <a class="btn" id="apple-all" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.05 12.54c-.03-2.9 2.37-4.3 2.48-4.37-1.35-1.97-3.45-2.24-4.2-2.27-1.78-.18-3.48 1.05-4.38 1.05-.9 0-2.3-1.02-3.78-.99-1.95.03-3.74 1.13-4.74 2.88-2.02 3.51-.52 8.7 1.45 11.55.96 1.39 2.11 2.96 3.62 2.9 1.45-.06 2-.94 3.76-.94 1.75 0 2.25.94 3.78.9 1.56-.02 2.55-1.42 3.5-2.82 1.1-1.61 1.55-3.18 1.58-3.26-.03-.01-3.03-1.16-3.07-4.63ZM14.46 3.5c.8-.97 1.34-2.32 1.2-3.66-1.15.05-2.55.77-3.38 1.73-.74.86-1.39 2.23-1.22 3.55 1.3.1 2.63-.66 3.4-1.62Z"/></svg>
+          <span>Apple</span>
+        </a>
+      </div>
+
+      <div id="selected" class="selected"></div>
+      <div id="empty" class="empty" style="display:none">
+        <span class="big">🗺️</span>
+        <span>还没有选择城市</span>
+        <span class="hint">去左侧勾选你感兴趣的城市，这里会列出对应的订阅链接 ✨</span>
+      </div>
+    </main>
+  </div>
+
+  <a class="mobile-subscribe" href="#subscriptions">
+    <span>已选 <strong id="mobile-sel-num">0</strong> 城，查看订阅链接</span>
+    <span class="arrow" aria-hidden="true">↓</span>
+  </a>
+
+  <footer>
+    数据来源：B站会员购「漫展演出」频道 · 每日 00:00 自动更新 · 仅保留漫展 / Only 同人展活动
+  </footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="urls.js"></script>
+<script>
+(function () {
+  var data = null;
+  var counts = {};
+  var selMap = {};  // 选中状态唯一来源（搜索重渲染不丢失）
+  var base = location.href.replace(/index\.html?$/, '');
+
+  function googleUrl(city) { return manzhanUrls.googleUrl(base, city); }
+  function appleUrl(city) { return manzhanUrls.appleUrl(base, city); }
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  var toastTimer = null;
+  function toast(msg) {
+    var t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.classList.remove('show'); }, 1600);
+  }
+
+  function copyText(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { toast('✅ 订阅链接已复制'); },
+        function () { fallbackCopy(text); });
+    } else { fallbackCopy(text); }
+  }
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text; document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); toast('✅ 订阅链接已复制'); }
+    catch (e) { toast('复制失败，请手动复制'); }
+    document.body.removeChild(ta);
+  }
+
+  function copyBtn(b, city) {
+    var span = b.querySelector('span');
+    var old = span.textContent;
+    b.classList.add('copied');
+    span.textContent = '已复制';
+    clearTimeout(b._t);
+    b._t = setTimeout(function () {
+      b.classList.remove('copied');
+      span.textContent = old;
+    }, 1300);
+    copyText(manzhanUrls.icsUrl(base, city));
+  }
+
+  function svgBtn(label) {
+    return el('button', 'btn', label);
+  }
+
+  function icon(name) {
+    var svgs = {
+      copy: '<svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>',
+      google: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 11h7.6a8 8 0 0 1-15.2 0H12Zm7.6 2H12v6.2a8 8 0 0 1-7.6-6.2h15.2Z"/></svg>',
+      apple: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.05 12.54c-.03-2.9 2.37-4.3 2.48-4.37-1.35-1.97-3.45-2.24-4.2-2.27-1.78-.18-3.48 1.05-4.38 1.05-.9 0-2.3-1.02-3.78-.99-1.95.03-3.74 1.13-4.74 2.88-2.02 3.51-.52 8.7 1.45 11.55.96 1.39 2.11 2.96 3.62 2.9 1.45-.06 2-.94 3.76-.94 1.75 0 2.25.94 3.78.9 1.56-.02 2.55-1.42 3.5-2.82 1.1-1.61 1.55-3.18 1.58-3.26-.03-.01-3.03-1.16-3.07-4.63ZM14.46 3.5c.8-.97 1.34-2.32 1.2-3.66-1.15.05-2.55.77-3.38 1.73-.74.86-1.39 2.23-1.22 3.55 1.3.1 2.63-.66 3.4-1.62Z"/></svg>'
+    };
+    return svgs[name];
+  }
+
+  function renderCities() {
+    var list = document.getElementById('city-list');
+    var kw = document.getElementById('search').value.trim();
+    document.getElementById('search-clear').style.display = kw ? 'flex' : 'none';
+    list.innerHTML = '';
+    var cities = data.cities;
+    if (kw) cities = cities.filter(function (c) { return c.indexOf(kw) >= 0; });
+    if (!cities.length) {
+      var tip = el('div', 'search-tip', '没有找到相关城市');
+      list.appendChild(tip);
+    } else {
+      cities.forEach(function (c) {
+        var label = el('label', 'city-item');
+        var cb = document.createElement('input');
+        cb.type = 'checkbox'; cb.value = c; cb.checked = !!selMap[c];
+        cb.addEventListener('change', function () {
+          if (cb.checked) selMap[c] = true; else delete selMap[c];
+          renderSelected();
+        });
+        label.appendChild(cb);
+        label.appendChild(document.createTextNode(c));
+        label.appendChild(el('span', 'cnt', counts[c] + ' 场'));
+        list.appendChild(label);
+      });
+    }
+    document.getElementById('select-all').textContent =
+      selectedCities().length === data.cities.length ? '取消全选' : '全选';
+  }
+
+  function selectedCities() {
+    return data.cities.filter(function (c) { return selMap[c]; });
+  }
+
+  function selEvents(sel) {
+    var sum = 0;
+    sel.forEach(function (c) { sum += counts[c]; });
+    return sum;
+  }
+
+  function renderSelected() {
+    var sel = selectedCities();
+    var box = document.getElementById('selected');
+    var empty = document.getElementById('empty');
+    box.innerHTML = '';
+    if (!sel.length) {
+      empty.style.display = 'flex';
+      document.body.classList.remove('has-selection');
+      document.getElementById('sel-num').textContent = 0;
+      document.getElementById('mobile-sel-num').textContent = 0;
+      document.getElementById('sum-city').textContent = 0;
+      document.getElementById('sum-events').textContent = 0;
+      document.getElementById('sum-tip').textContent = '勾选左侧城市生成订阅';
+      return;
+    }
+    empty.style.display = 'none';
+    document.body.classList.add('has-selection');
+    document.getElementById('sel-num').textContent = sel.length;
+    document.getElementById('mobile-sel-num').textContent = sel.length;
+    document.getElementById('sum-city').textContent = sel.length;
+    document.getElementById('sum-events').textContent = selEvents(sel);
+    document.getElementById('sum-tip').textContent = '每城一个独立订阅源，可分别添加';
+
+    sel.forEach(function (c) {
+      var row = el('div', 'row');
+      var name = el('div', 'name');
+      name.appendChild(el('strong', null, c));
+      name.appendChild(el('div', 'sub', counts[c] + ' 场活动'));
+      row.appendChild(name);
+
+      var cp = svgBtn('复制');
+      cp.innerHTML = icon('copy') + '<span>复制</span>';
+      cp.addEventListener('click', function () { copyBtn(cp, c); });
+      row.appendChild(cp);
+
+      var g = el('a', 'btn primary', ''); g.href = googleUrl(c); g.target = '_blank';
+      g.innerHTML = icon('google') + '<span>Google</span>'; row.appendChild(g);
+      var a = el('a', 'btn', ''); a.href = appleUrl(c); a.target = '_blank';
+      a.innerHTML = icon('apple') + '<span>Apple</span>'; row.appendChild(a);
+
+      box.appendChild(row);
+    });
+  }
+
+  document.getElementById('copy-all').addEventListener('click', function () {
+    copyBtn(this, 'all');
+  });
+
+  var searchInput = document.getElementById('search');
+  searchInput.addEventListener('input', renderCities);
+  document.getElementById('search-clear').addEventListener('click', function () {
+    searchInput.value = '';
+    renderCities();
+    searchInput.focus();
+  });
+  document.getElementById('select-all').addEventListener('click', function () {
+    var kw = searchInput.value.trim();
+    var cities = kw
+      ? data.cities.filter(function (c) { return c.indexOf(kw) >= 0; })
+      : data.cities;
+    if (selectedCities().length === data.cities.length) {
+      selMap = {};  // 取消全选
+    } else {
+      cities.forEach(function (c) { selMap[c] = true; });
+    }
+    renderCities();
+    renderSelected();
+  });
+  document.getElementById('clear-all').addEventListener('click', function () {
+    selMap = {};
+    renderCities();
+    renderSelected();
+  });
+
+  fetch('data.json')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      data = d;
+      d.events.forEach(function (e) { counts[e.city] = (counts[e.city] || 0) + 1; });
+      var stats = document.getElementById('stats');
+      stats.innerHTML = '';
+      [['🗓️', d.count + ' 场漫展活动'],
+       ['🏙️', d.cities.length + ' 个城市'],
+       ['🕐', '更新于 ' + d.updated.replace('T', ' ').slice(5, 16)]].forEach(function (s) {
+        var span = el('span', 'stat', '');
+        span.innerHTML = '<b>' + s[0] + '</b> ' + s[1];
+        stats.appendChild(span);
+      });
+      renderCities();
+      renderSelected();
+      document.getElementById('google-all').href = googleUrl('all');
+      document.getElementById('apple-all').href = appleUrl('all');
+    })
+    .catch(function () {
+      document.getElementById('stats').innerHTML =
+        '<span class="stat">加载失败，请刷新重试</span>';
+    });
+})();
+</script>
+</body>
+</html>

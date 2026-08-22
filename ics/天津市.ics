@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 天津市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003796@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260824
+SUMMARY:天津·动漫游戏博览会
+LOCATION:西夫拉姆酒堡 · 津南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 796\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003702@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:天津·漫花语游戏动漫展
+LOCATION:首座·诺丁城堡艺术中心（金钟路店） · 东丽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 702\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004712@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:天津·萌次元游戏动漫嘉年华3.0
+LOCATION:次元梦想空间 · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 712\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004529@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:天津·喵极客一周年感谢嘉年华
+LOCATION:乒乓Pingpong Space(公园店) · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 529\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004169@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:天津·生花笔剑网3同人ONLY
+LOCATION:比亚迪迪空间天津馆 · 和平区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 169\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004668@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:天津·MDACG动漫博览会
+LOCATION:天津滨海文化中心 · 滨海新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 668\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004342@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:天津·STAR IDOL小偶像only同人展4.0
+LOCATION:悦动广场 · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 342\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001347@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:天津·Vocaloid同人only02依洛听澜
+LOCATION:首座·诺丁城堡艺术中心（金钟路店） · 东丽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 347\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004858@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:天津·NJ动漫游戏博览会
+LOCATION:天津国家会展中心 · 津南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 858\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004571@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:天津·LoveLive同人Only
+LOCATION:乒乓Pingpong Space(公园店) · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 571\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004640@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:天津·绮梦星游戏动漫展
+LOCATION:首座·诺丁城堡艺术中心（金钟路店） · 东丽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 640\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002797@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:天津·『v拟而来』彩虹社Only同人展
+LOCATION:禧悦酒店 · 和平区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 797\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004802@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:天津·Ls三国同人only3.0铜雀清宴
+LOCATION:小天鹅宴会中心【友阿奥特莱斯店】 · 滨海新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 802\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004691@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:天津·巢——Evalia 同人Only
+LOCATION:乒乓Pingpong Space(公园店) · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 691\n城市：天津市
+END:VEVENT
+END:VCALENDAR

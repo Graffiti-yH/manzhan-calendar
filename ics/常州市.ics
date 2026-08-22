@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 常州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004834@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:常州·漫语时光次元嘉年华
+LOCATION:常州天宁大饭店(天宁寺常州火车站店) · 天宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 834\n城市：常州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004556@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:常州·第五届Comic Time动漫游戏嘉年华-续写次元的序
+ 章
+LOCATION:常州国际会展中心 · 钟楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 556\n城市：常州市
+END:VEVENT
+END:VCALENDAR

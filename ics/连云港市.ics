@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 连云港市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005072@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:连云港·DA17国潮游戏博览会
+LOCATION:连云港大剧院 · 海州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 072\n城市：连云港市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004686@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:连云港·首届正太ONLY同人展！
+LOCATION:宜尚plus酒店（连云港） · 海州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 686\n城市：连云港市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004993@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:灌云·喵次元动漫游戏嘉年华01
+LOCATION:灌密小镇电商园展览馆 · 灌云县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 993\n城市：连云港市
+END:VEVENT
+END:VCALENDAR

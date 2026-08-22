@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宿州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004323@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:泗县·MEL绯樱绘梦同人展
+LOCATION:紫气东来宴会中心(南虹大厦店) · 泗县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 323\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005021@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:灵璧·neko动漫展02
+LOCATION:灵璧钟灵大酒店 · 灵璧县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 021\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001374@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:泗县·neko动漫展第三届
+LOCATION:泗县体育馆 · 泗县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 374\n城市：宿州市
+END:VEVENT
+END:VCALENDAR

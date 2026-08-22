@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 烟台市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005113@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:烟台·幻昼动漫游戏嘉年华11
+LOCATION:烟台南山国际博览中心 · 莱山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 113\n城市：烟台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004685@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:烟台·星环05一周年同好会
+LOCATION:莱州喆啡锐品百都酒店 · 莱州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 685\n城市：烟台市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 郑州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004454@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261005
+SUMMARY:郑州·第8届ACC动漫展
+LOCATION:郑州国际会展中心 · 金水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 454\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003951@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:郑州·郑能量·隐栀次元物语-Pt.1浮生暂寄梦中梦
+LOCATION:郑州海汇美术馆 · 管城回族区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 951\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004517@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261006
+SUMMARY:郑州·WACGW动漫游戏博览会
+LOCATION:郑州国际文化交流中心 · 金水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 517\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005006@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:郑州·海贼王only同人展3.0
+LOCATION:熊猫墅天空之城 · 金水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 006\n城市：郑州市
+END:VEVENT
+END:VCALENDAR

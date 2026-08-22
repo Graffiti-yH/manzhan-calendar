@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 重庆市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004540@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260824
+SUMMARY:重庆·第七届明日方舟only同人展-认知重塑
+LOCATION:重庆万友康年大酒店 · 渝中区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 540\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002128@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:重庆·银魂同人only展2.0
+LOCATION:海德大酒店 · 南岸区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 128\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003931@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:重庆·2026第39届星幻动漫节
+LOCATION:享派轰趴馆(星耀店) · 江北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 931\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004678@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:重庆·CQ9.26型月同人only展
+LOCATION:重庆两江丽景酒店宴会厅 · 渝中区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 678\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004639@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:重庆·第一届逐光&七安动漫嘉年华
+LOCATION:重庆市2077赛博城市 · 渝中区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 639\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004484@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261005
+SUMMARY:重庆·第二十一届梦乡动漫展-我们在梦乡相遇吧！
+ 只为最初的梦，二次元！
+LOCATION:重庆国际博览中心（悦来会展） · 渝北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 484\n城市：重庆市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 保定市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004952@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:保定·曙光Time动漫展·第四届
+LOCATION:中国古动物博物馆 · 莲池区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 952\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004917@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:河北·第46届ACG动漫游戏文化节
+LOCATION:慧泽园家宴楼东二环店 · 莲池区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 917\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004679@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:涿州·ZMAX动漫游戏嘉年华10th
+LOCATION:私家小厨禧事会礼宴中心 · 涿州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 679\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004907@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:定州·第7届开元动漫展
+LOCATION:定州市工人文化宫 · 定州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 907\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004905@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:保定·第三届星海动漫游戏嘉年华
+LOCATION:羿丽酒店 · 高碑店市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 905\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004106@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:保定·第十三届INF像素心跳动漫展
+LOCATION:保定希悦国际商务酒店 · 莲池区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 106\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004513@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261007
+SUMMARY:保定·黑夜游戏动漫嘉年华国庆次元大狂欢
+LOCATION:黑夜游戏动漫中心 · 莲池区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 513\n城市：保定市
+END:VEVENT
+END:VCALENDAR

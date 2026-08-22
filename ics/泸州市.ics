@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 泸州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004864@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:泸州·漫花语动漫嘉年华
+LOCATION:朗丽兹酒店（泸州江阳区店） · 江阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 864\n城市：泸州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001749@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:泸州·第十三届异次元动漫游戏嘉年华
+LOCATION:泸州酒城豪生酒店(西南医科大学学术交流中心店) 
+ · 龙马潭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 749\n城市：泸州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004336@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:泸州·第六届pd漫展
+LOCATION:泸州江畔大饭店 · 江阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 336\n城市：泸州市
+END:VEVENT
+END:VCALENDAR

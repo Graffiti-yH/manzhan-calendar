@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宜宾市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004941@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:宜宾·第32届DCT长江国际动漫展.十一周年庆
+LOCATION:宜宾岷江新区数字文化中心 · 翠屏区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 941\n城市：宜宾市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 菏泽市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004808@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:单县·第三届奇遇动漫嘉年华
+LOCATION:单州大饭店 · 单县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 808\n城市：菏泽市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004423@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:菏泽·第十届ACG动漫游戏博览会
+LOCATION:菏泽国际会展中心 · 牡丹区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 423\n城市：菏泽市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005024@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:郓城·第一届奇遇动漫嘉年华
+LOCATION:郓城泰舟酒店 · 郓城县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 024\n城市：菏泽市
+END:VEVENT
+END:VCALENDAR

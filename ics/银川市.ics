@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 银川市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004938@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:银川·第57届A卡动漫节
+LOCATION:宁夏国际会堂 · 金凤区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 938\n城市：银川市
+END:VEVENT
+END:VCALENDAR

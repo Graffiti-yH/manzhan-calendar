@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南充市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004693@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:南充·我们的次元.动漫游戏嘉年华
+LOCATION:泓来喜宴 · 高坪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 693\n城市：南充市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001142@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:南充·第十一届异次元动漫游戏嘉年华
+LOCATION:南充天来大酒店 · 高坪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 142\n城市：南充市
+END:VEVENT
+END:VCALENDAR

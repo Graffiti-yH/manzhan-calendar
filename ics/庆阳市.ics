@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 庆阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004923@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:庆阳·ＹＯ！第24届·北岸次元动漫展
+LOCATION:逐梦体育俱乐部 · 西峰区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 923\n城市：庆阳市
+END:VEVENT
+END:VCALENDAR

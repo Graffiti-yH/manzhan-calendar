@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 湛江市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004828@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:湛江·MCG国风动漫同好会
+LOCATION:君豪酒店 · 霞山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 828\n城市：湛江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004481@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:湛江·第五届AC动漫嘉年华【中秋限定企划】
+LOCATION:怡福国际广场 · 霞山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 481\n城市：湛江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003552@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:湛江·第四届芸熙阁动漫嘉年华
+LOCATION:湛江奥体中心综合训练馆 · 坡头区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 552\n城市：湛江市
+END:VEVENT
+END:VCALENDAR

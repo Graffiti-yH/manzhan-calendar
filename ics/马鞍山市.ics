@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 马鞍山市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004932@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:马鞍山·南部世界动漫节
+LOCATION:马鞍山市体育会展中心 · 花山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 932\n城市：马鞍山市
+END:VEVENT
+END:VCALENDAR

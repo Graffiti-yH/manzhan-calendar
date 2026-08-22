@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 盐城市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003781@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:盐城·9.26槐树花开.荷兰花海-花种纪
+LOCATION:荷兰花海 · 大丰区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 781\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004823@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:盐城·AD次元新星动漫游戏博览会
+LOCATION:盐城国际会展中心 · 亭湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 823\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004876@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:盐城·第46届 ACCN动漫嘉年华
+LOCATION:中韩文化客厅 · 亭湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 876\n城市：盐城市
+END:VEVENT
+END:VCALENDAR

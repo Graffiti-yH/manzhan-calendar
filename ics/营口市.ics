@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 营口市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004970@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:大石桥·次元动漫嘉年华
+LOCATION:迪生体育 · 大石桥市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 970\n城市：营口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005107@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:鲅鱼圈·第四届白鹭花海国风动漫游戏嘉年华
+LOCATION:营口市鲅鱼圈区皇家园林酒店 · 鲅鱼圈区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 107\n城市：营口市
+END:VEVENT
+END:VCALENDAR

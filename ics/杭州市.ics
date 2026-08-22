@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 杭州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004293@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:杭州·广陵辟雍高中代号鸢同人only
+LOCATION:杭州地铁实训基地 · 余杭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 293\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004463@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:杭州·第八届·SH特摄同人Only展8.0
+LOCATION:良渚芯云艺术中心 · 余杭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 463\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004328@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:杭州·锦鲤动漫展
+LOCATION:ALWAYS BATTLE(AB盒子) · 上城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 328\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003850@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:杭州·CA·ACGN古早文化only同人展
+LOCATION:杭州大厦中央商城Zpark街区 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 850\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000854@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:杭州·王者荣耀同人only 2.0
+LOCATION:良渚芯云艺术中心 · 余杭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 854\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005114@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:杭州·碧蓝航线周年夏日庆典ONLY同人展
+LOCATION:Tcar汽车文化主题公园 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 114\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004184@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:杭州·NGD超新星游戏节 独立游戏only同人展
+LOCATION:良渚芯云艺术中心 · 余杭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 184\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003927@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:杭州·OCCE文化交流博览会
+LOCATION:港龙悠乐城展览中心 · 上城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 927\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004891@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:杭州·第三届IAGF国际动漫周边展
+LOCATION:杭州国际博览中心二期 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 891\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004942@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:杭州·IAGF03X无忧传媒专属内场签售活动（不含漫展
+ 门票）
+LOCATION:杭州国际博览中心二期 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 942\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004487@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261005
+SUMMARY:杭州·第八届梦乡动漫展-我们在梦乡相遇吧！只为
+ 最初的梦，二次元！
+LOCATION:杭州国际博览中心 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 487\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003724@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:杭州·赛马娘同人ONLY 1.0
+LOCATION:云栖小镇 · 西湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 724\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004856@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:杭州·世界计划同人only 4th
+LOCATION:良渚芯云艺术中心 · 余杭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 856\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002794@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:杭州·FFONLY同人展3.0—星芒节
+LOCATION:杭州爱丽芬城堡 · 富阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 794\n城市：杭州市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 驻马店市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004190@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:遂平·仙境漫屿嘉年华
+LOCATION:见山生态酒店 · 遂平县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 190\n城市：驻马店市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004483@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:驻马店·狐妖第十七届动漫展
+LOCATION:驻马店国际会展中心 · 驿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 483\n城市：驻马店市
+END:VEVENT
+END:VCALENDAR

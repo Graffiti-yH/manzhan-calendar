@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 榆林市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004908@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:榆林·首届榆汐幻境动漫游戏嘉年华
+LOCATION:榆林会展中心 · 横山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 908\n城市：榆林市
+END:VEVENT
+END:VCALENDAR

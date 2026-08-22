@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南昌市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003427@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:南昌·鸢满佳期同人Only展
+LOCATION:尚锦轩礼宴 · 新建区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 427\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004811@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:南昌·次元白鹭01「原初热爱」 在故乡相逢的又一
+ 场旅程
+LOCATION:昌南文化中心大剧院 · 南昌县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 811\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004385@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:南昌·云芽动漫游戏嘉年华9.0
+LOCATION:九龙天地展览中心 · 红谷滩区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 385\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004629@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:南昌·第二届NJOY动漫游戏展
+LOCATION:南昌绿地国际博览中心 · 红谷滩区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 629\n城市：南昌市
+END:VEVENT
+END:VCALENDAR

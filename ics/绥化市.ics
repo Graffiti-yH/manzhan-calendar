@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 绥化市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004918@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:海伦·浮生闲动漫展
+LOCATION:海伦市喜事汇礼仪大酒店(复兴路店) · 海伦市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 918\n城市：绥化市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004909@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:绥棱·萌可动漫嘉年华
+LOCATION:绥棱县宴宾楼酒店 · 绥棱县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 909\n城市：绥化市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004552@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:绥化·浮生闲国风动漫嘉年华
+LOCATION:御尚礼宴·宴会酒店 · 北林区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 552\n城市：绥化市
+END:VEVENT
+END:VCALENDAR

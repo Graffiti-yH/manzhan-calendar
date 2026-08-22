@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 淮北市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004620@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260824
+SUMMARY:淮北·第三届跨次元围炉动漫嘉年华
+LOCATION:淮北市工业博物馆 · 相山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 620\n城市：淮北市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002950@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:淮北·桃屿漫纪嘉年华
+LOCATION:同庆楼(濉溪店) · 濉溪县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 950\n城市：淮北市
+END:VEVENT
+END:VCALENDAR

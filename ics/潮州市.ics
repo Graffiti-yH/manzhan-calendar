@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 潮州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004606@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:潮州·FS动漫展
+LOCATION:潮州市国际会展中心 · 湘桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 606\n城市：潮州市
+END:VEVENT
+END:VCALENDAR

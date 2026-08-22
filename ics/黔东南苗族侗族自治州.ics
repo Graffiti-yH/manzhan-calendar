@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 黔东南苗族侗族自治州
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004999@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:凯里·山河国风嘉年华
+LOCATION:禧福莱宴会艺术中心 · 凯里市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 999\n城市：黔东南苗族侗族自治州
+END:VEVENT
+END:VCALENDAR

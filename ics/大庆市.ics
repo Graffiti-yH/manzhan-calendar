@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 大庆市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004781@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:大庆·中秋OACG动漫游戏展2.0
+LOCATION:大庆石油馆 · 萨尔图区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 781\n城市：大庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003336@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:大庆·未来畅想三周年庆
+LOCATION:大庆歌剧院 · 龙凤区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 336\n城市：大庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004488@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:大庆·无限次元动漫国庆游园会 2.0
+LOCATION:东方铭悦婚礼堂 · 萨尔图区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 488\n城市：大庆市
+END:VEVENT
+END:VCALENDAR

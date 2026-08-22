@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 鄂尔多斯市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005012@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:鄂尔多斯·第十三届妖歌鄂次元动漫游戏嘉年华
+LOCATION:沃动体育 · 东胜区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 012\n城市：鄂尔多斯市
+END:VEVENT
+END:VCALENDAR

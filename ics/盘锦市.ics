@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 盘锦市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004709@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:盘锦·ZHF第十届动漫展
+LOCATION:水游城五星级假日酒店 · 兴隆台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 709\n城市：盘锦市
+END:VEVENT
+END:VCALENDAR

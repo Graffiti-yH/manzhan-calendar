@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 温州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003153@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:【免费活动】温州·吾悦·8.23-盛夏次元日-次元集结
+ 日
+LOCATION:吾悦广场(温州龙湾店) · 龙湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 153\n城市：温州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004347@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:瑞安·第十届CY动漫游戏交流会
+LOCATION:喜来君悦宴会中心(东山店) · 瑞安市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 347\n城市：温州市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 鞍山市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1000410@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:鞍山·5.31巡音次元周年庆2.0
+LOCATION:鞍山时代新源公共设施管理有限公司 · 铁东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 410\n城市：鞍山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004642@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:鞍山·绮梦星游戏动漫展
+LOCATION:花嫁丽都婚礼主题酒店 · 铁东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 642\n城市：鞍山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004780@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:鞍山·第四届dusk续杯全女伪夜场
+LOCATION:鞍山碧乐城 · 铁东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 780\n城市：鞍山市
+END:VEVENT
+END:VCALENDAR

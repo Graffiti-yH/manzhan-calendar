@@ -1,0 +1,258 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 北京市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003729@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260824
+SUMMARY:北京·云梦次元动漫嘉年华
+LOCATION:锦荟港 · 顺义区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 729\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002421@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:北京·星乐流光游戏动漫派对
+LOCATION:星乐流光演出厅 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 421\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004299@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:北京·守望先锋同人ONLY 6.0
+LOCATION:北京北投购物公园 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 299\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001451@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:北京·漫物语动漫嘉年华2.0
+LOCATION:北京新发地会议会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 451\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003977@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:北京·正阳象限明日方舟同人ONLY6.0「声筑京筵」
+LOCATION:全国农业展览馆 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 977\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004936@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:北京·EXA·第四届帝都百合同人only
+LOCATION:北京大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 936\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004095@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:北京·重返未来1999同人ONLY2.0
+LOCATION:微博IN跨次元引力场 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 095\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001814@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:北京·X次元动漫嘉年华2.0-中秋集结
+LOCATION:大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 814\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004644@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:北京·IDO动漫游戏嘉年华55th
+LOCATION:北京展览馆 · 西城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 644\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005065@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:北京·广播剧《澹酒煮茶》专场活动
+LOCATION:北京展览馆 · 西城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 065\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004742@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:北京·拍拍宇宙 主题馆
+LOCATION:北京展览馆 · 西城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 742\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004295@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:北京·第30届IJOY动漫游戏狂欢节
+LOCATION:北京国家会议中心 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 295\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005068@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:北京·广播剧《神龛》专场活动
+LOCATION:北京展览馆 · 西城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 068\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005067@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:北京·配音演员 袁铭喆 专场活动
+LOCATION:北京展览馆 · 西城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 067\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004860@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:北京·第五人格同人ONLY展
+LOCATION:北京北投购物公园 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 860\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004602@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:北京·星幻动漫节2026第八届
+LOCATION:博玮·INPARTY·别墅高端轰趴馆·泳池烧烤 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 602\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003878@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:北京·星火次元动漫嘉年华3.0
+LOCATION:北京新发地会议会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 878\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004038@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:北京·星空次元2rd动漫嘉年华
+LOCATION:北京新发地会议会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 038\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004037@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:北京·潮玩动漫嘉年华2.0
+LOCATION:大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 037\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004978@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:北京·帝都惊悚同人ONLY 3.0
+LOCATION:北京大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 978\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001817@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:北京·A-one动漫嘉年华2th-万圣狂欢
+LOCATION:大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 817\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004824@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:北京·特摄同人only
+LOCATION:朝阳城市书屋 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 824\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005112@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:北京·「龙麒贺冬」明日方舟x终末地only同人展
+LOCATION:北京北投购物公园 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 112\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005080@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:北京·米家only同人展4.0·黎明序曲
+LOCATION:超级光合 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 080\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002721@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:北京·极速次元动漫嘉年华
+LOCATION:北京新发地会议会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 721\n城市：北京市
+END:VEVENT
+END:VCALENDAR

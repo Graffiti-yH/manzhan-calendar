@@ -1,0 +1,138 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 广州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003906@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:广州·星尘·JOJO FESTAonly同人展2026
+LOCATION:西城智汇PARK路演中心 · 白云区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 906\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003237@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:广州·星火次元动漫嘉年华3.0
+LOCATION:健康港星河COCO Park · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 237\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001202@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:广州·OVO动漫游戏展7th
+LOCATION:健康港星河COCO Park · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 202\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005005@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:广州·花嫁绮梦ONLY同人展【次元婚礼】
+LOCATION:星河-麦帝雅宴会艺术中心 · 海珠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 005\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002340@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:广州·云科技动漫游戏嘉年华
+LOCATION:健康港星河COCO Park · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 340\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001203@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:广州·AC动漫嘉年华
+LOCATION:健康港星河COCO Park · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 203\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004604@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:广州·第十一届AP动漫嘉年华
+LOCATION:健康港星河COCO Park · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 604\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004930@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:广州·藤本树同人ONLY
+LOCATION:智慧城广百广场 · 天河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 930\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004863@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:广州·全职猎人同人only2.0
+LOCATION:智慧城广百广场 · 天河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 863\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005066@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:广州·明日方舟ONLY同人展【音波共振】
+LOCATION:广州太空间Live House · 海珠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 066\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003445@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:广州·阴阳师only同人展·霜月繁花2.0
+LOCATION:广州健康方舟国际会展中心 · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 445\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004598@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:广州·舰长社-碧蓝航线同人ONLY
+LOCATION:您好艺术馆 · 海珠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 598\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004857@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:广州·高达only同人展
+LOCATION:智慧城广百广场 · 天河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 857\n城市：广州市
+END:VEVENT
+END:VCALENDAR

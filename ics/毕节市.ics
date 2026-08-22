@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 毕节市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005023@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:大方·山河国风嘉年华
+LOCATION:维也纳国际酒店(毕节大方店) · 大方县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 023\n城市：毕节市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005022@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:毕节·山河国风嘉年华
+LOCATION:毕节鹏程国际酒店 · 七星关区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 022\n城市：毕节市
+END:VEVENT
+END:VCALENDAR

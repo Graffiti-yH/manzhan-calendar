@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 辽阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004641@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:辽阳·绮梦星游戏动漫展
+LOCATION:辽阳龙和缘婚礼主题酒店 · 文圣区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 641\n城市：辽阳市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 泉州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004920@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:泉州·漫语时光次元嘉年华
+LOCATION:钻石大酒店(津淮街店) · 丰泽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 920\n城市：泉州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003469@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:泉州·烟澜叙动漫嘉年华
+LOCATION:泉州市金花人民广场 · 丰泽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 469\n城市：泉州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003129@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:泉州·AB动漫游戏嘉年华
+LOCATION:泉州海峡体育中心体育馆 · 丰泽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 129\n城市：泉州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005119@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261007
+SUMMARY:泉州·绘星纪动漫游戏嘉年华2nd-奇遇潮乐场
+LOCATION:偶遇世界 · 鲤城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 119\n城市：泉州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004953@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:德化·超次元动漫游戏嘉年华1.0-金秋十月
+LOCATION:德化会展中心 · 德化县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 953\n城市：泉州市
+END:VEVENT
+BEGIN:VEVENT
+UID:114984@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:泉州·ShiningHeart动漫游戏嘉年华
+LOCATION:泉州海峡体育中心体育馆 · 丰泽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1149
+ 84\n城市：泉州市
+END:VEVENT
+END:VCALENDAR

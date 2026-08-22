@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 齐齐哈尔市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004910@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:甘南·浮生闲首届动漫嘉年华
+LOCATION:长虹礼仪餐饮中心 · 甘南县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 910\n城市：齐齐哈尔市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004859@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:讷河·首届浮生闲动漫文化节
+LOCATION:福惠大酒店 · 讷河市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 859\n城市：齐齐哈尔市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004950@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:齐齐哈尔·SES·HC-03·SES动漫游戏嘉年华
+LOCATION:天禧嘉福酒店 · 龙沙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 950\n城市：齐齐哈尔市
+END:VEVENT
+END:VCALENDAR

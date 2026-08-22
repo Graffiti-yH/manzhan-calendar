@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 凉山彝族自治州
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004867@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:西昌·Comic动漫嘉年华
+LOCATION:建川电影博物馆 · 西昌市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 867\n城市：凉山彝族自治州
+END:VEVENT
+BEGIN:VEVENT
+UID:1004692@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:西昌·我们的次元.动漫游戏嘉年华
+LOCATION:遇见·俪言宴会中心 · 西昌市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 692\n城市：凉山彝族自治州
+END:VEVENT
+END:VCALENDAR

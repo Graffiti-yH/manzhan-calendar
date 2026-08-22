@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 深圳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004435@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260824
+SUMMARY:深圳·夏日泳池派对x韭菜动漫节
+LOCATION:桂芳园8期 · 龙岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 435\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003949@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:深圳·次元茶话会漫展-桌游主题
+LOCATION:广福大厦 · 宝安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 949\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004673@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:深圳·OVO暑假动漫嘉年华
+LOCATION:深圳OAO艺术空间 · 宝安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 673\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004087@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:深圳·第五人格同人ONLY茶话会
+LOCATION:广福大厦 · 宝安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 087\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004028@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:深圳·TP01泳装动漫展
+LOCATION:园岭游泳池 · 福田区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 028\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004305@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:深圳·次元茶话会桌游主题
+LOCATION:广福大厦 · 宝安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 305\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004418@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:深圳·第九届梦漫星河动漫嘉年华【20000㎡会展中心
+ 】
+LOCATION:深圳国际低碳城会展中心 · 龙岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 418\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004656@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:深圳·星幻动漫节2026第24届
+LOCATION:深圳华驿俱乐部 · 福田区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 656\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005087@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:深圳·第二届漫次方动漫嘉年华
+LOCATION:深圳IP产业转化中心 · 龙岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 087\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004852@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:深圳·凹凸世界同人only
+LOCATION:佳兆业可域酒店 · 龙岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 852\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004855@show.bilibili.com
+DTSTAMP:20260822T163252Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:深圳·影匿行动KeeganOnly同人展
+LOCATION:西里艺术空间 · 南山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 855\n城市：深圳市
+END:VEVENT
+END:VCALENDAR
