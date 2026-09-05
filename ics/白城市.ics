@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 白城市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005053@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:白城·第二届星辰幻想国风mini动漫展
+LOCATION:金都大酒店 · 洮北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 053\n城市：白城市
+END:VEVENT
+END:VCALENDAR

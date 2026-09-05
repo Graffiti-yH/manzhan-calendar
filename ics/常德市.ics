@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 常德市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005214@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:常德·梦源动漫展三周年
+LOCATION:远观酒店 · 鼎城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 214\n城市：常德市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005656@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:常德·第四届·漫有引力动漫展
+LOCATION:柳园锦江酒店 · 武陵区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 656\n城市：常德市
+END:VEVENT
+END:VCALENDAR

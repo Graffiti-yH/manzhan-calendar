@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南京市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004185@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:南京·烬蓝晓梦·无期迷途only同人展2.0
+LOCATION:南京华贸中心 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 185\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004479@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:南京·踏云入燕·燕云十六声同人only展（吃席版）
+LOCATION:荣悦台婚礼庄园玄武店 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 479\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005003@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:南京·Top Link动漫游戏嘉年华
+LOCATION:南京六角广场 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 003\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004740@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:南京·凡人修仙传动画星海天南嘉年华FES
+LOCATION:南京国际博览中心 · 建邺区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 740\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004557@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:南京·NEXT特摄同人only2.0
+LOCATION:南京六角广场 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 557\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005616@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:南京·异环Only同人 party 【海特洛，我的家乡特别主
+ 题活动】
+LOCATION:次元茶会 · 江宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 616\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005047@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:南京·星幻动漫节2026第25届
+LOCATION:do re mi轰趴派对中心(仙林大学城店) · 栖霞区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 047\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005480@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:南京·蔚蓝档案同人ONLY 4.0·霞枫余音
+LOCATION:南京 1701 Live House Max · 雨花台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 480\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005069@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:南京·金陵任天堂ONLY同人展
+LOCATION:新晶丽酒店(紫荆广场·花漫里店) · 雨花台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 069\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004731@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:南京·鸣潮同人only 酣眠迷梦之章
+LOCATION:南京南站纳尔达斯大酒店 · 江宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 731\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003448@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:南京·石纪元only同人展
+LOCATION:南京六角广场 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 448\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005477@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:南京·MAX特摄同人only4.0
+LOCATION:KUMOLL酷青年中心A馆 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 477\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005638@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:南京·偶像x音企同人Only
+LOCATION:南京奥体中心彩虹剧院 · 建邺区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 638\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005393@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:南京·明日方舟ONLY2.0同人展——莱茵·生命采样
+LOCATION:世纪缘艺术中心 · 江宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 393\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005328@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:南京·血月告死于黄昏·重返未来1999同人only
+LOCATION:锦创书城(朝天宫店) · 秦淮区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 328\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000930@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:南京·第十届超电国漫嘉年华
+LOCATION:KUMOLL酷青年中心A馆 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 930\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004189@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:南京·舰长社-碧蓝航线同人ONLY
+LOCATION:大塘金香草·谷 · 江宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 189\n城市：南京市
+END:VEVENT
+END:VCALENDAR

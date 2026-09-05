@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宣城市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005592@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:宣城·星部落动漫嘉年华
+LOCATION:山人三径时光·记 · 宣州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 592\n城市：宣城市
+END:VEVENT
+END:VCALENDAR

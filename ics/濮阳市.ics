@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 濮阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005540@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:濮阳·第二届漫有趣异世界主题动漫展
+LOCATION:顿丘体育馆 · 清丰县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 540\n城市：濮阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005742@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261006
+SUMMARY:濮阳·第十三届枫林动漫展
+LOCATION:清丰县会展中心 · 清丰县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 742\n城市：濮阳市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 双鸭山市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005237@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:双鸭山·七十亿第十届动漫游戏展
+LOCATION:新桥大酒店 · 尖山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 237\n城市：双鸭山市
+END:VEVENT
+END:VCALENDAR

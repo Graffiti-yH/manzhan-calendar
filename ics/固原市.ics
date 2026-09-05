@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 固原市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005538@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:固原·星光派对动漫电竞嘉年华
+LOCATION:固原华祺伯爵饭店 · 原州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 538\n城市：固原市
+END:VEVENT
+END:VCALENDAR

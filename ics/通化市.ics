@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 通化市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005649@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:通化·“漫叙”动漫游戏嘉年华
+LOCATION:拉图摩根酒店 · 东昌区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 649\n城市：通化市
+END:VEVENT
+END:VCALENDAR

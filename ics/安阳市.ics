@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 安阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004353@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:林州·漫屿次元打卡嘉年华
+LOCATION:红旗渠会议中心 · 林州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 353\n城市：安阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005596@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:滑县·第二届幻璃国潮动漫展-秋日物语
+LOCATION:裕隆酒店 · 滑县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 596\n城市：安阳市
+END:VEVENT
+END:VCALENDAR

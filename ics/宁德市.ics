@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宁德市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005358@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:福安·首届噗噗·茶漫动漫展
+LOCATION:福安市全民健身中心4楼(浩克篮球) · 福安市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 358\n城市：宁德市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005610@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:霞浦·2026糖梦游玩会
+LOCATION:工人文化宫 · 霞浦县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 610\n城市：宁德市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004947@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:宁德·超次元动漫游戏嘉年华5.0-周年庆典
+LOCATION:宁德会展中心 · 蕉城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 947\n城市：宁德市
+END:VEVENT
+END:VCALENDAR

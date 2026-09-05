@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 周口市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003887@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:商水·漫光次元打卡嘉年华
+LOCATION:商水中州国际大饭店 · 商水县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 887\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003149@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:沈丘·首届喵哉动漫展
+LOCATION:沈丘小江南宴会中心 · 沈丘县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 149\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004565@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:西华·娲城次元纪动漫游戏展
+LOCATION:名门盛宴 · 西华县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 565\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004514@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:周口·10月1日龙都国风动漫文化节
+LOCATION:双创园展演中心 · 川汇区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 514\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004812@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:太康·华灯宴动漫游戏展第11届
+LOCATION:太康万城国际大酒店 · 太康县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 812\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005644@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:周口·咕嘎动漫展
+LOCATION:周口宴·礼宴中心 · 川汇区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 644\n城市：周口市
+END:VEVENT
+END:VCALENDAR

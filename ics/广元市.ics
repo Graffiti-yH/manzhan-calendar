@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 广元市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005473@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:广元·拾空动漫游戏嘉年华
+LOCATION:云海大酒店（广元高铁站店） · 利州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 473\n城市：广元市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005533@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:广元·杜若动漫游戏展
+LOCATION:广元富力万达嘉华酒店 · 利州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 533\n城市：广元市
+END:VEVENT
+END:VCALENDAR

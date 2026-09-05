@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 许昌市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004664@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:禹州·华灯宴第九届动漫游戏展
+LOCATION:维也纳国际酒店(禹州胖东来药城路店) · 禹州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 664\n城市：许昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004509@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:许昌·第28期无界ACG动漫游戏嘉年华
+LOCATION:许都大剧院 · 魏都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 509\n城市：许昌市
+END:VEVENT
+END:VCALENDAR

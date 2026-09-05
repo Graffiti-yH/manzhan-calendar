@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 黑河市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004801@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:黑河·北安·妙森动漫展
+LOCATION:锦红酒店 · 北安市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 801\n城市：黑河市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004769@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:黑河·浮生闲国风动漫嘉年华
+LOCATION:商贸大酒店 · 爱辉区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 769\n城市：黑河市
+END:VEVENT
+END:VCALENDAR

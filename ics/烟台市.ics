@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 烟台市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005129@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260914
+SUMMARY:烟台·墨屿热浪沙滩海边动漫展
+LOCATION:热浪沙滩吧 · 龙口市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 129\n城市：烟台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005113@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:烟台·幻昼动漫游戏嘉年华11（嘉宾及内容更新）
+LOCATION:烟台南山国际博览中心 · 莱山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 113\n城市：烟台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005140@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:烟台·碧海动漫游戏嘉年华42
+LOCATION:八角湾国际会展中心 · 福山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 140\n城市：烟台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004685@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:烟台·星环05一周年同好会
+LOCATION:莱州喆啡锐品百都酒店 · 莱州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 685\n城市：烟台市
+END:VEVENT
+END:VCALENDAR

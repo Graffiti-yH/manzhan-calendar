@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 葫芦岛市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005508@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:葫芦岛·TZ动漫嘉年华（火影同人Only）
+LOCATION:喜仕汇 · 龙港区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 508\n城市：葫芦岛市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005490@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:兴城·云梦次元动漫嘉年华
+LOCATION:海后悦想商场 · 兴城市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 490\n城市：葫芦岛市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005492@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:葫芦岛·第五十二届喵基动漫展
+LOCATION:振武贵宾楼 · 龙港区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 492\n城市：葫芦岛市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005501@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:葫芦岛·TZ动漫嘉年华（喜迎国庆）
+LOCATION:喜仕汇 · 龙港区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 501\n城市：葫芦岛市
+END:VEVENT
+END:VCALENDAR

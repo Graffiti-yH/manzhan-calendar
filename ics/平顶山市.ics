@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 平顶山市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005259@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:平顶山·FC动漫文化节
+LOCATION:大香山文博园 · 新华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 259\n城市：平顶山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005629@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:平顶山·树上屋cosplay国庆漫展会
+LOCATION:树上屋餐饮5组5号 · 湛河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 629\n城市：平顶山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005713@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:平顶山·云墟动漫游戏嘉年华
+LOCATION:平顶山临港酒店 · 卫东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 713\n城市：平顶山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005645@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:平顶山·咕嘎动漫展
+LOCATION:久荷宴礼 · 新华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 645\n城市：平顶山市
+END:VEVENT
+END:VCALENDAR

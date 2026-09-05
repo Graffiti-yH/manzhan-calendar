@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 无锡市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004833@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:无锡·漫语时光次元嘉年华
+LOCATION:白金汉爵大酒店 · 梁溪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 833\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005739@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:【免费活动】江阴·次元破壁·未来境遇国漫游戏嘉
+ 年华
+LOCATION:江阴南门八佰伴 · 江阴市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 739\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004807@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:无锡·第十五届蛋黄酥国漫游戏展
+LOCATION:无锡太湖国际博览中心 · 滨湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 807\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005725@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:宜兴·第七届次元跃迁动漫游戏展
+LOCATION:爱琴岛大酒店 · 宜兴市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 725\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005720@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:无锡·云墟动漫游戏嘉年华
+LOCATION:无锡锦仑大酒店 · 梁溪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 720\n城市：无锡市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 九江市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005381@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:九江·童年计划主题漫展
+LOCATION:九江百嘉洲际酒店(浔阳楼大中路步行街店） · 浔
+ 阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 381\n城市：九江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005377@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:修水·次元回响动漫游戏展03
+LOCATION:修水修江国际大酒店 · 修水县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 377\n城市：九江市
+END:VEVENT
+END:VCALENDAR

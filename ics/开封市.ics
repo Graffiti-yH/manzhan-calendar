@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 开封市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005598@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:兰考·第六届幻璃国潮动漫展-秋日物语
+LOCATION:兰考富成建国酒店 · 兰考县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 598\n城市：开封市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005452@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:开封·梦世界动漫展·第6届
+LOCATION:开元名都大酒店 · 龙亭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 452\n城市：开封市
+END:VEVENT
+END:VCALENDAR

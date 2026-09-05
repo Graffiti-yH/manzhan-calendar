@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宿迁市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005049@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:宿迁·萌动西楚·AC28国际动漫游戏展
+LOCATION:宿迁国际会展中心 · 宿豫区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 049\n城市：宿迁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004518@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:沭阳·汪唔ACG动漫展
+LOCATION:超越羽毛球馆 · 沭阳县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 518\n城市：宿迁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004976@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:宿迁·CSQ国际动漫嘉年华5th
+LOCATION:宿迁市市民活动中心 · 宿豫区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 976\n城市：宿迁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005011@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:泗洪·元气动漫游戏展-14
+LOCATION:泗洪国宾宴会酒店 · 泗洪县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 011\n城市：宿迁市
+END:VEVENT
+END:VCALENDAR

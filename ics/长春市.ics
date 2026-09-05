@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 长春市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005056@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260907
+SUMMARY:【免费活动】吉林·2026星舞银河 全国宅舞大赛 赛
+ 区补充赛&决赛
+LOCATION:活力城 · 南关区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 056\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005565@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:长春·漫次元帝湾潮玩动漫展
+LOCATION:欧亚商都 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 565\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001842@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:长春·长梦星途迷宫饭同人ONLY
+LOCATION:大汉宫国际酒店 · 宽城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 842\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000903@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:长春·第四届理想乡国产动漫展
+LOCATION:理想乡会展馆 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 903\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004415@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:长春·喜都电竞游戏娱乐博览会
+LOCATION:长春国际会展中心 · 二道区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 415\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005557@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:长春·漫次元帝湾潮玩动漫展
+LOCATION:欧亚商都 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 557\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003816@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:长春·Gold Garden动漫游戏嘉年华
+LOCATION:长春国际会展中心 · 二道区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 816\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004955@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:长春·GoldGarden动漫游戏嘉年华——云惟一签售见面
+ 会
+LOCATION:长春国际会展中心 · 二道区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 955\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004954@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:长春·GoldGarden动漫游戏嘉年华——内场/嘉宾专用链
+ 接
+LOCATION:长春国际会展中心 · 二道区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 954\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004733@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:长春·第二届动漫文化博览会
+LOCATION:南溪里室内场馆 · 南关区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 733\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005700@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:长春·明日方舟同人only展4.0·同心颂诗
+LOCATION:华天大酒店（长春店） · 绿园区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 700\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004844@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:长春·中国（长春）国产动漫游戏博览展
+LOCATION:南溪里室内场馆 · 南关区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 844\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000982@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:长春·第五届理想乡国产动漫展
+LOCATION:理想乡会展馆 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 982\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000902@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:长春·第六届理想乡国产动漫展
+LOCATION:理想乡会展馆 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 902\n城市：长春市
+END:VEVENT
+END:VCALENDAR

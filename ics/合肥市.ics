@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 合肥市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005420@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:合肥·拉邦结派Only同人展
+LOCATION:回响之地·合肥馆 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 420\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005135@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:合肥·VH动漫展 知名配音演员 赵成晨内场票
+LOCATION:祥源花世界 · 肥西县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 135\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003968@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:合肥·VH动漫展·初见·原来你也喜欢二次元！
+LOCATION:祥源花世界 · 肥西县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 968\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004386@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:合肥·BZ·边界次元国潮游戏动漫展1.0
+LOCATION:合肥市青少年活动中心 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 386\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005058@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:合肥·Top Link动漫游戏嘉年华
+LOCATION:北城世纪金源购物中心 · 长丰县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 058\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004191@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:合肥·舰长社-碧蓝航线同人ONLY展
+LOCATION:赫拉诺言婚礼庄园 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 191\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005448@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:合肥·炽瞳猫动漫游戏嘉年华4.0
+LOCATION:合肥滨湖国际会展中心 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 448\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004933@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:合肥·燃upgo动漫展5.0
+LOCATION:合肥市青少年活动中心 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 933\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005583@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261006
+SUMMARY:合肥·ACGN游园会第十回
+LOCATION:水善汇(金牛路店) · 蜀山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 583\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005379@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:合肥·燕归梁合肥燕云十六声only同人
+LOCATION:徽天下酒楼 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 379\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005478@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:安徽·MAX特摄同人only7.0
+LOCATION:GX360广场 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 478\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004826@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:合肥·第二十一届环形宇宙动漫游戏嘉年华
+LOCATION:合肥滨湖国际会展中心 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 826\n城市：合肥市
+END:VEVENT
+END:VCALENDAR

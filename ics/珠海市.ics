@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 珠海市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1002841@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:珠海·AS17动漫展
+LOCATION:珠海国际会展中心 · 香洲区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 841\n城市：珠海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005542@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:珠海·AS17动漫展夕楼签售票【含门票】
+LOCATION:珠海国际会展中心 · 香洲区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 542\n城市：珠海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005009@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:珠海·星梦圆动漫嘉年华4.0
+LOCATION:励骏庞都广场 · 香洲区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 009\n城市：珠海市
+END:VEVENT
+END:VCALENDAR

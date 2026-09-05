@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 景德镇市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004928@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:景德镇·第二十三届瓷都ACG动漫游戏博览会【无限
+ 热爱！无限未来！】
+LOCATION:陶博城国际会展中心 · 浮梁县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 928\n城市：景德镇市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004747@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:乐平·次元跃迁动漫游戏展06
+LOCATION:禧香悦大酒店 · 乐平市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 747\n城市：景德镇市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 郴州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004963@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:郴州·cosACG国庆漫展2026
+LOCATION:郴州国际会展中心 · 苏仙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 963\n城市：郴州市
+END:VEVENT
+END:VCALENDAR

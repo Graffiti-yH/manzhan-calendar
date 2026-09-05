@@ -1,0 +1,185 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 沈阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005117@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260914
+SUMMARY:沈阳·【爱漫系列活动】豆次元像素节——起来拼
+ 豆！
+LOCATION:华府天地购物市场 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 117\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004979@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:沈阳·首届第五人格only同人展【北极星&繁星动漫计
+ 划】
+LOCATION:中街地下商业街 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 979\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004926@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:沈阳·第六届北极星动漫嘉年华
+LOCATION:中街地下商业街 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 926\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004638@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260921
+SUMMARY:沈阳·第十七届时钟花Cosplay嘉年华
+LOCATION:中街地下商业街 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 638\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005048@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:沈阳·【爱漫系列活动】第五届猫御宅女仆动漫嘉
+ 年华
+LOCATION:华府天地购物市场 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 048\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005015@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:沈阳·【爱漫系列活动】第十八届时钟花cosplay中秋
+ 特典
+LOCATION:中街地下商业街 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 015\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003131@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:沈阳·第十五届KG动漫游戏嘉年华——中秋沈阳最豪
+ 华嘉宾阵容
+LOCATION:原料库Vast Factory（红梅店） · 铁西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 131\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004595@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:沈阳·第十五届KG动漫游戏嘉年华嘉宾签售票--卡梦+
+ 译森
+LOCATION:原料库Vast Factory（红梅店） · 铁西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 595\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005279@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:沈阳·NH动漫展9.0之一本正经中秋篇
+LOCATION:中街·盛京龙城 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 279\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005277@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:沈阳·FS•HAI乐园主题动漫嘉年华
+LOCATION:沈阳HAI乐园超级运动公园 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 277\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001812@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:沈阳·世界计划同人only
+LOCATION:原料库Vast Factory（红梅店） · 铁西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 812\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004079@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261005
+SUMMARY:沈阳·第二十一届SSCA动漫游戏博览会
+LOCATION:工业展览馆 · 和平区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 079\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004683@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261005
+SUMMARY:沈阳·第二十一届SSCA动漫游戏博览会·签售票·有事
+ 摇铃、时岚toki·萝卜D 、帝人MIKADO·拾八 、Hana_淮南
+LOCATION:工业展览馆 · 和平区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 683\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005487@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261008
+SUMMARY:沈阳·云梦次元动漫嘉年华
+LOCATION:招商花园城 · 浑南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 487\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005496@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261007
+SUMMARY:沈阳·第七届北极星动漫嘉年华
+LOCATION:中街地下商业街 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 496\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005488@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261008
+SUMMARY:沈阳·龙城次元动漫游戏嘉年华
+LOCATION:中街·盛京龙城 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 488\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004744@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:沈阳·JOJO×银魂only同人展
+LOCATION:回锦轩宴会酒店 · 铁西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 744\n城市：沈阳市
+END:VEVENT
+END:VCALENDAR

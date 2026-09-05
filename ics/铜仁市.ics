@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 铜仁市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005474@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:铜仁·拾空动漫游戏嘉年华
+LOCATION:铜仁君逸凯悦大酒店 · 碧江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 474\n城市：铜仁市
+END:VEVENT
+END:VCALENDAR

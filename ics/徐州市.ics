@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 徐州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004767@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:徐州·首届正太同人ONLY
+LOCATION:徐州云龙湖珠山景区亚朵酒店 · 泉山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 767\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005568@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:徐州·喵KU23次元盛典
+LOCATION:徐州新盛·弘阳广场 · 泉山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 568\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005274@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:徐州·新沂花厅·穿梭次元动漫游戏嘉年华01
+LOCATION:新沂市文博馆 · 新沂市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 274\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005595@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:沛县·第十三届幻璃国潮动漫展-秋日物语
+LOCATION:侨城大酒店 · 沛县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 595\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005591@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:邳州·第三届幻璃国潮动漫展-秋日物语
+LOCATION:邳州·运河钟山酒店 · 邳州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 591\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005444@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:丰县·第一届奇遇动漫嘉年华
+LOCATION:锦江都城酒店（锦江大厦店） · 丰县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 444\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005020@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:睢宁·第十七届第几次漫展
+LOCATION:睢宁爱尚城购物广场 · 睢宁县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 020\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005300@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:徐州·漫屿星河次元嘉年华
+LOCATION:金鹰上街回型街区 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 300\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005181@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:徐州·星穹漫遇动漫嘉年华
+LOCATION:全季酒店(徐州铜山万达广场店) · 泉山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 181\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005183@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261007
+SUMMARY:徐州·幻月次元动漫游戏嘉年华
+LOCATION:金鹰上街回型街区 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 183\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004925@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:沛县·喵KU03次元盛典
+LOCATION:汉源金陵山水酒店 · 沛县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 925\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005296@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:徐州·NEXT特摄同人only2.0
+LOCATION:全季酒店(徐州铜山万达广场店) · 泉山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 296\n城市：徐州市
+END:VEVENT
+END:VCALENDAR

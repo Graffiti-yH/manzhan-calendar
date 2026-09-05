@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 本溪市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005265@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:本溪·第一届斑马次元文化节
+LOCATION:银亿国际酒店 · 明山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 265\n城市：本溪市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005655@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:本溪·第二十一届GO漫动漫展
+LOCATION:本溪琅悦国际酒店 · 明山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 655\n城市：本溪市
+END:VEVENT
+END:VCALENDAR

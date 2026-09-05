@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 金华市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003584@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:金华·第十五届GQ青年动漫文化博览会
+LOCATION:东阳木雕城国际会展中心 · 东阳市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 584\n城市：金华市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004416@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:东阳·佐佑签售票·第十五届GQ青年动漫文化博览会
+LOCATION:东阳木雕城国际会展中心 · 东阳市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 416\n城市：金华市
+END:VEVENT
+END:VCALENDAR

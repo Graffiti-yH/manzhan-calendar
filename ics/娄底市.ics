@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 娄底市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:115602@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:娄底·JC22紤縩动漫节
+LOCATION:悦宴荟餐厅 · 娄星区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1156
+ 02\n城市：娄底市
+END:VEVENT
+END:VCALENDAR

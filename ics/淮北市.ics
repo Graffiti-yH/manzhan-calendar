@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 淮北市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005539@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:淮北·2026国庆向日葵动漫游戏嘉年华
+LOCATION:飞乐体育公园 · 杜集区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 539\n城市：淮北市
+END:VEVENT
+END:VCALENDAR

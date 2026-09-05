@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 铜陵市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005547@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:铜陵·GT37国风动漫嘉年华
+LOCATION:北斗星城C区 · 义安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 547\n城市：铜陵市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 汉中市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1001242@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:汉中·第九艺术×燃梦计划中秋团圆动漫国风展
+LOCATION:汉中金江大酒店 · 汉台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 242\n城市：汉中市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004510@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:汉中·正体不明国庆动漫嘉年华
+LOCATION:汉中尤曼吉国际汽车营地(逸林绿洲酒店) · 汉台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 510\n城市：汉中市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002675@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:汉中·燃梦计划x第九艺术国风动漫展
+LOCATION:汉中尤曼吉国际汽车营地(逸林绿洲酒店) · 汉台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 675\n城市：汉中市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004869@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:汉中·第九艺术动漫展
+LOCATION:汉中尤曼吉国际汽车营地(逸林绿洲酒店) · 汉台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 869\n城市：汉中市
+END:VEVENT
+END:VCALENDAR

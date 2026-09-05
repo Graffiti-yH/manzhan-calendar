@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 阜新市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004919@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:阜新·cosplay爱好者年会
+LOCATION:华美大酒店 · 海州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 919\n城市：阜新市
+END:VEVENT
+END:VCALENDAR

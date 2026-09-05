@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 长沙市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004002@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:长沙·任天堂only同人展3.5·卡任sp
+LOCATION:嘉合华庭酒店 · 天心区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 002\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004671@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260914
+SUMMARY:长沙·喵次元玩乐动漫展
+LOCATION:汪星人潮玩基地 · 长沙县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 671\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004470@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:长沙·第46届ACC动漫展
+LOCATION:长沙国际会展中心 · 长沙县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 470\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003832@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:长沙·第55届萌卡动漫展
+LOCATION:红星国际会展中心（长沙） · 雨花区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 832\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000453@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:长沙·幻域漫行嘉年华
+LOCATION:长沙慕奕H酒店 · 开福区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 453\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004166@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:长沙·首届明日方舟×终末地同人ONLY展·跨越大地的
+ 相遇
+LOCATION:中非经贸合作促进创新示范园 · 雨花区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 166\n城市：长沙市
+END:VEVENT
+END:VCALENDAR

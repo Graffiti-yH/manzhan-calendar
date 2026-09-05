@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 阳江市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004471@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:阳江·璃樱动漫嘉年华
+LOCATION:阳江国际会展中心 · 江城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 471\n城市：阳江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003731@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:阳江·TP04动漫展
+LOCATION:阳江国际会展中心 · 江城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 731\n城市：阳江市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 牡丹江市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005486@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:牡丹江·SES·MDJ-34·SES动漫游戏嘉年华
+LOCATION:宏祥府酒店 · 东安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 486\n城市：牡丹江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005136@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:牡丹江·FCG第十四届动漫游戏博览会·歌剧厅顶级舞
+ 台千＋座位
+LOCATION:牡丹江大剧院 · 东安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 136\n城市：牡丹江市
+END:VEVENT
+END:VCALENDAR

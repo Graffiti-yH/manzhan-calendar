@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 信阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005640@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:信阳·“漫叙”动漫游戏嘉年华
+LOCATION:开元大酒店(信阳高铁东站店) · 平桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 640\n城市：信阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005724@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:潢川·漫柿界动漫展8.0
+LOCATION:潢川县第三小学 · 潢川县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 724\n城市：信阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004967@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:信阳·第五届九尾喵动漫游戏嘉年华
+LOCATION:华信民航酒店 · 平桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 967\n城市：信阳市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 营口市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005494@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:营口·云梦次元动漫嘉年华
+LOCATION:万隆生活中心 · 鲅鱼圈区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 494\n城市：营口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005502@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:鲅鱼圈·第十八届萌战联盟·动漫展
+LOCATION:娜堤雅大酒店 · 鲅鱼圈区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 502\n城市：营口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004970@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:大石桥·次元动漫嘉年华
+LOCATION:迪生体育 · 大石桥市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 970\n城市：营口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005150@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:营口·第二届初时新漫展(୨୧•͈ᴗ•͈)ꕤ
+LOCATION:百嘉喜宴 · 站前区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 150\n城市：营口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005107@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:鲅鱼圈·第四届白鹭花海国风动漫游戏嘉年华
+LOCATION:营口市鲅鱼圈区皇家园林酒店 · 鲅鱼圈区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 107\n城市：营口市
+END:VEVENT
+END:VCALENDAR

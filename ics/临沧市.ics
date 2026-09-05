@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 临沧市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004965@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:临沧·睡不醒国漫嘉年华
+LOCATION:大玺隆宴会厅 · 临翔区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 965\n城市：临沧市
+END:VEVENT
+END:VCALENDAR

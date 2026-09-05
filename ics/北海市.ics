@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 北海市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005154@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:北海·弥漫纪12th·中秋动漫潮玩盛典「❤全新场地
+ ，开启全新体验！~」
+LOCATION:北海冠岭山庄 · 银海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 154\n城市：北海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004961@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:北海·国庆动漫游戏盛典
+LOCATION:北海新世纪酒店 · 银海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 961\n城市：北海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004547@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:北海·序元纪1.0
+LOCATION:丽呈铂锐酒店(北海银滩店) · 银海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 547\n城市：北海市
+END:VEVENT
+END:VCALENDAR

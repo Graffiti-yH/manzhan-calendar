@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 西宁市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1001850@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:西宁·丝路新次元中秋特别篇
+LOCATION:伊尔顿大酒店 · 城东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 850\n城市：西宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004994@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:西宁·时空动漫展2.0
+LOCATION:CM运动中心 · 城中区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 994\n城市：西宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004667@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:西宁·第一届城市次元狂想季
+LOCATION:西宁市海湖体育中心体育场（青海体育中心体育场
+ ） · 城西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 667\n城市：西宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005586@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:西宁·第三届·岚羽动漫纪
+LOCATION:西宁市民中心体育文化馆 · 城中区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 586\n城市：西宁市
+END:VEVENT
+END:VCALENDAR

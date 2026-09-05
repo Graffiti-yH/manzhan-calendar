@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 邵阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005187@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:邵阳·第五届星澜动漫展
+LOCATION:九龙城灶王爷(湘泰九龙城店) · 大祥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 187\n城市：邵阳市
+END:VEVENT
+END:VCALENDAR

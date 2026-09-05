@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 石家庄市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004503@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260926
+SUMMARY:石家庄·2026中国国际数字经济博览会（数字动漫）
+LOCATION:石家庄国际会展中心 · 正定县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 503\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003659@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:石家庄·NCE动漫游戏嘉年华
+LOCATION:石家庄国际会展中心 · 正定县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 659\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005683@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:石家庄·NCE动漫游戏嘉年华-莫泽/故里签售券
+LOCATION:石家庄国际会展中心 · 正定县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 683\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004672@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:石家庄·小兔子工作室电竞嘉宾签售票—卡梦/妹克/
+ 小铁/范天雷/低保/小程/月明
+LOCATION:石家庄国际会展中心 · 正定县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 672\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004443@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:石家庄·Mars EXPO漫展
+LOCATION:石家庄国际博览中心 · 长安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 443\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004770@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:石家庄·首届AMU特摄only同人展
+LOCATION:北国未来城 · 桥西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 770\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005607@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:石家庄·三角洲同人only展
+LOCATION:石美集城市微度假中心 · 长安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 607\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005500@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:石家庄·第六届NOKA诺卡动漫展
+LOCATION:瑞悦华宴 · 裕华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 500\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005221@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:石家庄·稻米沉浸式游园会-盗笔同人ONLY
+LOCATION:石家庄解放广场 · 桥西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 221\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004660@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:石家庄·浓情王者荣耀同人ONLY
+LOCATION:西游记乐园 · 桥西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 660\n城市：石家庄市
+END:VEVENT
+END:VCALENDAR

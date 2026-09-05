@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 巴音郭楞蒙古自治州
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005462@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:库尔勒·NOVA新纪元国风动漫游戏展
+LOCATION:库尔勒会展中心 · 库尔勒市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 462\n城市：巴音郭楞蒙古自治州
+END:VEVENT
+BEGIN:VEVENT
+UID:1005243@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:库尔勒·第三届国风青年文化博览会暨次元幻想嘉
+ 年华
+LOCATION:巴州文化艺术中心 · 库尔勒市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 243\n城市：巴音郭楞蒙古自治州
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宜春市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005639@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:宜春·YC织云次元动漫嘉年华
+LOCATION:广汇国际家居广场建材馆 · 袁州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 639\n城市：宜春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005661@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:高安·“漫叙”动漫游戏嘉年华
+LOCATION:凤凰湖国际大酒店 · 高安市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 661\n城市：宜春市
+END:VEVENT
+END:VCALENDAR

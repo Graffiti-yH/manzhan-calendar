@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 安康市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005185@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:安康·第二届星汐之约动漫游戏嘉年华
+LOCATION:嘉豪天龙酒店 · 汉滨区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 185\n城市：安康市
+END:VEVENT
+END:VCALENDAR

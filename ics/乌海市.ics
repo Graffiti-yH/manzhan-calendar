@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 乌海市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1002934@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:乌海·有栖动漫嘉年华-2026
+LOCATION:华力建国酒店 · 海勃湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 934\n城市：乌海市
+END:VEVENT
+END:VCALENDAR

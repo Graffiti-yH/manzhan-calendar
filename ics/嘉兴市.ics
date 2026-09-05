@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 嘉兴市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003609@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:嘉兴·妖漫YAOMAN·动漫游戏展
+LOCATION:星零界 · 秀洲区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 609\n城市：嘉兴市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004619@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:杭州·明日方舟同人only展
+LOCATION:下沙澜公园 · 海宁市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 619\n城市：嘉兴市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004538@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:杭州·第三届蔚蓝档案同人only
+LOCATION:下沙澜公园 · 海宁市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 538\n城市：嘉兴市
+END:VEVENT
+END:VCALENDAR

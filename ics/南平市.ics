@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南平市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005413@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:南平·拾空动漫游戏嘉年华
+LOCATION:维也纳酒店(南平延平店) · 延平区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 413\n城市：南平市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005148@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:建阳·第三届糖梦动漫展
+LOCATION:温德姆酒店 · 建阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 148\n城市：南平市
+END:VEVENT
+END:VCALENDAR

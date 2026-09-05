@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 大连市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005251@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:大连·洛克王国同人ONLY
+LOCATION:猫猫王国（银泰城店） · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 251\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004779@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:大连·ZLD·KG第二届动漫游戏嘉年华——大连最豪华
+ 嘉宾阵容
+LOCATION:北方国家版权交易中心 · 金州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 779\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004243@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:大连·XH.特摄同人only
+LOCATION:大连香洲大饭店 · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 243\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005250@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:大连·摩尔庄园同人ONLY
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 250\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005054@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:大连·云梦次元动漫嘉年华
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 054\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005079@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:大连·龙漫次元嘉年华5.0-全场封闭·全新好玩
+LOCATION:奥电未来城 · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 079\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004989@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:瓦房店·情愫二次元线下聚会
+LOCATION:名豪大酒店 · 瓦房店市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 989\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004962@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:大连·第十五届喵喵港动漫展-我们在喵喵港相聚吧
+ ！
+LOCATION:大连国际会议中心 · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 962\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000661@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:大连·夏日星露谷同人only
+LOCATION:猫猫王国（银泰城店） · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 661\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005248@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261007
+SUMMARY:大连·第二届ACG次元幻想动漫嘉年华
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 248\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005679@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:大连·首届《牛来》主题同人ONLY动漫展（不限cos角
+ 色IP内容）
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 679\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004657@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:大连·东北Aqours Only同人展1.0
+LOCATION:赫兹空间（佳兆业店） · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 657\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:115089@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:大连·ShiningHeart动漫游戏嘉年华
+LOCATION:大连北站综合交通展览馆 · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1150
+ 89\n城市：大连市
+END:VEVENT
+END:VCALENDAR

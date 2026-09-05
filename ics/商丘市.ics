@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 商丘市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005593@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:睢县·第三届幻璃国潮动漫展-秋日物语
+LOCATION:睢县·瑞福祥喜事汇 · 睢县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 593\n城市：商丘市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005536@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:【免费活动】商丘·“泡泡龙”动漫游戏嘉年华
+LOCATION:商丘睢阳万达广场 · 睢阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 536\n城市：商丘市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005704@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:商丘·星轨动漫展·第五届
+LOCATION:蓝湾酒店（商丘万达店） · 睢阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 704\n城市：商丘市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005718@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:永城·汉源国风动漫嘉年华-第十届
+LOCATION:永城市贵合盛宴 · 永城市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 718\n城市：商丘市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005535@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:【免费活动】商丘·”泡泡龙”动漫游戏嘉年华
+LOCATION:商丘睢阳万达广场 · 睢阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 535\n城市：商丘市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 厦门市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005166@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:厦门·星Star&绘星纪次元电玩节1st
+LOCATION:集美市民广场展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 166\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005094@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:厦门·海岸线动漫游戏嘉年华sp（国庆特别版 ）—
+ —带你嗨翻国庆假期！
+LOCATION:厦门国际会展中心 · 思明区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 094\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005368@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:厦门·第五届漫秋国风文化节·秋风赴盛景-家国共
+ 良辰
+LOCATION:厦门国际博览中心 · 翔安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 368\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005227@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:厦门·冲击波【碧蓝航线.胜利女神.棕色尘埃】同人
+ Only展6
+LOCATION:集美展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 227\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004873@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:厦门·首届公主舞会only同人展
+LOCATION:厦门万佳国际酒店 · 湖里区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 873\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005430@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:厦门·漫秋-定江墟·农only同人展3.0
+LOCATION:厦门禹洲温德姆至尊豪廷大酒店(五缘湾店) · 湖里
+ 区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 430\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004975@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:厦门·2026年金海豚动漫游戏嘉年华
+LOCATION:厦门国际会展中心 · 思明区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 975\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004992@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:厦门·鹭韵×次元结界动漫嘉年华
+LOCATION:集美展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 992\n城市：厦门市
+END:VEVENT
+END:VCALENDAR

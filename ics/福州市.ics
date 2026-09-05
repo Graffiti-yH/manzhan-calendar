@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 福州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003923@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:福州·漫执事水上派对2.0
+LOCATION:趣浪水乐源 · 晋安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 923\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004874@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261004
+SUMMARY:福州·2026数字互动娱乐展
+LOCATION:福州海峡国际会展中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 874\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004766@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:福清·漫执事动漫交流会3.0
+LOCATION:聚福鑫酒店(福清万达店) · 福清市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 766\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005256@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:福州·闽都THO·东方月醉十邑
+LOCATION:三迪华美达广场酒店 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 256\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004893@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:福州·第十届糖梦动漫展
+LOCATION:福州海峡文化艺术中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 893\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005432@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:福州·光遇同人only
+LOCATION:福州海峡文化艺术中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 432\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001669@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:福州·元启国潮文化展
+LOCATION:福州海峡国际会展中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 669\n城市：福州市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 焦作市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005260@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:焦作·Lesty国风动漫嘉年华
+LOCATION:陶圣大酒店 · 山阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 260\n城市：焦作市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003886@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:沁阳·星漫动漫派对
+LOCATION:泊景湾大酒店 · 沁阳市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 886\n城市：焦作市
+END:VEVENT
+END:VCALENDAR

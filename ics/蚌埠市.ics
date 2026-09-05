@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 蚌埠市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005388@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:蚌埠·第一届NE计划·NOVA Echo动漫展会
+LOCATION:蚌埠南山豪生大酒店 · 蚌山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 388\n城市：蚌埠市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005378@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:蚌埠·第38届喵KU次元盛典
+LOCATION:蚌埠奥体中心体育馆 · 蚌山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 378\n城市：蚌埠市
+END:VEVENT
+END:VCALENDAR

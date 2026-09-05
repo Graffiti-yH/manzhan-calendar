@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 桂林市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005164@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260927
+SUMMARY:桂林·2026东西巷国风动漫嘉年华
+LOCATION:东西巷 · 秀峰区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 164\n城市：桂林市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005325@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:【免费活动】桂林·国庆动漫潮玩节04
+LOCATION:桂林客世界广场 · 七星区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 325\n城市：桂林市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000996@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261007
+SUMMARY:桂林·第十七届国风X创意暨暴风动漫展
+LOCATION:宋城木龙湖景区 · 叠彩区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 996\n城市：桂林市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005415@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:桂林·第一届ACG动漫文化盛典
+LOCATION:桂林甲天下会展中心 · 七星区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 415\n城市：桂林市
+END:VEVENT
+END:VCALENDAR

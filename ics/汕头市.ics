@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 汕头市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004957@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:汕头·漫行&月芽国风动漫嘉年华
+LOCATION:汕头蓝水星欢乐世界 · 龙湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 957\n城市：汕头市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005016@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:汕头·CSGD动漫游戏嘉年华2nd-魔丸学院篇
+LOCATION:汕头国际会展中心 · 澄海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 016\n城市：汕头市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004697@show.bilibili.com
+DTSTAMP:20260905T180539Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:汕头·原梦谷潮漫域动漫游戏嘉年华
+LOCATION:英歌小镇 · 潮阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 697\n城市：汕头市
+END:VEVENT
+END:VCALENDAR
