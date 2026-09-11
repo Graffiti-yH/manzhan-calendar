@@ -259,7 +259,12 @@
 
   function renderEventPreview() {
     var grid = get('event-preview');
-    var events = (state.data.events || []).slice(0, 3);
+    var allEvents = state.data.events || [];
+    var events = config.previewTicketedFirst
+      ? allEvents.filter(function (event) { return event.ticket_url || event.link; })
+        .concat(allEvents.filter(function (event) { return !event.ticket_url && !event.link; }))
+        .slice(0, 3)
+      : allEvents.slice(0, 3);
     grid.textContent = '';
 
     if (!events.length) {
