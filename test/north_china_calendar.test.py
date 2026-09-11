@@ -43,6 +43,19 @@ class NorthChinaCalendarTests(unittest.TestCase):
         self.assertIn("DTEND;VALUE=DATE:20260920", ics)
         self.assertNotIn("DTSTART;TZID=Asia/Shanghai", ics)
 
+    def test_candidate_is_held_back_but_cancellation_reaches_calendar(self):
+        candidate = dict(self.events[0], id="candidate-activity", status="candidate")
+        canceled = dict(self.events[0], id="canceled-activity", status="canceled")
+        with tempfile.TemporaryDirectory() as directory:
+            ledger = Path(directory) / "ledger.json"
+            ledger.write_text(json.dumps({"events": [candidate, canceled]}, ensure_ascii=False), encoding="utf-8")
+            output = Path(directory) / "calendar"
+            calendar.generate(ledger, output, self.generated_at)
+            ics = (output / "ics" / "all.ics").read_text(encoding="utf-8")
+        self.assertNotIn("candidate-activity@north-china-activity-calendar", ics)
+        self.assertIn("canceled-activity@north-china-activity-calendar", ics)
+        self.assertIn("STATUS:CANCELLED", ics)
+
     def test_generate_creates_combined_and_per_city_feeds(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "north-china"

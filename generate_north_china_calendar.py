@@ -27,6 +27,13 @@ DEFAULT_OUTPUT = ROOT_DIR / "site" / "north-china"
 CHINA_TZ = dt.timezone(dt.timedelta(hours=8))
 CITIES = ("北京市", "天津市", "石家庄市", "保定市")
 EXCLUDED_PATTERN = re.compile(r"漫展|同人展|动漫展|二次元|cosplay|comicup", re.IGNORECASE)
+LEDGER_STATUSES = {"candidate", "verified", "postponed", "canceled", "needs_review"}
+CALENDAR_STATUSES = {
+    "verified": "CONFIRMED",
+    "postponed": "TENTATIVE",
+    "canceled": "CANCELLED",
+    "needs_review": "TENTATIVE",
+}
 
 
 def ics_escape(value):
@@ -87,8 +94,8 @@ def validate_event(event):
     event_id = str(event["id"])
     if event["city"] not in CITIES:
         raise ValueError(f"{event_id}: 不支持的城市 {event['city']}")
-    if event["status"] != "verified":
-        raise ValueError(f"{event_id}: 只有 verified 活动可以进入订阅源")
+    if event["status"] not in LEDGER_STATUSES:
+        raise ValueError(f"{event_id}: 不支持的活动状态 {event['status']}")
     if EXCLUDED_PATTERN.search(" ".join((event["title"], event["category"]))):
         raise ValueError(f"{event_id}: 命中漫展排除规则")
     if not is_public_url(event["source_url"]):
@@ -139,6 +146,7 @@ def event_description(event):
     lines = [
         f"类别：{event['category']}",
         f"城市：{event['city']}",
+        f"状态：{event['status']}",
     ]
     if event.get("address"):
         lines.append(f"地址：{event['address']}")
@@ -179,7 +187,7 @@ def ics_calendar(calname, events, generated_at):
             "BEGIN:VEVENT",
             f"UID:{event['id']}@north-china-activity-calendar",
             f"DTSTAMP:{dtstamp}",
-            "STATUS:CONFIRMED",
+            "STATUS:" + CALENDAR_STATUSES[event["status"]],
             "SUMMARY:" + ics_escape(event["title"]),
         ))
         if event["all_day"]:
@@ -215,7 +223,10 @@ def build_payload(events, generated_at):
 
 
 def generate(input_path=DEFAULT_INPUT, output_dir=DEFAULT_OUTPUT, generated_at=None):
-    events = sorted(load_events(input_path), key=event_sort_key)
+    events = sorted(
+        (event for event in load_events(input_path) if event["status"] in CALENDAR_STATUSES),
+        key=event_sort_key,
+    )
     output_dir = Path(output_dir)
     ics_dir = output_dir / "ics"
     ics_dir.mkdir(parents=True, exist_ok=True)
