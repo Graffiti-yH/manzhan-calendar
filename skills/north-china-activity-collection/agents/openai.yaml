@@ -1,0 +1,7 @@
+interface:
+  display_name: "华北活动采集"
+  short_description: "采集并核验京津冀四城的线下活动"
+  default_prompt: "使用 $north-china-activity-collection 采集未来 30 天北京、天津、石家庄和保定的活动，并给出带来源链接的变更清单。"
+
+policy:
+  allow_implicit_invocation: true

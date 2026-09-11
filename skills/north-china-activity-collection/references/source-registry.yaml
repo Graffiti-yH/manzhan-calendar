@@ -1,0 +1,138 @@
+version: 1
+scope:
+  cities:
+    - 北京市
+    - 天津市
+    - 石家庄市
+    - 保定市
+  categories:
+    - 美术展
+    - 博物馆展
+    - 演唱会
+    - 音乐节
+    - 剧场演出
+    - 市集
+    - 旧货市场
+    - 讲座
+    - 工作坊
+
+tiers:
+  1:
+    label: first_party
+    rule: "Organizer, venue, museum, gallery, or official government cultural calendar."
+  2:
+    label: official_ticket_or_registration
+    rule: "Official sale or registration page that identifies the organizer or venue."
+  3:
+    label: maintained_directory
+    rule: "Discovery source only unless corroborated by tier 1 or 2."
+  4:
+    label: community_lead
+    rule: "Candidate only; require public first-party corroboration before verification."
+
+shared_sources:
+  - id: museum-exhibition-directory
+    name: 全国博物馆展览目录
+    url: https://exhibition.museum.cn/exhibition
+    tier: 3
+    categories: [美术展, 博物馆展]
+    cadence: daily
+    use: "Discover city-filtered exhibitions, then verify with the host institution."
+  - id: damai
+    name: 大麦
+    url: https://www.damai.cn/
+    tier: 2
+    categories: [演唱会, 音乐节, 剧场演出, 美术展]
+    cadence: three_times_daily
+    use: "Use the event detail page and retain the official ticket URL."
+  - id: showstart
+    name: 秀动
+    url: https://www.showstart.com/
+    tier: 2
+    categories: [演唱会, 音乐节, 剧场演出]
+    cadence: three_times_daily
+    use: "Prefer city and venue pages when available."
+  - id: huodongxing
+    name: 活动行
+    url: https://www.huodongxing.com/
+    tier: 2
+    categories: [市集, 讲座, 工作坊]
+    cadence: daily
+    use: "Treat organizer identity and venue details as required fields."
+
+city_sources:
+  北京市:
+    - id: beijing-heritage-calendar
+      name: 北京市文物局博物馆展览日历
+      url: https://wwj.beijing.gov.cn/bjww/cswzdj/10819086/zx/index.html
+      tier: 1
+      categories: [美术展, 博物馆展]
+      cadence: daily
+    - id: namoc
+      name: 中国美术馆
+      url: https://www.namoc.cn/
+      tier: 1
+      categories: [美术展]
+      cadence: daily
+    - id: national-museum-of-china
+      name: 中国国家博物馆展览
+      url: https://www.chnmuseum.cn/zl/
+      tier: 1
+      categories: [博物馆展]
+      cadence: daily
+
+  天津市:
+    - id: tianjin-museum
+      name: 天津博物馆
+      url: https://www.tjbwg.cn/cn/
+      tier: 1
+      categories: [美术展, 博物馆展, 讲座]
+      cadence: daily
+    - id: tianjin-art-museum
+      name: 天津美术馆
+      url: https://www.tjmsg.cn/
+      tier: 1
+      categories: [美术展]
+      cadence: daily
+
+  石家庄市:
+    - id: shijiazhuang-culture-tourism
+      name: 石家庄市文化广电和旅游局
+      url: https://wglj.sjz.gov.cn/
+      tier: 1
+      categories: [美术展, 剧场演出, 音乐节, 市集]
+      cadence: daily
+    - id: hebei-museum
+      name: 河北博物院
+      url: https://www.hebeimuseum.org.cn/
+      tier: 1
+      categories: [美术展, 博物馆展, 讲座]
+      cadence: daily
+
+  保定市:
+    - id: baoding-government
+      name: 保定市人民政府
+      url: https://baoding.gov.cn/
+      tier: 1
+      categories: [美术展, 博物馆展, 市集, 音乐节]
+      cadence: daily
+    - id: zhili-governor-office
+      name: 保定直隶总督署博物馆
+      url: https://www.bdzlzds.cn/
+      tier: 1
+      categories: [博物馆展, 讲座]
+      cadence: daily
+
+discovery_only:
+  - id: local-aggregators
+    name: 本地活动聚合页
+    tier: 3
+    categories: [市集, 旧货市场, 音乐节, 美术展]
+    access: public_web
+    rule: "Use only to find leads; verify every published field with a tier-1 or tier-2 source."
+  - id: community-posts
+    name: 微信公众号、视频号、小红书、抖音和用户投稿
+    tier: 4
+    categories: [市集, 旧货市场, 工作坊, 小型演出]
+    access: authorized_integration_or_user_export
+    rule: "Never automate login or private-group access. Record original URL and require corroboration."
