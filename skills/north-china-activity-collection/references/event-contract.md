@@ -15,7 +15,7 @@ Use one canonical record per real-world activity. Preserve source observations s
 | `status` | `candidate`, `verified`, `postponed`, `canceled`, or `needs_review`. |
 | `retrieved_at` | When the supporting page was last checked. |
 
-Add `end_at`, `venue`, `address`, `organizer`, `price`, `registration_url`, and `image_url` only when supported by a source. Do not infer them.
+Add `end_at`, `venue`, `address`, `organizer`, `price`, `registration_url`, `ticket_url`, and `image_url` only when supported by a source. `ticket_url` must be a public official ticket or registration page for the same event, never a reseller or guessed search URL. Do not infer optional fields. When an output is an iCalendar feed, render `venue`/`address` as `LOCATION`; render `ticket_url` and `source_url` in both the event description and its public URL field, preferring `ticket_url` when present.
 
 ## Scope exclusions
 

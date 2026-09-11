@@ -1,5 +1,6 @@
 site/data.json
 site/ics/
+site/north-china/
 __pycache__/
 *.pyc
 .DS_Store

@@ -23,8 +23,13 @@ jobs:
       - name: Fetch & generate calendar
         run: python fetch.py
 
+      - name: Generate North China activity calendar
+        run: python generate_north_china_calendar.py
+
       - name: Run regression tests
-        run: node test/urls.test.js
+        run: |
+          node test/urls.test.js
+          python test/north_china_calendar.test.py
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
