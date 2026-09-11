@@ -20,6 +20,13 @@ test('城市名经 encodeURIComponent 编码一次', function () {
   assert.strictEqual(urls.icsPath('上海市'), 'ics/%E4%B8%8A%E6%B5%B7%E5%B8%82.ics');
 });
 
+test('华北活动使用独立的订阅目录', function () {
+  assert.strictEqual(
+    urls.feedPath('north-china/ics', '北京市'),
+    'north-china/ics/%E5%8C%97%E4%BA%AC%E5%B8%82.ics'
+  );
+});
+
 test('Google 按钮 cid 为 webcal 订阅协议', function () {
   const cid = urls.googleUrl(base, '上海市').split('cid=')[1];
   assert(cid.startsWith('webcal://'), 'cid 应以 webcal:// 开头，实际：' + cid);
@@ -46,6 +53,21 @@ test('Apple 按钮返回 webcal 直链', function () {
     urls.appleUrl(base, '上海市'),
     'webcal://graffiti-yh.github.io/manzhan-calendar/ics/%E4%B8%8A%E6%B5%B7%E5%B8%82.ics'
   );
+});
+
+test('华北活动的复制、Google 与 Apple 地址指向同一独立日历源', function () {
+  const activityHttps = urls.icsUrl(base, '北京市', 'north-china/ics');
+  const activityGoogle = urls.googleUrl(base, '北京市', 'north-china/ics');
+  const activityApple = urls.appleUrl(base, '北京市', 'north-china/ics');
+  const cid = activityGoogle.split('cid=')[1];
+
+  assert.strictEqual(
+    activityHttps,
+    'https://graffiti-yh.github.io/manzhan-calendar/north-china/ics/%E5%8C%97%E4%BA%AC%E5%B8%82.ics'
+  );
+  assert.strictEqual(activityApple, 'webcal://' + activityHttps.slice('https://'.length));
+  assert.strictEqual('https://' + cid.slice('webcal://'.length), activityHttps);
+  assert(!cid.includes('%25'), '华北活动 cid 不得二次编码，实际：' + cid);
 });
 
 console.log('  ' + passed + ' 个测试全部通过');

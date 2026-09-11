@@ -4,7 +4,7 @@
 
 ## 使用
 
-订阅页面（勾选城市 → 复制/添加订阅链接）：
+漫展订阅页面（勾选城市 → 复制/添加订阅链接）：
 
 ```
 https://Graffiti-yH.github.io/manzhan-calendar/
@@ -26,6 +26,12 @@ https://Graffiti-yH.github.io/manzhan-calendar/
 ## 华北城市活动订阅（独立于漫展）
 
 这套订阅只收录已核验的美术展、博物馆展、音乐、戏剧、市集、讲座与工作坊；采集规则会排除漫展、同人展、动漫展、Cosplay，以及已经出现在 B站漫展日历中的活动。
+
+活动订阅页面（与漫展订阅为两个独立页面）：
+
+```
+https://Graffiti-yH.github.io/manzhan-calendar/north-china.html
+```
 
 - 全部四城：`https://Graffiti-yH.github.io/manzhan-calendar/north-china/ics/all.ics`
 - 北京：`https://Graffiti-yH.github.io/manzhan-calendar/north-china/ics/%E5%8C%97%E4%BA%AC%E5%B8%82.ics`
@@ -62,7 +68,9 @@ python3 generate_north_china_calendar.py # 生成华北城市活动订阅源
 fetch.py                        # 抓取 + 生成脚本
 generate_north_china_calendar.py # 华北活动台账 → ICS 生成脚本
 data/north-china-activities.json # 已核验的华北活动台账
-site/index.html                 # 订阅筛选前端（静态）
+site/index.html                 # 漫展订阅页（静态）
+site/north-china.html           # 华北活动订阅页（静态）
+site/subscription-page.*        # 两个独立页面共用的订阅交互与样式
 site/data.json                  # 生成：全量活动数据
 site/ics/all.ics                # 生成：全部城市订阅
 site/ics/{城市}.ics             # 生成：每城市订阅

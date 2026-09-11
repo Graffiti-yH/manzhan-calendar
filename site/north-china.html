@@ -3,32 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="B站会员购漫展日历订阅：按城市添加 ICS 订阅源到 Google Calendar 或 Apple 日历。">
-  <title>漫展订阅 · 日历</title>
+  <meta name="description" content="北京、天津、石家庄、保定的非漫展活动日历订阅：美术展、演出、市集、讲座与工作坊。">
+  <title>活动订阅 · 华北日历</title>
   <link rel="stylesheet" href="subscription-page.css">
 </head>
-<body class="subscription-page subscription-page--manga">
+<body class="subscription-page subscription-page--activities">
   <a class="skip-link" href="#subscribe">跳到订阅内容</a>
 
   <div class="page-shell">
     <header class="masthead">
       <div class="masthead-top">
-        <span class="issue-mark">NO. 01 · BILIBILI / MANZHAN</span>
-        <a class="other-product-link" href="north-china.html">前往活动订阅 →</a>
+        <span class="issue-mark">NO. 02 · NORTH CHINA / ACTIVITIES</span>
+        <a class="other-product-link" href="index.html">前往漫展订阅 →</a>
       </div>
 
       <div class="hero-grid">
         <div>
           <p class="eyebrow">CALENDAR SUBSCRIPTION</p>
-          <h1 class="hero-title">漫展，加入你的日历。</h1>
-          <p class="hero-copy">按城市订阅 B站会员购的漫展与 Only 同人展。日历会保留日期、场馆和会员购购票入口，并在客户端中自动刷新。</p>
+          <h1 class="hero-title">活动，也该有一份日历。</h1>
+          <p class="hero-copy">为北京、天津、石家庄和保定收集已核验的美术展、音乐、戏剧、市集、讲座与工作坊。订阅后，时间、地点和可用的购票链接会进入你的日历。</p>
         </div>
-        <p class="masthead-note">这是一张独立的漫展日历，不混入美术展、演出、市集或其他城市活动。</p>
+        <p class="masthead-note">这是一张独立的非漫展活动日历。漫展、同人展、动漫展、Cosplay 内容会被排除，避免与漫展订阅重复。</p>
       </div>
 
       <div class="masthead-meta">
         <span class="status-line" id="feed-status" aria-live="polite">正在核对订阅数据…</span>
-        <span class="status-line">来源：B站会员购 · 每日更新</span>
+        <span class="status-line">来源：官方机构与官方票务 · 每日核验</span>
       </div>
     </header>
 
@@ -36,14 +36,14 @@
       <section class="content-section" id="subscribe" aria-labelledby="subscribe-title">
         <div class="section-title-row">
           <span class="section-index">01</span>
-          <h2 class="section-title" id="subscribe-title">先订阅全部城市</h2>
+          <h2 class="section-title" id="subscribe-title">先订阅四城活动</h2>
         </div>
-        <p class="section-intro">一条稳定的 ICS 地址就能把全部城市的漫展加入你的日历；也可把它交给 Google Calendar 或 Apple 日历。</p>
+        <p class="section-intro">把这一条 ICS 地址加入日历，就能追踪四座城市后续新增的已核验活动；日历客户端会自行刷新订阅。</p>
 
         <article class="feed-panel">
           <div class="feed-panel-copy">
-            <div class="feed-label"><span class="feed-marker">全</span><h3 class="feed-title">全部城市 · 漫展订阅</h3></div>
-            <p class="feed-description">包含全部已收录城市的漫展与 Only 同人展，后续更新会自动同步到已订阅的日历。</p>
+            <div class="feed-label"><span class="feed-marker">全</span><h3 class="feed-title">华北四城 · 活动订阅</h3></div>
+            <p class="feed-description">美术展、博物馆展、音乐、戏剧、市集、讲座与工作坊；每个事件保留来源，能确认官方票务时也会附上购票入口。</p>
             <code class="feed-url" id="all-url">正在生成地址…</code>
           </div>
           <div class="feed-actions">
@@ -57,9 +57,9 @@
       <section class="content-section" aria-labelledby="cities-title">
         <div class="section-title-row">
           <span class="section-index">02</span>
-          <h2 class="section-title" id="cities-title">或者，只订阅一座城市</h2>
+          <h2 class="section-title" id="cities-title">或者，只跟随一座城市</h2>
         </div>
-        <p class="section-intro">勾选你想追踪的城市。每一座城市都有自己的订阅地址，便于你在日历里保持清晰。</p>
+        <p class="section-intro">按城市拆分的日历源不会互相混合。保定目前即使没有已核验活动，也可以先订阅，后续新增会自动出现。</p>
 
         <div class="city-layout">
           <div class="city-chooser">
@@ -82,16 +82,16 @@
           <span class="section-index">03</span>
           <h2 class="section-title" id="preview-title">事件进入日历后</h2>
         </div>
-        <p class="section-intro">每条日历事件保留日期、地点和购票入口。下面是数据源中的真实样本。</p>
+        <p class="section-intro">每条已核验事件都尽量保留来源给出的时间、场地与地址；有公开官方票务或报名页时，会显示购票入口。</p>
         <div class="preview-grid" id="event-preview" aria-live="polite"></div>
-        <p class="source-note">仅收录 B站会员购分类为「漫展」或「Only同人展」的活动；已取消或延期的活动不进入订阅源。</p>
+        <p class="source-note">活动页不收录漫展、同人展、动漫展、二次元与 Cosplay 内容，也不使用社交转发页或票务聚合页替代官方购票链接。</p>
       </section>
     </main>
 
     <footer class="page-footer">
       <div class="footer-row">
-        <span>漫展订阅与活动订阅使用不同的日历源。</span>
-        <a href="north-china.html">需要美术展、演出与市集？去活动订阅</a>
+        <span>华北活动订阅与漫展订阅使用不同的日历源。</span>
+        <a href="index.html">需要漫展与 Only 同人展？去漫展订阅</a>
       </div>
     </footer>
   </div>
@@ -100,10 +100,11 @@
 
   <script>
     window.subscriptionPageConfig = {
-      dataUrl: 'data.json',
-      feedRoot: 'ics',
-      countLabel: '场漫展',
-      selectionEmpty: '勾选左侧城市后，这里会出现各自独立的订阅地址。'
+      dataUrl: 'north-china/data.json',
+      feedRoot: 'north-china/ics',
+      countLabel: '条已核验活动',
+      zeroCityNote: '暂无已核验活动，后续新增会自动出现',
+      selectionEmpty: '勾选左侧城市后，这里会出现各自独立的活动订阅地址。'
     };
   </script>
   <script src="urls.js"></script>
