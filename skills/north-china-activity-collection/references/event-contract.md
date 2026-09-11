@@ -17,6 +17,10 @@ Use one canonical record per real-world activity. Preserve source observations s
 
 Add `end_at`, `venue`, `address`, `organizer`, `price`, `registration_url`, and `image_url` only when supported by a source. Do not infer them.
 
+## Scope exclusions
+
+This is a non-manga city-activity feed. Exclude `漫展`, `同人展`, `动漫展`, `二次元`, `Cosplay`, `Comicup`, and substantially equivalent anime-focused events. When a matching item exists in the separate manga-calendar ledger, do not publish a duplicate here. Retain a rejected observation with `excluded_reason: manga_calendar_overlap` so the decision remains auditable.
+
 ## Verification rules
 
 - A record is `verified` when a tier-1 source provides its essential details, or when a tier-2 page identifies an organizer or venue and there is no higher-tier conflict.
@@ -37,7 +41,7 @@ Track field-level changes for `start_at`, `end_at`, `venue`, `address`, `price`,
 
 ## Deduplication key
 
-Begin with normalized title + city + start date + venue. When titles vary, compare organizer, overlapping date ranges, and official ticket/registration links before merging. Never merge events solely because they have a similar title or occur in the same city.
+Begin with normalized title + city + start date + venue. Check the separate manga-calendar ledger first and exclude an overlap rather than merging it. When titles vary, compare organizer, overlapping date ranges, and official ticket/registration links before merging. Never merge events solely because they have a similar title or occur in the same city.
 
 ## Minimum output
 

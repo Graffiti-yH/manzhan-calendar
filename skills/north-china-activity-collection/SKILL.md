@@ -1,6 +1,6 @@
 ---
 name: north-china-activity-collection
-description: Collect, verify, refresh, or reconcile upcoming offline activities in Beijing, Tianjin, Shijiazhuang, and Baoding. Use for exhibitions, concerts, theatre, markets, flea markets, talks, and workshops; do not use for ticket purchasing or generic travel recommendations.
+description: Collect, verify, refresh, or reconcile upcoming non-manga offline activities in Beijing, Tianjin, Shijiazhuang, and Baoding. Use for exhibitions, concerts, theatre, markets, flea markets, talks, and workshops; do not use for ticket purchasing, manga/anime conventions, or generic travel recommendations.
 ---
 
 # North China Activity Collection
@@ -27,12 +27,18 @@ Treat tiers 3 and 4 as discovery evidence. A tier-4 lead is never `verified` unt
 
 For a market, flea market, or other fast-moving community event, look for the organizer's own post, the host venue, or a registration page before publication. If that cannot be found, preserve it as a clearly labelled `candidate` with its original source; do not present it as confirmed.
 
+## Separation from the manga calendar
+
+This skill supplies a separate city-activity feed. Do not collect, publish, or subscribe users to manga conventions, doujin events, anime exhibitions, cosplay gatherings, or anime-focused performances. Treat labels such as `漫展`, `同人展`, `动漫展`, `二次元`, `Cosplay`, and `Comicup` as exclusion signals unless the user explicitly changes the scope.
+
+When this skill is used alongside an existing manga-calendar ledger, compare normalized title, city, venue, and date window against that ledger before publication. If an item is already represented there, omit it from this feed and record `excluded_reason: manga_calendar_overlap`; do not merge the two products or quietly relabel it as a city activity.
+
 ## Collection workflow
 
 1. Select the relevant sources by city and category. Prefer current pages and structured public feeds where they exist.
 2. Capture the original event URL and the retrieval time for every candidate. Do not rely on search snippets alone for publication details.
 3. Normalize each item to the event contract. Keep the original title and source wording; do not fabricate missing dates, prices, venue names, organizer names, or ticket status.
-4. Deduplicate across sources using normalized title, city, venue, date window, and organizer. Merge evidence into one canonical event instead of publishing duplicates.
+4. First exclude manga-calendar overlaps as described above. Then deduplicate remaining sources using normalized title, city, venue, date window, and organizer. Merge evidence into one canonical event instead of publishing duplicates.
 5. Resolve disagreements using the source hierarchy. Preserve contradictory values in source snapshots and report unresolved conflicts.
 6. Assign `verified`, `candidate`, `postponed`, or `canceled` status according to the event contract.
 7. Produce the requested output with source links, status, last-verified time, and a concise change summary. Link out for ticketing or registration; never purchase tickets or imply inventory availability.

@@ -15,6 +15,13 @@ scope:
     - 旧货市场
     - 讲座
     - 工作坊
+  exclusions:
+    - 漫展
+    - 同人展
+    - 动漫展
+    - 二次元活动
+    - Cosplay活动
+    - Comicup
 
 tiers:
   1:
