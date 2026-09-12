@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 延边朝鲜族自治州
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005753@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:延边·国产动漫游戏小说文化展暨第六十一届理想
+ 乡动漫展
+LOCATION:延边州旅游集散中心 · 龙井市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 753\n城市：延边朝鲜族自治州
+END:VEVENT
+END:VCALENDAR

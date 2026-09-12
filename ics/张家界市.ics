@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 张家界市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005791@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:张家界·“漫叙”动漫游戏嘉年华
+LOCATION:维也纳国际酒店（张家界天门山店） · 永定区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 791\n城市：张家界市
+END:VEVENT
+END:VCALENDAR

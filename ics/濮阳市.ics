@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 濮阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005540@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:濮阳·第二届漫有趣异世界主题动漫展
+LOCATION:顿丘体育馆 · 清丰县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 540\n城市：濮阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006031@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:濮阳·薪火国漫嘉年华
+LOCATION:濮阳宾馆 · 华龙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 031\n城市：濮阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005822@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:台前·第一届奇遇动漫嘉年华
+LOCATION:濮阳台前美仑国际酒店 · 台前县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 822\n城市：濮阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005742@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261006
+SUMMARY:濮阳·第十三届枫林ACG动漫游戏展
+LOCATION:清丰县会展中心 · 清丰县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 742\n城市：濮阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005855@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:濮阳·“漫叙”动漫游戏嘉年华
+LOCATION:柏维酒店(濮阳市中心广场店) · 华龙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 855\n城市：濮阳市
+END:VEVENT
+END:VCALENDAR

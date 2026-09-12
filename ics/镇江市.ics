@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 镇江市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005808@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:丹阳·Yuki动漫游戏展19.0
+LOCATION:天和饭店 · 丹阳市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 808\n城市：镇江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005770@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:镇江·今宵动漫游戏展65.0
+LOCATION:金山壹号游轮酒店 · 润州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 770\n城市：镇江市
+END:VEVENT
+END:VCALENDAR

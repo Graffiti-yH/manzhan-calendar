@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//North China Activity Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:华北城市活动日历 · 北京市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nmc-portinari-2026@north-china-activity-calendar
+DTSTAMP:20260912T181723Z
+STATUS:CONFIRMED
+SUMMARY:巴西魂——波尔蒂纳里艺术展
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20261012
+LOCATION:中国国家博物馆（南四展厅）
+URL:https://www.chnmuseum.cn/zl/zhanlanyugao/
+DESCRIPTION:类别：博物馆展\n城市：北京市\n状态：verified\n
+ 活动来源：https://www.chnmuseum.cn/zl/zhanlanyugao/\n最后核验：2
+ 026-09-11T09:11:00+08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:namoc-gao-yingpo-2026@north-china-activity-calendar
+DTSTAMP:20260912T181723Z
+STATUS:CONFIRMED
+SUMMARY:大匠之道——高英坡艺术作品展
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20261008
+LOCATION:中国美术馆（10号厅）
+URL:https://www.namoc.cn/namoc/zhanlan/202609/7c487b4386fb4d4cabf16d4532d2f
+ 219.shtml
+DESCRIPTION:类别：美术展\n城市：北京市\n状态：verified\n活
+ 动来源：https://www.namoc.cn/namoc/zhanlan/202609/7c487b4386fb4d4cabf1
+ 6d4532d2f219.shtml\n最后核验：2026-09-11T09:11:00+08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:namoc-rooted-oil-2026@north-china-activity-calendar
+DTSTAMP:20260912T181723Z
+STATUS:CONFIRMED
+SUMMARY:意在象外——根植本土的当代油画创作
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260920
+LOCATION:中国美术馆（13—17号厅）
+URL:https://www.namoc.cn/namoc/zhanlan/202609/333a7318356f44c1a3657d2d1dd9e
+ 496.shtml
+DESCRIPTION:类别：美术展\n城市：北京市\n状态：verified\n活
+ 动来源：https://www.namoc.cn/namoc/zhanlan/202609/333a7318356f44c1a365
+ 7d2d1dd9e496.shtml\n最后核验：2026-09-11T09:11:00+08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:blue-note-bncjo-2026-09-18@north-china-activity-calendar
+DTSTAMP:20260912T181723Z
+STATUS:CONFIRMED
+SUMMARY:BNCJO · Blue Note China 十周年特别演出
+DTSTART;TZID=Asia/Shanghai:20260918T200000
+LOCATION:Blue Note Beijing · 前门东大街23号
+URL:https://www.showstart.com/event/309131
+DESCRIPTION:类别：爵士演出\n城市：北京市\n状态：verified\n
+ 地址：前门东大街23号\n入场：18:30\n活动来源：https://www.
+ showstart.com/event/309131\n购票/报名：https://www.showstart.com/even
+ t/309131\n最后核验：2026-09-11T09:11:00+08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:blue-note-bncjo-2026-09-19@north-china-activity-calendar
+DTSTAMP:20260912T181723Z
+STATUS:CONFIRMED
+SUMMARY:BNCJO · Blue Note China 十周年特别演出
+DTSTART;TZID=Asia/Shanghai:20260919T200000
+LOCATION:Blue Note Beijing · 前门东大街23号
+URL:https://www.showstart.com/event/309131
+DESCRIPTION:类别：爵士演出\n城市：北京市\n状态：verified\n
+ 地址：前门东大街23号\n入场：18:30\n活动来源：https://www.
+ showstart.com/event/309131\n购票/报名：https://www.showstart.com/even
+ t/309131\n最后核验：2026-09-11T09:11:00+08:00
+END:VEVENT
+END:VCALENDAR

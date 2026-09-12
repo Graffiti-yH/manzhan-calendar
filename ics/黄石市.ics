@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 黄石市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006023@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:黄石·宇年代记动漫展
+LOCATION:海观山宾馆-挹江楼 · 黄石港区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 023\n城市：黄石市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005937@show.bilibili.com
+DTSTAMP:20260912T181723Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:阳新·烬星动漫游戏嘉年华
+LOCATION:阳新万达颐华酒店 · 阳新县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 937\n城市：黄石市
+END:VEVENT
+END:VCALENDAR

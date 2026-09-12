@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//North China Activity Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:华北城市活动日历 · 石家庄市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:sjz-camper-season-2026@north-china-activity-calendar
+DTSTAMP:20260912T181723Z
+STATUS:CONFIRMED
+SUMMARY:2026石家庄房车露营欢乐季
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260914
+LOCATION:滹沱河艺术生态岛
+URL:https://www.sjz.gov.cn/columns/839b1981-330e-4901-aba5-6c392154ce03/202
+ 609/11/6958147e-1bfc-4400-a131-c1f689dbc20d.html
+DESCRIPTION:类别：户外文化活动\n城市：石家庄市\n状态：ve
+ rified\n活动来源：https://www.sjz.gov.cn/columns/839b1981-330e-4901-a
+ ba5-6c392154ce03/202609/11/6958147e-1bfc-4400-a131-c1f689dbc20d.html\n最
+ 后核验：2026-09-11T09:11:00+08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:sjz-xinyang-song-2026@north-china-activity-calendar
+DTSTAMP:20260912T181723Z
+STATUS:CONFIRMED
+SUMMARY:河北梆子《信仰之歌》
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+LOCATION:石家庄大剧院
+URL:https://whly.hebei.gov.cn/c/2026-08-24/586209.html
+DESCRIPTION:类别：剧场演出\n城市：石家庄市\n状态：verified
+ \n活动来源：https://whly.hebei.gov.cn/c/2026-08-24/586209.html\n最
+ 后核验：2026-09-11T09:11:00+08:00
+END:VEVENT
+END:VCALENDAR
