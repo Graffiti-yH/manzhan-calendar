@@ -1,6 +1,20 @@
 {
   "events": [
     {
+      "id": "palace-tang-song-calligraphy-2026",
+      "title": "典则：唐宋书画展",
+      "city": "北京市",
+      "category": "美术展",
+      "all_day": true,
+      "start_at": "2026-09-01",
+      "end_at": "2026-11-01",
+      "venue": "故宫文华殿",
+      "status": "verified",
+      "source_tier": 1,
+      "source_url": "https://wwj.beijing.gov.cn/bjww/362679/483700/744121825/index.html",
+      "retrieved_at": "2026-09-16T09:01:31+08:00"
+    },
+    {
       "id": "namoc-rooted-oil-2026",
       "title": "意在象外——根植本土的当代油画创作",
       "city": "北京市",
@@ -73,6 +87,21 @@
       "source_url": "https://www.showstart.com/event/309131",
       "ticket_url": "https://www.showstart.com/event/309131",
       "retrieved_at": "2026-09-11T09:11:00+08:00"
+    },
+    {
+      "id": "tjmsg-wang-tianluan-yungang-2026",
+      "title": "天高銮和，境生象外——王天銮云冈艺术主题油画展",
+      "city": "天津市",
+      "category": "美术展",
+      "all_day": true,
+      "start_at": "2026-08-22",
+      "end_at": "2026-09-19",
+      "venue": "天津美术馆（三层6号展厅）",
+      "address": "天津市河西区平江道60号",
+      "status": "verified",
+      "source_tier": 1,
+      "source_url": "https://www.tjmsg.cn/ArticleList.aspx?SrhClassCode=ACC0005",
+      "retrieved_at": "2026-09-16T09:01:31+08:00"
     },
     {
       "id": "tjmsg-cai-yuanpei-2026",

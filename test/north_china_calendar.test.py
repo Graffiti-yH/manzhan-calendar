@@ -61,15 +61,15 @@ class NorthChinaCalendarTests(unittest.TestCase):
             output = Path(directory) / "north-china"
             payload = calendar.generate(
                 ROOT / "data" / "north-china-activities.json", output, self.generated_at)
-            self.assertEqual(payload["counts"]["北京市"], 5)
-            self.assertEqual(payload["counts"]["天津市"], 3)
+            self.assertEqual(payload["counts"]["北京市"], 6)
+            self.assertEqual(payload["counts"]["天津市"], 4)
             self.assertEqual(payload["counts"]["石家庄市"], 2)
             self.assertEqual(payload["counts"]["保定市"], 0)
             self.assertTrue((output / "ics" / "all.ics").exists())
             self.assertTrue((output / "ics" / "北京市.ics").exists())
             self.assertTrue((output / "ics" / "保定市.ics").exists())
             data = json.loads((output / "data.json").read_text(encoding="utf-8"))
-            self.assertEqual(data["count"], 10)
+            self.assertEqual(data["count"], 12)
 
 
 if __name__ == "__main__":
