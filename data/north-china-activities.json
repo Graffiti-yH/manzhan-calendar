@@ -57,6 +57,20 @@
       "retrieved_at": "2026-09-11T09:11:00+08:00"
     },
     {
+      "id": "temple-of-earth-beijing-book-fair-2026",
+      "title": "2026“我与地坛”北京书市",
+      "city": "北京市",
+      "category": "市集",
+      "all_day": true,
+      "start_at": "2026-09-17",
+      "end_at": "2026-09-27",
+      "venue": "地坛公园、北京图书大厦、王府井书店",
+      "status": "verified",
+      "source_tier": 1,
+      "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202609/t20260915_4864677.html",
+      "retrieved_at": "2026-09-17T09:02:27+08:00"
+    },
+    {
       "id": "blue-note-bncjo-2026-09-18",
       "title": "BNCJO · Blue Note China 十周年特别演出",
       "city": "北京市",
