@@ -71,6 +71,34 @@
       "retrieved_at": "2026-09-17T09:02:27+08:00"
     },
     {
+      "id": "beijing-international-audiovisual-art-expo-2026",
+      "title": "2026国际音像艺术作品博览会",
+      "city": "北京市",
+      "category": "美术展",
+      "all_day": true,
+      "start_at": "2026-09-29",
+      "end_at": "2026-10-05",
+      "venue": "北京艺术中心",
+      "status": "verified",
+      "source_tier": 1,
+      "source_url": "https://www.beijing.gov.cn/tsbj/tszt/tshd/202609/t20260916_4866559.html",
+      "retrieved_at": "2026-09-18T09:01:07+08:00"
+    },
+    {
+      "id": "beijing-renyi-international-theatre-invitation-2026",
+      "title": "2026北京人艺国际戏剧邀请展",
+      "city": "北京市",
+      "category": "剧场演出",
+      "all_day": true,
+      "start_at": "2026-10-09",
+      "end_at": "2026-11-15",
+      "venue": "首都剧场、实验剧场、北京国际戏剧中心·曹禺剧场、人艺小剧场",
+      "status": "verified",
+      "source_tier": 1,
+      "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202609/t20260917_4867770.html",
+      "retrieved_at": "2026-09-18T09:01:07+08:00"
+    },
+    {
       "id": "blue-note-bncjo-2026-09-18",
       "title": "BNCJO · Blue Note China 十周年特别演出",
       "city": "北京市",
