@@ -71,6 +71,20 @@
       "retrieved_at": "2026-09-17T09:02:27+08:00"
     },
     {
+      "id": "beijing-great-wall-cultural-festival-2026",
+      "title": "2026北京长城文化节",
+      "city": "北京市",
+      "category": "市集",
+      "all_day": true,
+      "start_at": "2026-09-19",
+      "end_at": "2026-10-07",
+      "venue": "黄花城水长城景区",
+      "status": "verified",
+      "source_tier": 1,
+      "source_url": "https://english.beijing.gov.cn/travellinginbeijing/events/202609/t20260918_4869956.html",
+      "retrieved_at": "2026-09-19T10:02:55+08:00"
+    },
+    {
       "id": "beijing-international-audiovisual-art-expo-2026",
       "title": "2026国际音像艺术作品博览会",
       "city": "北京市",
@@ -83,6 +97,20 @@
       "source_tier": 1,
       "source_url": "https://www.beijing.gov.cn/tsbj/tszt/tshd/202609/t20260916_4866559.html",
       "retrieved_at": "2026-09-18T09:01:07+08:00"
+    },
+    {
+      "id": "beijing-international-theatre-season-2026",
+      "title": "大戏看北京·2026北京国际戏剧展演季",
+      "city": "北京市",
+      "category": "剧场演出",
+      "all_day": true,
+      "start_at": "2026-10-07",
+      "end_at": "2026-12-31",
+      "venue": "北京市多处场地（含首钢园区、隆福寺、天桥市民广场等）",
+      "status": "verified",
+      "source_tier": 1,
+      "source_url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202609/t20260918_4869266.html",
+      "retrieved_at": "2026-09-19T10:02:55+08:00"
     },
     {
       "id": "beijing-renyi-international-theatre-invitation-2026",
