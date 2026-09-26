@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//North China Activity Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:华北城市活动日历 · 天津市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tjmsg-national-classics-2026@north-china-activity-calendar
+DTSTAMP:20260926T191002Z
+STATUS:CONFIRMED
+SUMMARY:第九届《国韵经典》中国当代写实油画名家展
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20261008
+LOCATION:天津美术馆（一层1号厅）
+URL:https://www.tjmsg.cn/ArticleDetail.aspx?Id=ec43947e-7c94-4e9f-98f1-962b
+ 83e7bc8d
+DESCRIPTION:类别：美术展\n城市：天津市\n状态：verified\n活
+ 动来源：https://www.tjmsg.cn/ArticleDetail.aspx?Id=ec43947e-7c94-4e9f-
+ 98f1-962b83e7bc8d\n最后核验：2026-09-11T09:11:00+08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:tjmsg-wang-tianluan-yungang-2026@north-china-activity-calendar
+DTSTAMP:20260926T191002Z
+STATUS:CONFIRMED
+SUMMARY:天高銮和，境生象外——王天銮云冈艺术主题油画
+ 展
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260920
+LOCATION:天津美术馆（三层6号展厅） · 天津市河西区平江
+ 道60号
+URL:https://www.tjmsg.cn/ArticleList.aspx?SrhClassCode=ACC0005
+DESCRIPTION:类别：美术展\n城市：天津市\n状态：verified\n地
+ 址：天津市河西区平江道60号\n活动来源：https://www.tjmsg.c
+ n/ArticleList.aspx?SrhClassCode=ACC0005\n最后核验：2026-09-16T09:01:3
+ 1+08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:tjmsg-cai-yuanpei-2026@north-china-activity-calendar
+DTSTAMP:20260926T191002Z
+STATUS:CONFIRMED
+SUMMARY:蔡元培和他的时代：20世纪中国美育的历史进程
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260927
+LOCATION:天津美术馆（三层3、4号厅）
+URL:https://www.tjmsg.cn/ArticleDetail.aspx?Id=608a7947-dce1-490f-9ef8-e542
+ f410b17b
+DESCRIPTION:类别：美术展\n城市：天津市\n状态：verified\n活
+ 动来源：https://www.tjmsg.cn/ArticleDetail.aspx?Id=608a7947-dce1-490f-
+ 9ef8-e542f410b17b\n最后核验：2026-09-11T09:11:00+08:00
+END:VEVENT
+BEGIN:VEVENT
+UID:montagne-sauvage-tianjin-2026@north-china-activity-calendar
+DTSTAMP:20260926T191002Z
+STATUS:CONFIRMED
+SUMMARY:法国即兴融合爵士组合 MONTAGNE SAUVAGE 中国巡演｜天
+ 津站
+DTSTART;TZID=Asia/Shanghai:20260917T200000
+DTEND;TZID=Asia/Shanghai:20260917T220000
+LOCATION:二十年音乐现场 · 天津市河东区津塘路146号泰达
+ 津一产业公园4号楼西侧
+URL:https://www.showstart.com/event/306377
+DESCRIPTION:类别：爵士演出\n城市：天津市\n状态：verified\n
+ 地址：天津市河东区津塘路146号泰达津一产业公园4号楼
+ 西侧\n活动来源：https://www.showstart.com/event/306377\n购票/报
+ 名：https://www.showstart.com/event/306377\n最后核验：2026-09-11T09
+ :11:00+08:00
+END:VEVENT
+END:VCALENDAR

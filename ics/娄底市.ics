@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 娄底市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006387@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:娄底·第二届荧光动漫展
+LOCATION:金丰大酒店（乐坪大道） · 娄星区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 387\n城市：娄底市
+END:VEVENT
+END:VCALENDAR

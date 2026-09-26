@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宿州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005797@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:宿州·星宿动漫展
+LOCATION:宿州奥林匹克体育中心 · 埇桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 797\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005021@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:灵璧·neko动漫展02
+LOCATION:灵璧钟灵大酒店 · 灵璧县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 021\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006189@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:萧县·Aether Meet动漫展
+LOCATION:方缘大酒店 · 萧县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 189\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001374@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:泗县·neko动漫展第三届
+LOCATION:泗县体育馆 · 泗县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 374\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006036@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:泗县·FC二次元睡衣派对主题展
+LOCATION:泗县开元名都大酒店 · 泗县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 036\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006310@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:萧县·第七届梦时青年文化动漫节
+LOCATION:萧县汇源酒店 · 萧县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 310\n城市：宿州市
+END:VEVENT
+END:VCALENDAR

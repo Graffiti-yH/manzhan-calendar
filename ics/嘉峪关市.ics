@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 嘉峪关市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006444@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:嘉峪关·KXWx橙核10.4第一届漫展
+LOCATION:嘉峪关开通大厦 · 嘉峪关市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 444\n城市：嘉峪关市
+END:VEVENT
+END:VCALENDAR

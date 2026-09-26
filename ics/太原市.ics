@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 太原市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006447@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261003
+SUMMARY:太原·晋韵非遗·潇河奇遇-蒲公英国风专场游园会
+LOCATION:山西潇河国际会议中心 · 小店区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 447\n城市：太原市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004983@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:太原·风郁3.5 虹城竞界 电竞主题动漫展
+LOCATION:长风·国贸第六馆 · 晋源区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 983\n城市：太原市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005676@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261007
+SUMMARY:太原·蒲公英国潮动漫嘉年华37.0
+LOCATION:山西省展览馆 · 万柏林区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 676\n城市：太原市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 成都市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004546@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261005
+SUMMARY:成都·第二十五届世界线动漫展-狂撒福利节
+LOCATION:中国西部国际博览城 · 双流区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 546\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005170@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:成都·2026物华弥新同人only展
+LOCATION:荼予TuYu新派茶空间 · 青羊区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 170\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004357@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261007
+SUMMARY:成都·TIA动漫电竞展
+LOCATION:天府国际动漫城 · 成华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 357\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002585@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:成都·2026洛天依同人only路展2.0 梦境少女特别展会
+LOCATION:MAOLivehouse 成都 · 成华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 585\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006325@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·OIMASK覆面盛典同人ONLY
+LOCATION:量子介英雄电竞中心 · 成华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 325\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006410@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·万圣钟声响起前 舟趴 · 明日方舟同人only秋
+ 季茶会
+LOCATION:锦官宴 · 锦江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 410\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006338@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·拳头游戏·Riot Games同人ONLY
+LOCATION:成都星宸假日酒店(世纪城店) · 武侯区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 338\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003328@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:成都·第六届JH•TIA动漫电竞展
+LOCATION:天府国际动漫城 · 成华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 328\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005851@show.bilibili.com
+DTSTAMP:20260926T191002Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:成都·永远的7日之都·同人only展〖冬日来信〗九周
+ 年
+LOCATION:艾斯维尔艺术中心 · 郫都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 851\n城市：成都市
+END:VEVENT
+END:VCALENDAR
