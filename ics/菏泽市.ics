@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 菏泽市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005603@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:单县·第七届幻璃国潮动漫展·秋日物语
+LOCATION:中岭大酒店 · 单县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 603\n城市：菏泽市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005126@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:曹县·第一届奇遇动漫嘉年华
+LOCATION:水邑·澳洲酒店 · 曹县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 126\n城市：菏泽市
+END:VEVENT
+END:VCALENDAR

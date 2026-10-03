@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宿州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006310@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:萧县·第七届梦时青年文化动漫节
+LOCATION:萧县汇源酒店 · 萧县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 310\n城市：宿州市
+END:VEVENT
+END:VCALENDAR

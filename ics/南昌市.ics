@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南昌市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005913@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:南昌·潮汐特摄丨超英同人only动漫展
+LOCATION:昌南文化中心大剧院 · 南昌县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 913\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006501@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:南昌·第二届Hong谷次元动漫展-COS嘉年华
+LOCATION:南昌绿地国际博览中心 · 红谷滩区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 501\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005785@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:南昌·漫拥豫章星耀夜-冰与火之歌「夜场活动」
+LOCATION:昌南文化中心大剧院 · 南昌县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 785\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006542@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:南昌·ES同人ONLY
+LOCATION:瓦肆VAS NANCHANG · 青山湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 542\n城市：南昌市
+END:VEVENT
+END:VCALENDAR

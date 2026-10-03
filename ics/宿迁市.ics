@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宿迁市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005964@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:宿迁·KT次元国风动漫游戏嘉年华
+LOCATION:金鹰国际购物中心(宿迁宿城店) · 宿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 964\n城市：宿迁市
+END:VEVENT
+END:VCALENDAR

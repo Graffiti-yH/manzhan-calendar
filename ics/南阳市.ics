@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005709@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:淅川·WA·02动漫次元吃席展
+LOCATION:淅川丹阳迎宾馆 · 淅川县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 709\n城市：南阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004354@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:内乡·屿梦夏日动漫派对
+LOCATION:内乡县广播电视局 · 内乡县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 354\n城市：南阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006398@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:南阳·新世界国漫游戏嘉年华4TH
+LOCATION:南阳大剧院 · 宛城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 398\n城市：南阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006488@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270212
+SUMMARY:南阳·新世界国漫游戏嘉年华5TH
+LOCATION:南阳大剧院 · 宛城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 488\n城市：南阳市
+END:VEVENT
+END:VCALENDAR

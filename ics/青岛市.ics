@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 青岛市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005936@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:平度·星辙动漫游戏嘉年华
+LOCATION:平度都市星联酒店 · 平度市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 936\n城市：青岛市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006212@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:青岛·稻米only同人游园会
+LOCATION:川页咖啡 · 黄岛区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 212\n城市：青岛市
+END:VEVENT
+END:VCALENDAR

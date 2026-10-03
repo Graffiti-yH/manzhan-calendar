@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 济宁市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005130@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:金乡·第二届谷雨动漫游戏嘉年华
+LOCATION:金乡维也纳国际酒店 · 金乡县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 130\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005605@show.bilibili.com
+DTSTAMP:20261003T190923Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:金乡·第四届幻璃国潮动漫展·秋日物语
+LOCATION:金乡建国饭店 · 金乡县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 605\n城市：济宁市
+END:VEVENT
+END:VCALENDAR
