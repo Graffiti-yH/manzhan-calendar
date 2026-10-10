@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 邢台市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006054@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:邢台·崧蓝x漫喵 国庆回归季庆典
+LOCATION:鸿胜商城 · 信都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 054\n城市：邢台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006248@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:邢台·第十七届KID动漫展-新年庆典
+LOCATION:世贸天街购物广场(邢台店) · 襄都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 248\n城市：邢台市
+END:VEVENT
+END:VCALENDAR

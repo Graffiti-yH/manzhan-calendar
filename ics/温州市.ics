@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 温州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006345@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:温州·次元主题动漫展：灵修悬案
+LOCATION:克莉丝汀宴会中心(万象城店) · 鹿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 345\n城市：温州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006570@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:温州·音乐番同人only1.0
+LOCATION:SEELAB意空间见（西鹿店） · 鹿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 570\n城市：温州市
+END:VEVENT
+END:VCALENDAR

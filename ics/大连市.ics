@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 大连市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005679@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:大连·首届《牛来》主题同人ONLY动漫展（不限cos角
+ 色IP内容）
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 679\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006472@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:大连·首届正太only同人展
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 472\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004657@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:大连·东北Aqours Only同人展1.0
+LOCATION:赫兹空间（佳兆业店） · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 657\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005756@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:大连·冬漫节暨COMINOVA动漫嘉年华
+LOCATION:大连北站交通枢纽中心 · 甘井子区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 756\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006331@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:大连·第三届ACG次元幻想动漫嘉年华
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 331\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006619@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:大连·ZLD·KG动漫游戏嘉年华
+LOCATION:北方国家版权交易中心 · 金州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 619\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:115089@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:大连·ShiningHeart动漫游戏嘉年华
+LOCATION:大连北站综合交通展览馆 · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1150
+ 89\n城市：大连市
+END:VEVENT
+END:VCALENDAR

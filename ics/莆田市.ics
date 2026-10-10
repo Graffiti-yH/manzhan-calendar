@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 莆田市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006583@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:仙游·第八届沐夏动漫嘉年华
+LOCATION:中国古典工艺博览城 · 仙游县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 583\n城市：莆田市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南通市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004977@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:南通·第9届次元✖️突破动漫游戏博览会——秋假
+ 特典
+LOCATION:南通国际会展中心 · 崇川区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 977\n城市：南通市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005233@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:南通·1.1绘梦空间动漫节 次元回响
+LOCATION:南通国际会展中心 · 崇川区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 233\n城市：南通市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004368@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:南通·恋空动漫游戏博览会02
+LOCATION:乐动力南通市体育馆 · 崇川区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 368\n城市：南通市
+END:VEVENT
+END:VCALENDAR

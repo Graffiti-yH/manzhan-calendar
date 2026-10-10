@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 泉州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:114984@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:泉州·ShiningHeart动漫游戏嘉年华
+LOCATION:泉州海峡体育中心体育馆 · 丰泽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1149
+ 84\n城市：泉州市
+END:VEVENT
+END:VCALENDAR

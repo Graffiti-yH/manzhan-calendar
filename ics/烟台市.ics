@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 烟台市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006466@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:烟台·极昼次元8.0·二次元全女伪夜场(嘉宾、流程
+ 等内容更新！)
+LOCATION:M2 PLUS CLUB(滨海北路店) · 芝罘区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 466\n城市：烟台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006607@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:烟台·碧海动漫游戏嘉年华42.5——国风专场
+LOCATION:八角湾国际会展中心 · 福山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 607\n城市：烟台市
+END:VEVENT
+END:VCALENDAR

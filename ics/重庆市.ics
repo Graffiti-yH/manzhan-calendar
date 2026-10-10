@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 重庆市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006307@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:重庆·GKR特摄同人only6.0
+LOCATION:锦川酒店礼宴中心 · 南岸区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 307\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006522@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:重庆·星幻动漫节2026第40届
+LOCATION:享派轰趴馆(星耀店) · 江北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 522\n城市：重庆市
+END:VEVENT
+END:VCALENDAR

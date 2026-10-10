@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006398@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:南阳·新世界国漫游戏嘉年华4TH
+LOCATION:南阳大剧院 · 宛城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 398\n城市：南阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006488@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270212
+SUMMARY:南阳·新世界国漫游戏嘉年华5TH
+LOCATION:南阳大剧院 · 宛城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 488\n城市：南阳市
+END:VEVENT
+END:VCALENDAR

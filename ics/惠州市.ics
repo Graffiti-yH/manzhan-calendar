@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 惠州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006593@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:惠州·纸梦相逢
+LOCATION:碧桂园润杨溪谷温泉酒店 · 惠阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 593\n城市：惠州市
+END:VEVENT
+END:VCALENDAR

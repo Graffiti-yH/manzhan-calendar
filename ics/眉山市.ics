@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 眉山市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006564@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270212
+SUMMARY:眉山·理想宇宙5th-新春派对
+LOCATION:眉山交易展示中心 · 东坡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 564\n城市：眉山市
+END:VEVENT
+END:VCALENDAR

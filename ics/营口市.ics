@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 营口市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006609@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:盖州·第十届次元魔方动漫展
+LOCATION:盖州宴宾生态酒店 · 盖州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 609\n城市：营口市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 成都市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006572@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:成都·小妖怪 原铁绝同人only展
+LOCATION:华熙LIVE·528M空间 · 锦江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 572\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006325@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·OIMASK覆面盛典同人ONLY
+LOCATION:量子介英雄电竞中心 · 成华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 325\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006410@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·万圣钟声响起前 舟趴 · 明日方舟同人only秋
+ 季茶会
+LOCATION:锦官宴 · 锦江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 410\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006338@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·拳头游戏·Riot Games同人ONLY
+LOCATION:成都星宸假日酒店(世纪城店) · 武侯区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 338\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003328@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:成都·第六届JH•TIA动漫电竞展
+LOCATION:天府国际动漫城 · 成华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 328\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006523@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:成都·星幻动漫派对2026第39届
+LOCATION:星野派对(华府大道地铁站A口步行200米) · 双流区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 523\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005851@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:成都·永远的7日之都·同人only展〖冬日来信〗九周
+ 年
+LOCATION:艾斯维尔艺术中心 · 郫都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 851\n城市：成都市
+END:VEVENT
+END:VCALENDAR

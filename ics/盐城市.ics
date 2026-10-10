@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 盐城市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006430@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:【免费活动】盐城·Yuki万圣次元夜动漫游戏展9.0
+LOCATION:吾悦广场(盐城店) · 盐都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 430\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006001@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:盐城·第四十八届 ACCN动漫嘉年华
+LOCATION:中韩文化客厅 · 亭湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 001\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006585@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:射阳·ACCN动漫嘉年华6.0
+LOCATION:铂金礼宴 · 射阳县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 585\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006586@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:盐城·ACCN 动漫嘉年华 49.0
+LOCATION:中韩文化客厅 · 亭湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 586\n城市：盐城市
+END:VEVENT
+END:VCALENDAR

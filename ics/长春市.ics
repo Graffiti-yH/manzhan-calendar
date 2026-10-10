@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 长春市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006579@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:长春·漫次元荣耀次元节
+LOCATION:欧亚商都 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 579\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004844@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:长春·中国（长春）国产动漫游戏博览展
+LOCATION:南溪里室内场馆 · 南关区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 844\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006292@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:长春·第五届COMIC TIME动漫游戏展
+LOCATION:长春航空文化展示中心 · 绿园区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 292\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000902@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:长春·第六届理想乡国产动漫展
+LOCATION:理想乡会展馆 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 902\n城市：长春市
+END:VEVENT
+END:VCALENDAR

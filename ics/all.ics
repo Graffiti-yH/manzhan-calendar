@@ -1,0 +1,3580 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 全部
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1005904@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20261026
+SUMMARY:【免费活动】绵阳·涪江科创杯·全民王者荣耀大赛
+ ——暨首届王者荣耀主题漫展
+LOCATION:中国(绵阳)科技城数字经济产业园 · 游仙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 904\n城市：绵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005588@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:杭州·第三届IAGF·凌飞 专场票（需单独购买门票）
+LOCATION:杭州国际博览中心 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 588\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005585@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:杭州·第三届IAGF·姜广涛 专场票（需单独购买门票
+ ）
+LOCATION:杭州国际博览中心 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 585\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005584@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:杭州·第三届IAGF·广播剧《小潭山没有天文台》专
+ 场票（需单独购买门票）
+LOCATION:杭州国际博览中心 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 584\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005582@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:杭州·第三届IAGF·广播剧《满城衣冠》专场票（需
+ 单独购买门票）
+LOCATION:杭州国际博览中心 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 582\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005580@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:杭州·第三届IAGF·广播剧《爱情公园》专场票（需
+ 单独购买门票）
+LOCATION:杭州国际博览中心 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 580\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006627@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+SUMMARY:上海·魔兽世界无限派对:地上达拉然
+LOCATION:国家会展中心 · 青浦区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 627\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006026@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+SUMMARY:东莞·萤火虫EX次元派对
+LOCATION:广东现代国际展览中心 · 东莞市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 026\n城市：东莞市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006610@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:上海·in国漫动漫游戏嘉年华
+LOCATION:美罗城 · 徐汇区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 610\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004258@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:上海·舰长社-碧蓝航线同人ONLY展
+LOCATION:诺瓦城 · 闵行区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 258\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005711@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:兰州·咏笺共赴书院主题国乙+鸢游园会
+LOCATION:风起大汉演绎景区 · 七里河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 711\n城市：兰州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006148@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:北京·剑网3同人only主题展2.0·此间枫华
+LOCATION:北京新发地会议会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 148\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006304@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:北京·妖尾同人only
+LOCATION:超级光合 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 304\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006024@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:南京·守望先锋Only同人
+LOCATION:环亚凯瑟琳广场 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 024\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003448@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:南京·石纪元only同人展
+LOCATION:南京六角广场 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 448\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005913@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:南昌·潮汐特摄丨超英同人only动漫展
+LOCATION:昌南文化中心大剧院 · 南昌县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 913\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004873@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:厦门·首届公主舞会only同人展
+LOCATION:厦门万佳国际酒店 · 湖里区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 873\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005679@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:大连·首届《牛来》主题同人ONLY动漫展（不限cos角
+ 色IP内容）
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 679\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005806@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:天津·start over 动漫展 1.0
+LOCATION:蓟州体育馆 · 蓟州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 806\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006202@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:天津·忘带眼镜3-3 第一届海贼王同人ONLY展
+LOCATION:品所中心 · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 202\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006471@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:天津·第十三届次元LINK动漫游戏嘉年华
+LOCATION:比亚迪迪空间天津馆 · 和平区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 471\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005816@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:安庆·CNAF动漫嘉年华
+LOCATION:安庆会展中心 · 迎江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 816\n城市：安庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005903@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:宣城·首届猫尾铃动漫电竞嘉年华
+LOCATION:宣城体育馆 · 宣州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 903\n城市：宣城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006236@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:广州·金牌得主同人only
+LOCATION:小洲艺术家园·您好艺术馆 · 海珠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 236\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005228@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:杭州·燕回时燕云十六声only同人
+LOCATION:良渚芯云艺术中心 · 余杭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 228\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005513@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:杭州·第69届 中二病 动漫游戏展
+LOCATION:顺丰创新中心 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 513\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005576@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:武汉·少女番ONLY同人 2.5
+LOCATION:MJ GALLERY复古艺廊 · 江岸区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 576\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006081@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:武汉·知音漫客20周年暨动漫游戏嘉年华&WS梦乐园
+LOCATION:WS梦乐园(武商梦时代店) · 武昌区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 081\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006435@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:武汉·谐律星奏 少女音乐番同人Only展
+LOCATION:看见展演 · 武昌区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 435\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006330@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:沈阳·第十九届时钟花动漫展——月季美食自助
+LOCATION:中街地下商业街 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 330\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006205@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:沈阳·音乐企划同人ONLY3.0
+LOCATION:银河系live · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 205\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006466@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:烟台·极昼次元8.0·二次元全女伪夜场(嘉宾、流程
+ 等内容更新！)
+LOCATION:M2 PLUS CLUB(滨海北路店) · 芝罘区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 466\n城市：烟台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005984@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:绍兴·SCZ动漫游戏嘉年华·SP秋季特别篇
+LOCATION:绍兴国际会展中心 · 柯桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 984\n城市：绍兴市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006579@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:长春·漫次元荣耀次元节
+LOCATION:欧亚商都 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 579\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005663@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:北京·魔法少女的魔女审判同人ONLY
+LOCATION:北京大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 663\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005430@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:厦门·漫秋-定江墟·农only同人展3.0
+LOCATION:厦门禹洲温德姆至尊豪廷大酒店(五缘湾店) · 湖里
+ 区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 430\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005948@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:广州·卡拉彼丘同人ONLY·S1
+LOCATION:健康港星河COCO Park · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 948\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006116@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:广州·嘻米鹿·派庄园异次元展
+LOCATION:派庄园摄影基地 · 番禺区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 116\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005310@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:武汉·RE：0 同人only
+LOCATION:MJ GALLERY复古艺廊 · 江岸区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 310\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005883@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:深圳·果动映像次元漫展2.0
+LOCATION:果动漫摄次元基地 · 福田区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 883\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005449@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:上海·AXG&元梦·漫展嘉年华
+LOCATION:诺瓦城 · 闵行区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 449\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006474@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:上海·「潮起东方」鸣潮沉浸式PARTY（同人ONLY）
+LOCATION:上海正大广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 474\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006561@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:上海·世界计划同人only · 望月穗波生贺Party · OO派
+ 对 5.0
+LOCATION:AMP美达商业广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 561\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004978@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:北京·帝都惊悚同人ONLY 3.0
+LOCATION:北京大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 978\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006439@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:北京·王者荣耀only同人嘉年华2.0
+LOCATION:微博IN跨次元引力场 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 439\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006263@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:北京·锈湖同人only3.0
+LOCATION:福禧酒窖红酒文化餐厅 · 海淀区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 263\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005477@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:南京·MAX特摄同人only4.0
+LOCATION:南京六角广场 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 477\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005638@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:南京·偶像x音企同人Only
+LOCATION:南京奥体中心彩虹剧院 · 建邺区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 638\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005393@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:南京·明日方舟ONLY2.0同人展——莱茵·生命采样
+LOCATION:世纪缘艺术中心 · 江宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 393\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005574@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:唐山·第2届TS绘梦山河动漫游戏展
+LOCATION:五洲艺创 · 路南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 574\n城市：唐山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006472@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:大连·首届正太only同人展
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 472\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006197@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:天津·LoveLive & BanG Dream & Project Sekai 拉邦烤同人ONLY 2
+ .0
+LOCATION:乒乓Pingpong Space(公园店) · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 197\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006427@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:天津·次元LINK·燕云十六声·共赴江南同人ONLY3.0
+LOCATION:天津北境玫瑰婚礼艺术中心 · 河西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 427\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006590@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:天津·漫潮次元游戏动漫展8.0
+LOCATION:次元梦想空间 · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 590\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006404@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:广州·东方Project同人ONLY·东方明珠湾Flash
+LOCATION:广州星河吉酒店 · 南沙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 404\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004863@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:广州·全职猎人同人only2.0
+LOCATION:智慧城广百广场 · 天河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 863\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006296@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:徐州·星露谷同人only2.0
+LOCATION:徐州爱琴海购物中心 · 云龙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 296\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006572@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:成都·小妖怪 原铁绝同人only展
+LOCATION:华熙LIVE·528M空间 · 锦江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 572\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004387@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:昆明·心的悸动Kilig覆面系only同人展
+LOCATION:F CLUB(新亚洲体育城店) · 官渡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 387\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005517@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:杭州·偶像大师only同人
+LOCATION:跳头文艺集镇 · 余杭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 517\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005977@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:武汉·DTE欧美同人Only5.0
+LOCATION:观赋·格乐婚礼艺术中心 · 硚口区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 977\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005484@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:武汉·死火海同人ONLY 2.0
+LOCATION:武汉园博园 · 硚口区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 484\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004744@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:沈阳·JOJO×银魂only同人展
+LOCATION:回锦轩宴会酒店 · 铁西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 744\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006070@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:沈阳·KG第十六届动漫游戏嘉年华
+LOCATION:沈阳商业城（中街路店） · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 070\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006166@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:济南·第四届崩坏系列同人ONLY
+LOCATION:猫柠mall · 历下区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 166\n城市：济南市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004855@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:深圳·影匿行动KeeganOnly同人展
+LOCATION:西里艺术空间 · 南山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 855\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006123@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:深圳·浪潮动漫游戏展2.0
+LOCATION:新白马·次元9号 · 罗湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 123\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006516@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:深圳·第五人格ONLY同人茶话会
+LOCATION:广福大厦 · 宝安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 516\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005500@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:石家庄·第六届NOKA诺卡动漫展
+LOCATION:瑞悦华宴 · 裕华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 500\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004893@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:福州·第十届糖梦动漫展
+LOCATION:福州海峡文化艺术中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 893\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006524@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:福州·鸢归缘影代号鸢同人ONLY
+LOCATION:福州榕发会展假日酒店艾尔艺术中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 524\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000736@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:西安·醉弈秦川 明日方舟only同人展
+LOCATION:常宁宫园林酒店 · 长安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 736\n城市：西安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003960@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:贵阳·锦鲤动漫展
+LOCATION:STArtz'开始艺术区 · 白云区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 960\n城市：贵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005006@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:郑州·海贼王only同人展3.0
+LOCATION:熊猫墅天空之城 · 金水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 006\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006307@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:重庆·GKR特摄同人only6.0
+LOCATION:锦川酒店礼宴中心 · 南岸区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 307\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005943@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:长沙·潮汐国漫only同人
+LOCATION:华晨世纪广场 · 雨花区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 943\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006600@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:长沙·番茄怀旧同人only
+LOCATION:长沙国际会展中心 · 长沙县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 600\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006441@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:北京·鸣潮only同人嘉年华
+LOCATION:微博IN跨次元引力场 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 441\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006509@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:广州·BanG Dream!梦想协奏曲同人Only·终章如初
+LOCATION:南越SYNT演艺中心 · 天河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 509\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006360@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:广州·噬魂师同人ONLY
+LOCATION:ten咖啡馆 · 黄埔区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 360\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006589@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:沈阳·NH动漫展第十届之崔姐有系统，系统让她干个
+ 二次元裂缝
+LOCATION:中街·盛京龙城 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 589\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006601@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:沈阳·星露谷物语同人ONLY
+LOCATION:卡梅尔小镇 · 浑南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 601\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006517@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:深圳·次元茶话会-桌游主题
+LOCATION:广福大厦 · 宝安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 517\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005221@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:石家庄·稻米沉浸式游园会-盗笔同人ONLY
+LOCATION:石家庄解放广场 · 桥西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 221\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006430@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:【免费活动】盐城·Yuki万圣次元夜动漫游戏展9.0
+LOCATION:吾悦广场(盐城店) · 盐都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 430\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006599@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:三门峡·荧火之光万圣之夜
+LOCATION:东府饭店 （迎宾大道店） · 湖滨区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 599\n城市：三门峡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006613@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:上海·2026初音同人ONLY特别场SP
+LOCATION:MissMaid Cafe · 宝山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 613\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006629@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:上海·魔都守望先锋同好会同人only2.0 · 渣客镇南瓜
+ 特别行动
+LOCATION:上海月星环球港 · 普陀区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 629\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006258@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:乌鲁木齐·第五人格同人only展
+LOCATION:洛克维尔艺术中心ROCKVlLLE · 沙依巴克区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 258\n城市：乌鲁木齐市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001817@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:北京·A-one动漫嘉年华2th-万圣狂欢
+LOCATION:大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 817\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006129@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:北京·BanG Dream only同人嘉年华
+LOCATION:大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 129\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006423@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:北京·东方project同人only-京华万象展
+LOCATION:北京大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 423\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006464@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:南京·Slash Only 5 欧美同人
+LOCATION:同曦艺术馆(弘阳家居江宁店) · 江宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 464\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005328@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:南京·血月告死于黄昏·重返未来1999同人only
+LOCATION:锦创书城(朝天宫店) · 秦淮区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 328\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004975@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:厦门·2026年金海豚动漫游戏嘉年华
+LOCATION:厦门国际会展中心 · 思明区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 975\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005896@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:台山·结缘动漫电玩节 04
+LOCATION:圣龙大酒家 · 台山市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 896\n城市：江门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006388@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:合肥·ACGN动漫游戏嘉年华-万圣狂欢
+LOCATION:北城世纪金源购物中心 · 长丰县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 388\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005891@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:哈尔滨·创造力动漫游戏展10.0
+LOCATION:哈尔滨富力广场 · 道里区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 891\n城市：哈尔滨市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006621@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:哈尔滨·创造力动漫游戏展10.0-【夕楼76】签售票
+LOCATION:哈尔滨富力广场 · 道里区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 621\n城市：哈尔滨市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002797@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:天津·『v拟而来』彩虹社Only同人展
+LOCATION:禧悦酒店 · 和平区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 797\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005261@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:天津·忘带眼镜3-3 第三届欧美ONLY同人展
+LOCATION:品所中心 · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 261\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006362@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:天津·瞳画动漫展SP回馈季 万圣狂欢节
+LOCATION:天津智慧山艺术中心 · 西青区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 362\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006473@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:天津·第二届MCC WORLD
+LOCATION:西夫拉姆堡 · 津南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 473\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005478@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:安徽·MAX特摄同人only7.0
+LOCATION:GX360广场 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 478\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005152@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:宜昌·星烙·巴楚异闻录-三峡车溪特别场
+LOCATION:宜昌车溪民俗旅游区 · 点军区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 152\n城市：宜昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006266@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:常州·大卫茂X艺米二次元动漫游戏嘉年华
+LOCATION:文化宫广场 · 天宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 266\n城市：常州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006612@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:广州·彩虹社NIJIFansCARNIVAL同人only
+LOCATION:健康港星河COCO Park · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 612\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005066@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:广州·明日方舟ONLY同人展【音波共振】
+LOCATION:广州太空间Live House · 海珠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 066\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006485@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:广州·海洋动漫游戏展2.0
+LOCATION:广州番禺展览中心 · 番禺区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 485\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003445@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:广州·阴阳师only同人展·霜月繁花2.0
+LOCATION:广州健康方舟国际会展中心 · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 445\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005296@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:徐州·NEXT特摄同人only2.0
+LOCATION:全季酒店(徐州铜山万达广场店) · 泉山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 296\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006584@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:徐州·正太同人only同好会
+LOCATION:金鹰上街回型街区 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 584\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006325@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·OIMASK覆面盛典同人ONLY
+LOCATION:量子介英雄电竞中心 · 成华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 325\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006410@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·万圣钟声响起前 舟趴 · 明日方舟同人only秋
+ 季茶会
+LOCATION:锦官宴 · 锦江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 410\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006338@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:成都·拳头游戏·Riot Games同人ONLY
+LOCATION:成都星宸假日酒店(世纪城店) · 武侯区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 338\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003328@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:成都·第六届JH•TIA动漫电竞展
+LOCATION:天府国际动漫城 · 成华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 328\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006587@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:承德·橙色火箭动漫嘉年华 诡夜南瓜号
+LOCATION:梵木罗汉山文创园 · 双桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 587\n城市：承德市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006467@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:抚州·点点第三届秋日万圣搞怪漫会
+LOCATION:抚州荣誉国际酒店 · 临川区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 467\n城市：抚州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000838@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:日照·海茗动漫游戏博览会10
+LOCATION:日照国际博览中心 · 东港区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 838\n城市：日照市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006507@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:昆明·转生到异世界也要逛漫展
+LOCATION:CITY花之城 · 盘龙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 507\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006429@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:杭州·第五x超自然x纸嫁衣 同人only展
+LOCATION:顺丰创新中心 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 429\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002266@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:武汉·月亮计划同人ONLY环指回廊2.0
+LOCATION:元气幻界2082 · 武昌区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 266\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002927@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:武汉·烈风驰漫·国际汽车改装动漫模型展
+LOCATION:武汉国际博览中心 · 汉阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 927\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005514@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:武汉·第五届·星露谷物语only同人
+LOCATION:九龙大酒店雄楚店 · 洪山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 514\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006566@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:沈阳·壹起PASSION动漫展
+LOCATION:沈阳大悦城 · 大东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 566\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005928@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:沈阳·巡音次元动漫游戏博览会
+LOCATION:沈阳好车芝嘛展览中心E馆 · 铁西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 928\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006558@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:沈阳·龙城次元动漫游戏嘉年华
+LOCATION:中街·盛京龙城 · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 558\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006371@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:济南·第二届搞农吗王者同人only展
+LOCATION:猫柠mall · 历下区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 371\n城市：济南市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006121@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:珠海·ACC动漫游戏嘉年华2.0
+LOCATION:励骏庞都广场 · 香洲区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 121\n城市：珠海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005755@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:石家庄·二次元反派主题同人ONLY
+LOCATION:石美集城市微度假中心 · 长安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 755\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006348@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:福州·漫执事水上派对3.0
+LOCATION:趣浪水乐源 · 晋安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 348\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005189@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:遵义·Damn动漫展
+LOCATION:名城方洲酒店 · 红花岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 189\n城市：遵义市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006054@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:邢台·崧蓝x漫喵 国庆回归季庆典
+LOCATION:鸿胜商城 · 信都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 054\n城市：邢台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005860@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:郑州·第五人格 同人only -万圣狂欢夜-一起来鬼混吧
+ -
+LOCATION:策展空间 · 金水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 860\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004844@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:长春·中国（长春）国产动漫游戏博览展
+LOCATION:南溪里室内场馆 · 南关区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 844\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006292@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:长春·第五届COMIC TIME动漫游戏展
+LOCATION:长春航空文化展示中心 · 绿园区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 292\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006079@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:长沙·崩坏星穹铁道同人ONLY·异常进程：███
+LOCATION:长沙逸欣华悦酒店(毛竹塘地铁站店) · 雨花区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 079\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005775@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:马鞍山·第六届猫尾铃万圣动漫游戏展
+LOCATION:荣悦台宴会艺术酒店(明都财富广场店) · 花山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 775\n城市：马鞍山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006500@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:上海·中文VOCALOID 同人ONLY3.0不捣蛋，就给糖！
+LOCATION:交运智慧湾科创园25号楼 · 宝山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 500\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006261@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:佳木斯·Super漫动漫游戏嘉年华15th
+LOCATION:爱尚百年婚庆酒店 · 向阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 261\n城市：佳木斯市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006562@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:北京·帝都小橘同人only展
+LOCATION:北京大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 562\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005630@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:哈尔滨·第六届明日方舟同人Only·乌萨斯颂（明日
+ 方舟Only同人展会）
+LOCATION:卓琳酒店 · 香坊区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 630\n城市：哈尔滨市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006329@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:嘉兴·【林间•听苔】蔚蓝档案同人only2.5
+LOCATION:嘉兴龙之梦大酒店 · 南湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 329\n城市：嘉兴市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004657@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:大连·东北Aqours Only同人展1.0
+LOCATION:赫兹空间（佳兆业店） · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 657\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004802@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:天津·Ls三国同人only3.0铜雀清宴
+LOCATION:嘉礼宴会艺术中心（天津店） · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 802\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006482@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:天津·第64届大萌猫动漫节
+LOCATION:恒基广场 · 河西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 482\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004842@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:承德·第24届Saturn动漫游戏嘉年华既万圣节主题漫展
+LOCATION:承德老街 · 双桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 842\n城市：承德市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006217@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:杭州·明日方舟同人only2.0『星火明灯』
+LOCATION:金晶科创园-B座 · 钱塘区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 217\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006076@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:沈阳·巡音次元动漫游戏博览会电竞嘉宾内场票-小
+ 程/程巍阳（不含门票）
+LOCATION:沈阳好车芝嘛展览中心E馆 · 铁西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 076\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006174@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:牡丹江·SCG.雪花动漫炸货节4.0 万圣节庆典
+LOCATION:牡丹江东方宴酒店 · 东安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 174\n城市：牡丹江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004660@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:石家庄·浓情王者荣耀同人ONLY
+LOCATION:西游记乐园 · 桥西区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 660\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006492@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:芜湖·第七届猫尾铃动漫游戏嘉年华-万圣奇妙汇
+LOCATION:芜湖宜居国际博览中心 · 弋江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 492\n城市：芜湖市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006102@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:锦州·第二届白鹭花海动漫展（纯玩逛吃）
+LOCATION:迎禧凰宫宴会酒店 · 凌河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 102\n城市：锦州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004780@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:鞍山·第四届dusk续杯全女伪夜场
+LOCATION:鞍山碧乐城 · 铁东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 780\n城市：鞍山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006066@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:上海·空桑咖啡厅食物语同人only
+LOCATION:AMP美达商业广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 066\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005617@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:上海·魔都第七届哈利波特Only同人展
+LOCATION:界龙总部园 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 617\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005240@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:凯里·Comic动漫展
+LOCATION:石头酒店 · 凯里市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 240\n城市：黔东南苗族侗族自治州
+END:VEVENT
+BEGIN:VEVENT
+UID:1006442@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:北京·BACC动漫游戏嘉年华06
+LOCATION:北京大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 442\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005112@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:北京·「龙麒贺冬」明日方舟x终末地only同人展
+LOCATION:北京北投购物公园 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 112\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005282@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:北京·无尽夏·星光2.5次元戏剧节
+LOCATION:星光视界中心 · 大兴区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 282\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005606@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:北京·星幻动漫节2026第九届
+LOCATION:北京海淀区北华国际会议中心 · 海淀区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 606\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006555@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:北京·音乐番同人Only2.0
+LOCATION:微博IN跨次元引力场 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 555\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006312@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:南京·妮姬同人Only展
+LOCATION:锦创书城(朝天宫店) · 秦淮区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 312\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005871@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:南京·锦风绣韵·声溯金陵【日场】
+LOCATION:南京新庄国展中心 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 871\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006647@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:南宁·南岭烽影·军事拟人ACG同人ONLY
+LOCATION:南宁·北投明月荟 · 西乡塘区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 647\n城市：南宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004992@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:厦门·鹭韵×次元结界动漫嘉年华
+LOCATION:集美展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 992\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005379@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:合肥·燕归梁合肥燕云十六声only同人
+LOCATION:徽天下酒楼 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 379\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006498@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:嘉兴·网球王子同人only 秋日集训
+LOCATION:山竹网球基地 · 嘉善县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 498\n城市：嘉兴市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004691@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:天津·巢——Evalia 同人Only
+LOCATION:乒乓Pingpong Space(公园店) · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 691\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006122@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:广州·幻境动漫嘉年华3.0
+LOCATION:健康港星河COCO Park · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 122\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006470@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:广州·笔至量力④ 原创漫画市集
+LOCATION:西城智汇PARK路演中心 · 白云区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 470\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004598@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:广州·舰长社-碧蓝航线同人ONLY
+LOCATION:您好艺术馆 · 海珠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 598\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006479@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:昆明·KC 特摄Only同人展
+LOCATION:次元折叠Box · 五华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 479\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002794@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:杭州·FFONLY同人展3.0—星芒节
+LOCATION:杭州爱丽芬城堡 · 富阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 794\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006147@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:杭州·爱娜娜同人only
+LOCATION:杭州大厦中央商城Zpark街区 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 147\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006543@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:杭州·首届NICE动漫嘉年华
+LOCATION:云栖小镇 · 西湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 543\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006446@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:武汉·明日方舟Only同人4.0·圣城新律
+LOCATION:民众乐园 · 江汉区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 446\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005673@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:武汉·游戏王only同人2.0
+LOCATION:武汉园博婚礼中心 · 东西湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 673\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005033@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:武汉·第三届Dream Park 游戏动漫展 ·绮梦回响
+LOCATION:WS梦乐园(武商梦时代店) · 武昌区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 033\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006563@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:武汉·非你莫鼠阴阳师同人only4.0
+LOCATION:月湖IN悦礼宴艺术中心 · 汉阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 563\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006311@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:沈阳·WINK动漫游戏展
+LOCATION:沈阳商业城（中街路店） · 沈河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 311\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006334@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:河北·第二届明日方舟同人only——弗尔桑德萨迦
+LOCATION:瑞悦华宴 · 裕华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 334\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006191@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:深圳·智趣动漫游戏嘉年华
+LOCATION:有来荟UL·HUB · 龙华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 191\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006091@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:深圳·穹屿第三届吃席漫展(88元炫十三道菜！管饱
+ ！万平古庄！)
+LOCATION:贵湖塘邨 · 龙华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 091\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005632@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:西安·澜珊动漫展（于澜珊处·邂逅幻想）
+LOCATION:西安老钢厂设计创意产业园 · 新城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 632\n城市：西安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004166@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:长沙·首届明日方舟×终末地同人ONLY展·跨越大地的
+ 相遇
+LOCATION:中非经贸合作促进创新示范园 · 雨花区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 166\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006417@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:哈尔滨·第五人格only同人展-糖果派对
+LOCATION:艾米法式婚礼庄园 · 香坊区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 417\n城市：哈尔滨市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005167@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:广州·阿特拉斯同人ONLY展
+LOCATION:池沼 CHIZHAO LIVEHOUSE 科学城店 · 黄埔区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 167\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006575@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:杭州·明日方舟同人ONLY·孤焰长明
+LOCATION:港龙悠乐城展览中心 · 上城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 575\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006212@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:青岛·稻米only同人游园会
+LOCATION:川页咖啡 · 黄岛区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 212\n城市：青岛市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006262@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:鹤岗·Super漫动漫游戏嘉年华
+LOCATION:鹤岗市帝豪大酒店 · 工农区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 262\n城市：鹤岗市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005299@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:临沂·第一届竹团子动漫嘉年华
+LOCATION:临沂商城会展中心 · 兰山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 299\n城市：临沂市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006149@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:兰州·第二届金韵动漫游戏嘉年华
+LOCATION:甘肃国际会展中心 · 城关区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 149\n城市：兰州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006113@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:北京·2026逆转裁判同人ONLY展
+LOCATION:北京新发地会议会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 113\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006332@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:北京·第二届ACG次元幻想动漫嘉年华
+LOCATION:北投购物公园 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 332\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005080@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:北京·米家only同人展4.0·黎明序曲
+LOCATION:超级光合 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 080\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006422@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:南京·任天堂同人only-冬日派对
+LOCATION:南京世纪缘湖滨花园酒店（南京玄武湖店） · 玄
+ 武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 422\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000930@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:南京·第十届超电国漫嘉年华
+LOCATION:KUMOLL酷青年中心A馆 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 930\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005756@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:大连·冬漫节暨COMINOVA动漫嘉年华
+LOCATION:大连北站交通枢纽中心 · 甘井子区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 756\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005579@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:天津·阴阳师ONLY同人展-拾光共鸣
+LOCATION:格乐利雅GALLERIA艺术中心(天津店) · 河北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 579\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006531@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:安徽·BanGDream!only同人展1st
+LOCATION:回响之地·合肥馆 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 531\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006550@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:常州·YOKI冒险者工会漫展1.0
+LOCATION:金羽体育 · 天宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 550\n城市：常州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006571@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:广州·2026型月同人ONLY·Lostbelt
+LOCATION:西城智汇PARK路演中心 · 白云区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 571\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006342@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:广州·明日方舟同人ONLY【舰桥闲暇时】
+LOCATION:广州健康方舟国际会展中心 · 荔湾区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 342\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006540@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:广州·蔚蓝档案同人only
+LOCATION:乐巴扎超市(优托邦奥体店) · 天河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 540\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006544@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261117
+SUMMARY:无锡·冰纷万象xUDAF城市次元动漫节
+LOCATION:冰纷万象滑冰场 · 滨湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 544\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006281@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:杭州·明日方舟ONLY同人展—行险手记
+LOCATION:博采传媒 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 281\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006411@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:杭州·星部落动漫嘉年华
+LOCATION:杭实创意中心 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 411\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006532@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:杭州·链接未来 VOCALOID 同人ONLY
+LOCATION:杭州大厦中央商城Zpark街区 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 532\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005611@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:杭州·魔法少女同人only1.0
+LOCATION:顺丰创新中心 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 611\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005996@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:武汉·DTE同人创作交流展
+LOCATION:武汉国际博览中心 · 汉阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 996\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005359@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:武汉·猎教魂同人Only
+LOCATION:云尚国际时尚中心 · 硚口区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 359\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006119@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:汕头·银河次元动漫游戏嘉年华2.0
+LOCATION:汕头蓝水星欢乐世界 · 龙湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 119\n城市：汕头市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005432@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:福州·光遇同人only
+LOCATION:福州海峡文化艺术中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 432\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006416@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:苏州·第二届City a 动漫游戏博览会
+LOCATION:木渎影视城会展中心 · 吴中区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 416\n城市：苏州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006405@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:西安·IW无限世界动漫游戏博览会SP01·头号玩家
+LOCATION:西安浐灞丝路国际文化艺术中心 · 灞桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 405\n城市：西安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005915@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:邵阳·第七届荧光动漫展
+LOCATION:大汉悦三楼 · 双清区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 915\n城市：邵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006568@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:郑州·米家同人only.LY
+LOCATION:策展空间 · 金水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 568\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006522@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:重庆·星幻动漫节2026第40届
+LOCATION:享派轰趴馆(星耀店) · 江北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 522\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006071@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:长沙·二次方动漫游戏展
+LOCATION:湖南省展览馆 · 开福区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 071\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006519@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:长沙·第7届新芙蓉动漫节
+LOCATION:长沙国际会展中心 · 长沙县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 519\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006335@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:北京·ACG次元幻想动漫嘉年华电竞嘉宾内场票-小程/
+ 程巍阳（不含门票）
+LOCATION:北投购物公园 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 335\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006486@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:北京·少女乐队番同人only SP
+LOCATION:北京新发地会议会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 486\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006523@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:成都·星幻动漫派对2026第39届
+LOCATION:星野派对(华府大道地铁站A口步行200米) · 双流区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 523\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006469@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:武汉·型月同人only
+LOCATION:天怡·空中花园 · 汉阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 469\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003755@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:武汉·迷塞芙同人ONLY1.0【蜂箱】
+LOCATION:武汉园博园 · 硚口区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 755\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005895@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:泰州·炽屿次元
+LOCATION:泰州医药高新区体育文创中心 · 海陵区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 895\n城市：泰州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005569@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:宜宾·Danm动漫嘉年华
+LOCATION:XIN立方1号场馆 · 翠屏区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 569\n城市：宜宾市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001669@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:福州·元启国潮文化展
+LOCATION:福州海峡国际会展中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 669\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006227@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:上海·AXG×元梦 碧蓝航线&妮姬 Bunny only同人
+LOCATION:诺瓦城 · 闵行区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 227\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006163@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:上海·梦幻星途动漫嘉年华
+LOCATION:上海月星环球港 · 普陀区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 163\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006437@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:上海·第五人格公共地图同人ONLY2.0奇海寻珍
+LOCATION:十六铺旅游码头二区 · 黄浦区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 437\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006389@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:东莞·莞漫次元动漫游戏嘉年华
+LOCATION:米乐城 · 东莞市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 389\n城市：东莞市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005902@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:佛山·第一届F-ACG动漫游戏节
+LOCATION:陈村花卉世界展览中心 · 顺德区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 902\n城市：佛山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002721@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:北京·极速次元动漫嘉年华
+LOCATION:北京新发地会议会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 721\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006501@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:南昌·第二届Hong谷次元动漫展-COS嘉年华
+LOCATION:南昌绿地国际博览中心 · 红谷滩区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 501\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005178@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:博白·麻雀城市次元动漫节
+LOCATION:博白县新体育馆 · 博白县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 178\n城市：玉林市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006557@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:合肥·星河之扉·银河英雄传说同人ONLY
+LOCATION:肥西飞龙国际大酒店 · 肥西县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 557\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004826@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:合肥·第二十一届环形宇宙动漫游戏嘉年华
+LOCATION:合肥滨湖国际会展中心 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 826\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006514@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:合肥·第二十一届环形宇宙动漫游戏嘉年华-何存真
+ 嘉宾签售票
+LOCATION:合肥滨湖国际会展中心 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 514\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006511@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:合肥·第二十一届环形宇宙动漫游戏嘉年华内场票-
+ 钟可＆苏流西
+LOCATION:合肥滨湖国际会展中心 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 511\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006331@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:大连·第三届ACG次元幻想动漫嘉年华
+LOCATION:逅库创意产业园（Laugh脱口秀） · 西岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 331\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005559@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:天津·BUCKS欧美only同人2.0
+LOCATION:玺瑞宴会艺术中心 · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 559\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006128@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:岳阳·第四届星辰ACG动漫游戏嘉年华
+LOCATION:岳阳大酒店 · 岳阳楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 128\n城市：岳阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004857@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:广州·高达only同人展
+LOCATION:智慧城广百广场 · 天河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 857\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006529@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:杭州·第十二届AP动漫游戏嘉年华&燎漫嘉年华
+LOCATION:杭州国际博览中心 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 529\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003752@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:武汉·最终幻想ONLY同人展【蜂箱】
+LOCATION:武汉园博园 · 硚口区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 752\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005182@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:武汉·第六届超电动漫游戏嘉年华
+LOCATION:武汉客厅中国文化博览中心 · 东西湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 182\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005595@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:沛县·第十三届幻璃国潮动漫展-秋日物语
+LOCATION:汉源金陵山水酒店 · 沛县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 595\n城市：徐州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006611@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:淮安·次元X突破动漫游戏博览会——秋假特典
+LOCATION:淮安国际博览中心 · 清江浦区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 611\n城市：淮安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006345@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:温州·次元主题动漫展：灵修悬案
+LOCATION:克莉丝汀宴会中心(万象城店) · 鹿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 345\n城市：温州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006567@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:西安·星幻动漫节2026第24届
+LOCATION:追梦楼顶·云上·露营轰趴馆(大唐不夜城旗舰店) ·
+  雁塔区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 567\n城市：西安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006552@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:连云港·DA19国潮游戏博览会
+LOCATION:连云港大剧院 · 海州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 552\n城市：连云港市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006204@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:锦州·光之国度动漫展第四届
+LOCATION:锦绣前程 · 古塔区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 204\n城市：锦州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005942@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:长沙·潮汐特摄同人only
+LOCATION:长沙国际会展中心 · 长沙县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 942\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006593@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:惠州·纸梦相逢
+LOCATION:碧桂园润杨溪谷温泉酒店 · 惠阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 593\n城市：惠州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005288@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:楚雄·Danm动漫展
+LOCATION:楚雄君丽酒店 · 楚雄市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 288\n城市：楚雄彝族自治州
+END:VEVENT
+BEGIN:VEVENT
+UID:1006481@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:赤峰·第八届Sirius动漫游戏嘉年华
+LOCATION:赤峰红山智选假日酒店 · 红山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 481\n城市：赤峰市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006541@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:上海·女性向同人only
+LOCATION:AMP美达商业广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 541\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006343@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:上海·链动共声·蔚蓝档案同人ONLY
+LOCATION:交运智慧湾科创园25号楼 · 宝山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 343\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005808@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:丹阳·Yuki动漫游戏展19.0
+LOCATION:天禄人家 · 丹阳市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 808\n城市：镇江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006573@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:南京·星幻动漫节2026第26届
+LOCATION:do re mi轰趴派对中心(仙林大学城店) · 栖霞区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 573\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004189@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:南京·舰长社-碧蓝航线同人ONLY
+LOCATION:大塘金香草·谷 · 江宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 189\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004977@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:南通·第9届次元✖️突破动漫游戏博览会——秋假
+ 特典
+LOCATION:南通国际会展中心 · 崇川区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 977\n城市：南通市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004610@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:哈尔滨·GoldGarden动漫游戏嘉年华
+LOCATION:哈尔滨工程大学综合体育馆 · 南岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 610\n城市：哈尔滨市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006623@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:商丘·洛屿次元动漫嘉年华
+LOCATION:蓝湾酒店（商丘万达店） · 睢阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 623\n城市：商丘市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006346@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:天津·第三届TGS特摄同人only
+LOCATION:品所中心 · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 346\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006043@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:广州·月亮计划only同人·coffee2.0-感恩节主题-镜中回
+ 忆
+LOCATION:C22 artisan coffee · 天河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 043\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004625@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:广州·特摄同人ONLY嘉年华 1st
+LOCATION:广州CH8蛙厂演艺中心（大学城店） · 番禺区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 625\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006400@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:广州·箱中奇遇·重返未来：1999 同人ONLY展
+LOCATION:黛丽酒店(广州番禺长隆厦滘地铁站店) · 番禺区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 400\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005851@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:成都·永远的7日之都·同人only展〖冬日来信〗九周
+ 年
+LOCATION:艾斯维尔艺术中心 · 郫都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 851\n城市：成都市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006559@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:杭州·1128海贼王同人only
+LOCATION:杭州华礼宴国际礼宴中心(龙禾商务中心店) · 拱墅
+ 区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 559\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006588@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:深圳·梦漫星河动漫嘉年华
+LOCATION:深圳国际低碳城会展中心 · 龙岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 588\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006412@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:贵阳·黔韵动漫游戏嘉年华电竞嘉宾签售票（不含
+ 门票）
+LOCATION:贵阳国际会议展览中心 · 观山湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 412\n城市：贵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006015@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:武汉·家庭教师同人only 3.0
+LOCATION:MJ GALLERY复古艺廊 · 江岸区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 015\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002970@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:中山·第十一届淋唔到动漫嘉年华
+LOCATION:中山影视城 · 中山市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 970\n城市：中山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006106@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:南京·暖暖生日会（同人only）-2026
+LOCATION:荣悦台婚礼庄园玄武店 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 106\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006619@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:大连·ZLD·KG动漫游戏嘉年华
+LOCATION:北方国家版权交易中心 · 金州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 619\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006243@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:杭州·1205八仙!only同人
+LOCATION:杭州华礼宴国际礼宴中心(龙禾商务中心店) · 拱墅
+ 区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 243\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005481@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:深圳·SAKO4明日方舟Only同人展 · 灯启帷幕时
+LOCATION:龙华国际会议中心 · 龙华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 481\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006426@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:潍坊·CCAF动漫游戏节SP6.0
+LOCATION:罗曼诺婚礼艺术中心 · 奎文区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 426\n城市：潍坊市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000902@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:长春·第六届理想乡国产动漫展
+LOCATION:理想乡会展馆 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 902\n城市：长春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004715@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:扬州·明日方舟园林only同人展·岁末千秋
+LOCATION:扬州涵碧园 · 广陵区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 715\n城市：扬州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006465@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:深圳·纸梦相逢签售展
+LOCATION:燕子湖会展中心 · 坪山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 465\n城市：深圳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005532@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:北京·OVO3th动漫圣诞嘉年华
+LOCATION:大红门会展中心 · 东城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 532\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006075@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:哈尔滨·久妻·&予日春特摄同人ONLY
+LOCATION:智选假日酒店（会展中心店） · 南岗区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 075\n城市：哈尔滨市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006424@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:广州·MCL魔法少女小圆十周年特别展·幻乐怪盗团×
+ 弦乐四重奏同人Only
+LOCATION:声音共和Livehouse（广州塔店） · 海珠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 424\n城市：广州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006528@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:杭州·鸣潮同人ONLY展 · 空海逢音
+LOCATION:zpark街区 · 拱墅区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 528\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006151@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:武汉·DTE诡秘同人only3.0
+LOCATION:MJ GALLERY复古艺廊 · 江岸区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 151\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006035@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:武汉·星墨特摄only同人2.0
+LOCATION:然也剧场 · 武昌区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 035\n城市：武汉市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006515@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:福州·漫执事动漫展·圣诞篇
+LOCATION:福州海峡文化艺术中心 · 仓山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 515\n城市：福州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005675@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:上海·OO派对4.0三角洲行动同人ONLY：回来吧，村里
+ 发大红！OO派对4.0
+LOCATION:AMP美达商业广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 675\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005639@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:宜春·YC织云次元动漫嘉年华
+LOCATION:广汇国际家居广场建材馆 · 袁州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 639\n城市：宜春市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006603@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261228
+SUMMARY:常熟·LOOKLOOK动漫嘉年华
+LOCATION:常熟国际博览中心 · 常熟市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 603\n城市：苏州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004671@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261228
+SUMMARY:长沙·喵次元玩乐动漫展
+LOCATION:汪星人潮玩基地 · 长沙县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 671\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003362@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:上海·异环同人Only
+LOCATION:上滨生活广场 · 虹口区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 362\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005450@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:临沂·穿梭次元动漫游戏博览会03
+LOCATION:临沂国际会展中心 · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 450\n城市：临沂市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006583@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:仙游·第八届沐夏动漫嘉年华
+LOCATION:中国古典工艺博览城 · 仙游县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 583\n城市：莆田市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006633@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:信阳·第一届寻梦ACG动漫游戏博览会
+LOCATION:信阳百花会展中心 · 平桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 633\n城市：信阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006418@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:北京·ICOS国际动漫节10th
+LOCATION:北京国家会议中心 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 418\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005785@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:南昌·漫拥豫章星耀夜-冰与火之歌「夜场活动」
+LOCATION:昌南文化中心大剧院 · 南昌县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 785\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005233@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:南通·1.1绘梦空间动漫节 次元回响
+LOCATION:南通国际会展中心 · 崇川区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 233\n城市：南通市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004368@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:南通·恋空动漫游戏博览会02
+LOCATION:乐动力南通市体育馆 · 崇川区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 368\n城市：南通市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006398@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:南阳·新世界国漫游戏嘉年华4TH
+LOCATION:南阳大剧院 · 宛城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 398\n城市：南阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006391@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:厦门·第五届漫秋国风文化节·辞旧迎新-漫启新程
+LOCATION:集美展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 391\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006624@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:合肥·第二十二届环形宇宙动漫游戏嘉年华
+LOCATION:合肥滨湖国际会展中心 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 624\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004985@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:呼和浩特·莫宁动漫嘉年华
+LOCATION:鑫光盛宴国际宴会中心(盛泰店) · 回民区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 985\n城市：呼和浩特市
+END:VEVENT
+BEGIN:VEVENT
+UID:115089@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:大连·ShiningHeart动漫游戏嘉年华
+LOCATION:大连北站综合交通展览馆 · 中山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1150
+ 89\n城市：大连市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006484@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:扬州·喵梦国风动漫游戏嘉年华 3.0
+LOCATION:扬州运河大剧院 · 邗江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 484\n城市：扬州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006337@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270104
+SUMMARY:杭州·环形宇宙动漫游戏嘉年华
+LOCATION:杭州大会展中心 · 萧山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 337\n城市：杭州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1002675@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:汉中·燃梦计划x第九艺术国风动漫展
+LOCATION:汉中尤曼吉国际汽车营地(逸林绿洲酒店) · 汉台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1002
+ 675\n城市：汉中市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006118@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:汕头·漫行宇宙动漫游戏展10.0
+LOCATION:汕头蓝水星欢乐世界 · 龙湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 118\n城市：汕头市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006537@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270104
+SUMMARY:河南·NE动漫展6th
+LOCATION:郑州国际会展中心 · 金水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 537\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:114984@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:泉州·ShiningHeart动漫游戏嘉年华
+LOCATION:泉州海峡体育中心体育馆 · 丰泽区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1149
+ 84\n城市：泉州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006591@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:济南·幻樱动漫游戏嘉年华-25
+LOCATION:山东国际会展中心 · 槐荫区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 591\n城市：济南市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006556@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:石家庄·绮梦&NCE动漫展3.0站
+LOCATION:石家庄国际会展中心 · 正定县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 556\n城市：石家庄市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006050@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:辽源·AA元旦动漫展
+LOCATION:铂悦汇酒店 · 龙山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 050\n城市：辽源市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006518@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:长沙·第47届ACC动漫展
+LOCATION:长沙国际会展中心 · 长沙县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 518\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006538@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270104
+SUMMARY:长沙·第56届萌卡动漫展
+LOCATION:红星国际会展中心（长沙） · 雨花区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 538\n城市：长沙市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006554@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:鞍山·梦游元旦动漫嘉年华
+LOCATION:天合喜宴汇 · 海城市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 554\n城市：鞍山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006347@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:鞍山·第十五届忆漫动漫游戏展
+LOCATION:梵尔曼国际宴会中心 · 立山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 347\n城市：鞍山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006432@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:上海·明日方舟同人only兔游No.01
+LOCATION:虹桥品汇 · 闵行区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 432\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006074@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:临沂·第一届群星特摄同人only展
+LOCATION:临沂市海天大酒店 · 兰山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 074\n城市：临沂市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006578@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270104
+SUMMARY:包头·灼华动漫盛典
+LOCATION:包头市青少年活动中心 · 昆都仑区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 578\n城市：包头市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006615@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:廊坊·CLCAF-冬季动漫展
+LOCATION:廊坊壹佰剧院 · 安次区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 615\n城市：廊坊市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006117@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:梅州·AF暑假动漫游戏嘉年华3.0
+LOCATION:客都大酒店 · 梅江区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 117\n城市：梅州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006607@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:烟台·碧海动漫游戏嘉年华42.5——国风专场
+LOCATION:八角湾国际会展中心 · 福山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 607\n城市：烟台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006001@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:盐城·第四十八届 ACCN动漫嘉年华
+LOCATION:中韩文化客厅 · 亭湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 001\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006581@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:阆中·交织动漫展1.0
+LOCATION:阆中云玺大酒店 · 阆中市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 581\n城市：南充市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004038@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:北京·星空次元2rd动漫嘉年华
+LOCATION:大红门会展中心 · 东城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 038\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006542@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:南昌·ES同人ONLY
+LOCATION:瓦肆VAS NANCHANG · 青山湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 542\n城市：南昌市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006551@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270125
+SUMMARY:沈阳·第二十二届SSCA动漫游戏博览会
+LOCATION:沈阳新世界博览馆 · 和平区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 551\n城市：沈阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004037@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:北京·潮玩动漫嘉年华2.0
+LOCATION:大红门国际会展中心 · 丰台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 037\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006414@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270125
+SUMMARY:北京·第31届IJOY动漫游戏狂欢节
+LOCATION:北京国家会议中心 · 朝阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 414\n城市：北京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005829@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270125
+SUMMARY:海口·寒假动漫嘉年华
+LOCATION:海南国际会议展览中心 · 秀英区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 829\n城市：海口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006425@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270125
+SUMMARY:郑州·新世界·御游际国漫文化博览会
+LOCATION:郑州国际会展中心 · 金水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 425\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006028@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:广元·第九艺术动漫展
+LOCATION:广元世纪花园丽呈酒店 · 利州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 028\n城市：广元市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004689@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:上饶·绘星纪动漫游戏嘉年华-新年玩个大的1.0！
+LOCATION:上饶饶商金茂诚悦酒店(上饶高铁站) · 信州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 689\n城市：上饶市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006585@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:射阳·ACCN动漫嘉年华6.0
+LOCATION:铂金礼宴 · 射阳县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 585\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004869@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:汉中·第九艺术动漫展
+LOCATION:汉中尤曼吉国际汽车营地(逸林绿洲酒店) · 汉台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 869\n城市：汉中市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006622@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:莱芜·第24届绘梦动漫展
+LOCATION:希尔顿欢朋酒店 · 莱芜区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 622\n城市：济南市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006248@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:邢台·第十七届KID动漫展-新年庆典
+LOCATION:世贸天街购物广场(邢台店) · 襄都区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 248\n城市：邢台市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001749@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:泸州·第十三届异次元动漫游戏嘉年华
+LOCATION:泸州酒城豪生酒店(西南医科大学学术交流中心店) 
+ · 龙马潭区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 749\n城市：泸州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006488@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270212
+SUMMARY:南阳·新世界国漫游戏嘉年华5TH
+LOCATION:南阳大剧院 · 宛城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 488\n城市：南阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006247@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:承德·第十二届晚星动漫展
+LOCATION:承德老街 · 双桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 247\n城市：承德市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006564@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270212
+SUMMARY:眉山·理想宇宙5th-新春派对
+LOCATION:眉山交易展示中心 · 东坡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 564\n城市：眉山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006487@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270212
+SUMMARY:郑州·新世界国漫展12TH
+LOCATION:郑州大剧院 · 中原区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 487\n城市：郑州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005674@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:三明·灵次元动漫展
+LOCATION:格林豪泰酒店 · 宁化县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 674\n城市：三明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1001142@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:南充·第十一届异次元动漫游戏嘉年华
+LOCATION:南充天来大酒店 · 高坪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1001
+ 142\n城市：南充市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006570@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:温州·音乐番同人only1.0
+LOCATION:SEELAB意空间见（西鹿店） · 鹿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 570\n城市：温州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006586@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:盐城·ACCN 动漫嘉年华 49.0
+LOCATION:中韩文化客厅 · 亭湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 586\n城市：盐城市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006310@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:萧县·第七届梦时青年文化动漫节
+LOCATION:萧县汇源酒店 · 萧县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 310\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004336@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:泸州·第六届pd漫展
+LOCATION:泸州江畔大饭店 · 江阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 336\n城市：泸州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006609@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:盖州·第十届次元魔方动漫展
+LOCATION:盖州宴宾生态酒店 · 盖州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 609\n城市：营口市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 连云港市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006552@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:连云港·DA19国潮游戏博览会
+LOCATION:连云港大剧院 · 海州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 552\n城市：连云港市
+END:VEVENT
+END:VCALENDAR

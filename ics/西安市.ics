@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 西安市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1000736@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:西安·醉弈秦川 明日方舟only同人展
+LOCATION:常宁宫园林酒店 · 长安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 736\n城市：西安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005632@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:西安·澜珊动漫展（于澜珊处·邂逅幻想）
+LOCATION:西安老钢厂设计创意产业园 · 新城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 632\n城市：西安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006405@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:西安·IW无限世界动漫游戏博览会SP01·头号玩家
+LOCATION:西安浐灞丝路国际文化艺术中心 · 灞桥区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 405\n城市：西安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006567@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:西安·星幻动漫节2026第24届
+LOCATION:追梦楼顶·云上·露营轰趴馆(大唐不夜城旗舰店) ·
+  雁塔区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 567\n城市：西安市
+END:VEVENT
+END:VCALENDAR

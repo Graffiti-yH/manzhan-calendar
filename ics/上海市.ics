@@ -1,0 +1,201 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 上海市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006627@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+SUMMARY:上海·魔兽世界无限派对:地上达拉然
+LOCATION:国家会展中心 · 青浦区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 627\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006610@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:上海·in国漫动漫游戏嘉年华
+LOCATION:美罗城 · 徐汇区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 610\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004258@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:上海·舰长社-碧蓝航线同人ONLY展
+LOCATION:诺瓦城 · 闵行区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 258\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005449@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:上海·AXG&元梦·漫展嘉年华
+LOCATION:诺瓦城 · 闵行区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 449\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006474@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:上海·「潮起东方」鸣潮沉浸式PARTY（同人ONLY）
+LOCATION:上海正大广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 474\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006561@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:上海·世界计划同人only · 望月穗波生贺Party · OO派
+ 对 5.0
+LOCATION:AMP美达商业广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 561\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006613@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:上海·2026初音同人ONLY特别场SP
+LOCATION:MissMaid Cafe · 宝山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 613\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006629@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:上海·魔都守望先锋同好会同人only2.0 · 渣客镇南瓜
+ 特别行动
+LOCATION:上海月星环球港 · 普陀区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 629\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006500@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:上海·中文VOCALOID 同人ONLY3.0不捣蛋，就给糖！
+LOCATION:交运智慧湾科创园25号楼 · 宝山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 500\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006066@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:上海·空桑咖啡厅食物语同人only
+LOCATION:AMP美达商业广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 066\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005617@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:上海·魔都第七届哈利波特Only同人展
+LOCATION:界龙总部园 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 617\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006227@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:上海·AXG×元梦 碧蓝航线&妮姬 Bunny only同人
+LOCATION:诺瓦城 · 闵行区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 227\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006163@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:上海·梦幻星途动漫嘉年华
+LOCATION:上海月星环球港 · 普陀区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 163\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006437@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:上海·第五人格公共地图同人ONLY2.0奇海寻珍
+LOCATION:十六铺旅游码头二区 · 黄浦区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 437\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006541@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:上海·女性向同人only
+LOCATION:AMP美达商业广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 541\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006343@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:上海·链动共声·蔚蓝档案同人ONLY
+LOCATION:交运智慧湾科创园25号楼 · 宝山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 343\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005675@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:上海·OO派对4.0三角洲行动同人ONLY：回来吧，村里
+ 发大红！OO派对4.0
+LOCATION:AMP美达商业广场 · 浦东新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 675\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1003362@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:上海·异环同人Only
+LOCATION:上滨生活广场 · 虹口区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 362\n城市：上海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006432@show.bilibili.com
+DTSTAMP:20261010T195805Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:上海·明日方舟同人only兔游No.01
+LOCATION:虹桥品汇 · 闵行区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 432\n城市：上海市
+END:VEVENT
+END:VCALENDAR
