@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宿州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006808@show.bilibili.com
+DTSTAMP:20261017T182116Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:泗县·第三届幻璃国潮动漫展
+LOCATION:河畔人家宴会中心 · 泗县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 808\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006807@show.bilibili.com
+DTSTAMP:20261017T182116Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:灵璧·第四届幻璃国潮动漫展
+LOCATION:灵璧钟灵大酒店 · 灵璧县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 807\n城市：宿州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006310@show.bilibili.com
+DTSTAMP:20261017T182116Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:萧县·第七届梦时青年文化动漫节
+LOCATION:萧县汇源酒店 · 萧县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 310\n城市：宿州市
+END:VEVENT
+END:VCALENDAR

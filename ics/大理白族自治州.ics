@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 大理白族自治州
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006734@show.bilibili.com
+DTSTAMP:20261017T182116Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:云南·『苍洱蝶梦』动漫嘉年华 · 次元灯会
+LOCATION:万德福购物中心 · 大理市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 734\n城市：大理白族自治州
+END:VEVENT
+BEGIN:VEVENT
+UID:1006743@show.bilibili.com
+DTSTAMP:20261017T182116Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:大理·DWJ2026年11月22日州庆游园漫展
+LOCATION:维也纳国际酒店（大理下关店） · 大理市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 743\n城市：大理白族自治州
+END:VEVENT
+END:VCALENDAR

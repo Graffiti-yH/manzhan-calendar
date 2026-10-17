@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 廊坊市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006680@show.bilibili.com
+DTSTAMP:20261017T182116Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:廊坊·阳阳的漫展·万圣夜
+LOCATION:固安大湖·超剧场 · 固安县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 680\n城市：廊坊市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006615@show.bilibili.com
+DTSTAMP:20261017T182116Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:廊坊·CLCAF-冬季动漫展
+LOCATION:廊坊壹佰剧院 · 安次区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 615\n城市：廊坊市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006689@show.bilibili.com
+DTSTAMP:20261017T182116Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:廊坊·文安无尽夏X Veil 动漫游戏嘉年华1.0
+LOCATION:万诺婚礼艺术中心 · 文安县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 689\n城市：廊坊市
+END:VEVENT
+END:VCALENDAR
