@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 贵阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1003960@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:贵阳·锦鲤动漫展
+LOCATION:STArtz'开始艺术区 · 白云区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1003
+ 960\n城市：贵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006764@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:贵阳·白宫万圣节互动游戏派对
+LOCATION:花果园国际文化艺术交流中心 · 南明区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 764\n城市：贵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006922@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:贵阳·第二届黔韵动漫游戏嘉年华
+LOCATION:贵阳国际会议展览中心 · 观山湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 922\n城市：贵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006412@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:贵阳·黔韵动漫游戏嘉年华电竞嘉宾签售票（不含
+ 门票）
+LOCATION:贵阳国际会议展览中心 · 观山湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 412\n城市：贵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006794@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:贵阳·首届次元游戏漫筵之约. 二次元游戏主题自助
+ 餐会
+LOCATION:明宇铂丽私宴 · 南明区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 794\n城市：贵阳市
+END:VEVENT
+END:VCALENDAR

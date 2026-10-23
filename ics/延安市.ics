@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 延安市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006662@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:延安·第11届YA动漫嘉年华
+LOCATION:金延安球类运动中心 · 宝塔区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 662\n城市：延安市
+END:VEVENT
+END:VCALENDAR

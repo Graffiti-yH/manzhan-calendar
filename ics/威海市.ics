@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 威海市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006838@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:威海·第七届FY动漫游戏嘉年华
+LOCATION:九龙晟大酒店(威海高铁站店) · 环翠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 838\n城市：威海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006817@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:荣成·第十届CSR动漫跨年狂欢节
+LOCATION:天鹅湖酒店宴会厅 · 荣成市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 817\n城市：威海市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006926@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:威海·第四届CSR动漫游戏嘉年华
+LOCATION:威海国际商务大厦 · 环翠区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 926\n城市：威海市
+END:VEVENT
+END:VCALENDAR

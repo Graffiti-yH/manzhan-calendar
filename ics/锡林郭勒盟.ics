@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 锡林郭勒盟
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006960@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:锡林浩特·樱二三ACG26.0x理想商店万圣主题活动
+LOCATION:锡林浩特市理想商店 · 锡林浩特市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 960\n城市：锡林郭勒盟
+END:VEVENT
+END:VCALENDAR

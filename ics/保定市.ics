@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 保定市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006893@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:保定·黑夜嘉年华万圣狂欢&SVIP邀请函首发
+LOCATION:黑夜游戏动漫中心 · 莲池区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 893\n城市：保定市
+END:VEVENT
+END:VCALENDAR

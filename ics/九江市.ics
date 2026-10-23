@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 九江市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006803@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:江西·漫拥动漫嘉年华MAX SP-万千世界&远航入梦
+LOCATION:丝路小镇 · 共青城市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 803\n城市：九江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006767@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:九江·第一届浔梦ACG动漫游戏博览会
+LOCATION:九江国际会展中心 · 濂溪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 767\n城市：九江市
+END:VEVENT
+END:VCALENDAR

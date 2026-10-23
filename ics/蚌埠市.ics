@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 蚌埠市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006889@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:蚌埠·淮畔星屿次元嘉年华
+LOCATION:克拉宝格丽婚礼艺术中心 · 蚌山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 889\n城市：蚌埠市
+END:VEVENT
+END:VCALENDAR

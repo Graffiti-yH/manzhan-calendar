@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 桂林市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006957@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:桂林·漫展（吃席版）—国潮游园会
+LOCATION:桂林南溪花园酒店 · 象山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 957\n城市：桂林市
+END:VEVENT
+END:VCALENDAR

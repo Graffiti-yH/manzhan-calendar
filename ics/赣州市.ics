@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 赣州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006890@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:赣州·伏特青年-第十六届文化综合展览会
+LOCATION:大玩具·汽车小镇 · 章贡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 890\n城市：赣州市
+END:VEVENT
+END:VCALENDAR

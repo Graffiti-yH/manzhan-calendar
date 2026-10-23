@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 厦门市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1004975@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:厦门·2026年金海豚动漫游戏嘉年华
+LOCATION:厦门国际会展中心 · 思明区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 975\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004992@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:厦门·鹭韵×次元结界动漫嘉年华
+LOCATION:集美展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 992\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007026@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:厦门·鹭韵动漫游戏嘉年华-卢力峰DK专场见面会
+LOCATION:集美展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 026\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007027@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:厦门·鹭韵动漫游戏嘉年华-姜秋再专场见面会
+LOCATION:集美展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 027\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006824@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:厦门·夜幕之下同人only
+LOCATION:厦门阳光美术馆 · 思明区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 824\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006663@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:厦门·明日方舟同人ONLY·罗德岛的游园会
+LOCATION:集美市民广场展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 663\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006391@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:厦门·第五届漫秋国风文化节·辞旧迎新-漫启新程
+LOCATION:集美展览馆 · 集美区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 391\n城市：厦门市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006835@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:厦门·绘星纪&海岸线动漫游戏嘉年华·双展联动—
+ —共度元旦！
+LOCATION:厦门国际会展中心 · 思明区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 835\n城市：厦门市
+END:VEVENT
+END:VCALENDAR

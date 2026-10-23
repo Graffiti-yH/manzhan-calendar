@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 阿克苏地区
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006953@show.bilibili.com
+DTSTAMP:20261023T195359Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:阿克苏·破晓第四届漫展
+LOCATION:阿克苏机场万达美华酒店 · 阿克苏市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 953\n城市：阿克苏地区
+END:VEVENT
+END:VCALENDAR
