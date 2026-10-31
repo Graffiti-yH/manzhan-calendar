@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 常德市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007269@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:常德·“深空”动漫游戏嘉年华
+LOCATION:常德华雅金凤酒店 · 鼎城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 269\n城市：常德市
+END:VEVENT
+END:VCALENDAR

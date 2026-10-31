@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 青岛市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006212@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:青岛·稻米only同人游园会
+LOCATION:川页咖啡 · 黄岛区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 212\n城市：青岛市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007150@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:青岛·家庭教师reborn 同人olny4.0-初雪日
+LOCATION:青岛九龙泉大酒店 · 李沧区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 150\n城市：青岛市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006815@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:青岛·动漫节DCSP2027幻梦动漫游戏嘉年华
+LOCATION:青岛国际会展中心 · 崂山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 815\n城市：青岛市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007031@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:青岛·明日方舟同人only 岁见新春
+LOCATION:九龙泉大酒店宴会厅 · 李沧区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 031\n城市：青岛市
+END:VEVENT
+END:VCALENDAR

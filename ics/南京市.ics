@@ -1,0 +1,149 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 南京市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006312@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:南京·妮姬同人Only展
+LOCATION:锦创书城(朝天宫店) · 秦淮区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 312\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005871@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:南京·锦风绣韵·声溯金陵【日场】
+LOCATION:南京新庄国展中心 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 871\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006899@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:南京·碧蓝航线only大型同人主题展
+LOCATION:南京空港国际博览中心 · 溧水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 899\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006422@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:南京·任天堂同人only-冬日派对
+LOCATION:南京世纪缘湖滨花园酒店（南京玄武湖店） · 玄
+ 武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 422\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1000930@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:南京·第十届超电国漫嘉年华
+LOCATION:南京夫子庙水游城假日酒店 · 秦淮区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1000
+ 930\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007144@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:南京·学园偶像大师同人ONLY·大运动会
+LOCATION:华贸中心写字楼 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 144\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007028@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:南京·拾光共鸣次元嘉年华
+LOCATION:泊金全季(南京商厦酒店) · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 028\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004189@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:南京·AOG-二游嘉年华
+LOCATION:大塘金香草·谷 · 江宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 189\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006573@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:南京·星幻动漫节2026第26届
+LOCATION:do re mi轰趴派对中心(仙林大学城店) · 栖霞区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 573\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006999@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:南京·星部落动漫嘉年华
+LOCATION:锦创书城（钟山路店） · 秦淮区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 999\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007155@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:南京·叁秋明日方舟同人only·假面狼歌
+LOCATION:南京六角广场 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 155\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006106@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:南京·暖暖生日会（同人only）-2026
+LOCATION:荣悦台婚礼庄园玄武店 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 106\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007285@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:南京·THO同人only9·国潮来袭
+LOCATION:御和圆大酒店 · 鼓楼区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 285\n城市：南京市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006875@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:南京·TYPE-MOON型月同人ONLY3.0
+LOCATION:后湖半岛宴会艺术空间 · 玄武区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 875\n城市：南京市
+END:VEVENT
+END:VCALENDAR

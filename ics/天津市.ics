@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 天津市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006473@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:天津·第二届MCC WORLD
+LOCATION:西夫拉姆堡 · 津南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 473\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004802@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:天津·Ls三国同人only3.0铜雀清宴
+LOCATION:嘉礼宴会艺术中心（天津店） · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 802\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1004691@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:天津·巢——Evalia 同人Only
+LOCATION:乒乓Pingpong Space(公园店) · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1004
+ 691\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005579@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:天津·阴阳师ONLY同人展-拾光共鸣
+LOCATION:格乐利雅GALLERIA艺术中心(天津店) · 河北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 579\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1005559@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:天津·BUCKS欧美only同人2.0
+LOCATION:玺瑞宴会艺术中心 · 河东区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1005
+ 559\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006346@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:天津·第三届TGS特摄同人only
+LOCATION:品所中心 · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 346\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007214@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:天津·绮梦星游戏动漫展
+LOCATION:格乐利雅GALLERIA艺术中心(天津店) · 河北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 214\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006782@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:天津·ComicAurora综合同人展2.5-怀旧主题企划
+LOCATION:悦动广场 · 南开区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 782\n城市：天津市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007063@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270201
+SUMMARY:天津·NJ动漫游戏狂欢节
+LOCATION:天津国家会展中心 · 津南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 063\n城市：天津市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 茂名市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007161@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:茂名·光动元国风动漫嘉年华9th
+LOCATION:光动元动漫城 · 茂南区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 161\n城市：茂名市
+END:VEVENT
+END:VCALENDAR

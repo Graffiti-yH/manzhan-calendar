@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 昆明市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007037@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:【免费活动】昆明·「暮秋星集」动漫嘉年华
+LOCATION:昆明呈贡万达 · 呈贡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 037\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006479@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:昆明·KC 特摄Only同人展
+LOCATION:次元折叠Box · 五华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 479\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006674@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:昆明·予梦国乙同人only
+LOCATION:昆明滇和缘婚礼艺术中心（经开区店） · 官渡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 674\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006675@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:昆明·予梦国乙同人only.三无桐子签售票（不含门票
+ ）
+LOCATION:昆明滇和缘婚礼艺术中心（经开区店） · 官渡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 675\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006913@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:昆明·公主梦境.芭比同人only
+LOCATION:纳哈那婚礼艺术中心 · 盘龙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 913\n城市：昆明市
+END:VEVENT
+END:VCALENDAR

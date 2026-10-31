@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 黄山市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007281@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:黄山·星部落动漫嘉年华
+LOCATION:黄山同聚楼大饭店（屯溪老街黎阳水街店） · 屯
+ 溪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 281\n城市：黄山市
+END:VEVENT
+END:VCALENDAR

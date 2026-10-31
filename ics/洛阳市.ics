@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 洛阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007279@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:洛阳·桃屿漫纪嘉年华
+LOCATION:维也纳智好酒店（洛阳开元大道店） · 洛龙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 279\n城市：洛阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006672@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:洛阳·第十五届龙门动漫展
+LOCATION:洛阳市奥林匹克中心 · 洛龙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 672\n城市：洛阳市
+END:VEVENT
+END:VCALENDAR

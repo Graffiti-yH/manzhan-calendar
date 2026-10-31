@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 泉州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007087@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270201
+SUMMARY:德化·超次元动漫游戏嘉年华-热爱相聚，新春贺礼
+LOCATION:德化会展中心 · 德化县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 087\n城市：泉州市
+END:VEVENT
+END:VCALENDAR

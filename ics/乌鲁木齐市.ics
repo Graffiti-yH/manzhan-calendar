@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 乌鲁木齐市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006993@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:乌鲁木齐·青年文化博览会mini暨第六届香蕉喵国风
+ 游戏嘉年华
+LOCATION:新疆国际会展中心 · 水磨沟区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 993\n城市：乌鲁木齐市
+END:VEVENT
+END:VCALENDAR

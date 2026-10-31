@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 牡丹江市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006174@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:牡丹江·SCG.雪花动漫炸货节4.0 万圣节庆典
+LOCATION:牡丹江东方宴酒店 · 东安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 174\n城市：牡丹江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007093@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:牡丹江·SP-03·SESxFCG动漫展
+LOCATION:牡丹宴 · 爱民区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 093\n城市：牡丹江市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007301@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:牡丹江·SCG·第十二届雪花动漫年度新春大席展
+LOCATION:世纪华伦大酒店 · 西安区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 301\n城市：牡丹江市
+END:VEVENT
+END:VCALENDAR

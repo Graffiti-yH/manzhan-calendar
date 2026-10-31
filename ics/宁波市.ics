@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 宁波市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007296@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:宁波·“深空”动漫游戏嘉年华
+LOCATION:宁波开元名庭大酒店 · 鄞州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 296\n城市：宁波市
+END:VEVENT
+END:VCALENDAR

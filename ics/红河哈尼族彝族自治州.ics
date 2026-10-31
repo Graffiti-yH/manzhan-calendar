@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 红河哈尼族彝族自治州
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007313@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:建水·次元电竞嘉年华
+LOCATION:昌泰紫陶文化酒店 · 建水县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 313\n城市：红河哈尼族彝族自治州
+END:VEVENT
+BEGIN:VEVENT
+UID:1007299@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:开远·次元电竞嘉年华
+LOCATION:华景花园大酒店 · 开远市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 299\n城市：红河哈尼族彝族自治州
+END:VEVENT
+END:VCALENDAR

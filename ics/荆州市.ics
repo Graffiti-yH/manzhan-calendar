@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 荆州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006974@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:荆州·第二届星烙动漫游戏展·sp迎星会
+LOCATION:荆州国际会展中心 · 沙市区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 974\n城市：荆州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007152@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270212
+SUMMARY:荆州·第十一届CICC动漫展
+LOCATION:荆州市会议中心 · 沙市区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 152\n城市：荆州市
+END:VEVENT
+END:VCALENDAR

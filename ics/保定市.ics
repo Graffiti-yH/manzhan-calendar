@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 保定市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007107@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261102
+SUMMARY:保定·珝禾川万圣节派对
+LOCATION:莲剧文化 · 莲池区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 107\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007199@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:保定·第六届次元打破动漫展
+LOCATION:609体育拓展中心 · 徐水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 199\n城市：保定市
+END:VEVENT
+END:VCALENDAR

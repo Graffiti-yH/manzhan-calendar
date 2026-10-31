@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 清远市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007275@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:清远·“深空”动漫游戏嘉年华
+LOCATION:高德·悦酒店(清远体育公园顺盈广场店) · 清城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 275\n城市：清远市
+END:VEVENT
+END:VCALENDAR

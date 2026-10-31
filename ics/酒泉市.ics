@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 酒泉市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007182@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:酒泉·UACG第十五届cosplay动漫游戏嘉年华暨十四周年
+ 庆典
+LOCATION:酒泉肃州植物园演艺展会中心 · 肃州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 182\n城市：酒泉市
+END:VEVENT
+END:VCALENDAR

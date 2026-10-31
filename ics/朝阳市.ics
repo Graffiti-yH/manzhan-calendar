@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 朝阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007311@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:朝阳·MJ4丶动漫游戏嘉年华 - 启耀之日
+LOCATION:韩宫宴(朝阳店) · 双塔区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 311\n城市：朝阳市
+END:VEVENT
+END:VCALENDAR

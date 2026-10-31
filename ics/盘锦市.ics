@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 盘锦市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007315@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:盘锦·首届喵喵港动漫展-我们在喵喵港相聚吧！
+LOCATION:水游城五星级假日酒店 · 兴隆台区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 315\n城市：盘锦市
+END:VEVENT
+END:VCALENDAR

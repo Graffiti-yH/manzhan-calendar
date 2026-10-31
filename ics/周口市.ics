@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 周口市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007170@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:周口·禾兔动漫展
+LOCATION:周口宴·礼宴中心 · 川汇区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 170\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007233@show.bilibili.com
+DTSTAMP:20261031T195149Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:周口·NPC漫工坊新年动漫文化节
+LOCATION:弗思特周口宴会中心 · 川汇区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 233\n城市：周口市
+END:VEVENT
+END:VCALENDAR
