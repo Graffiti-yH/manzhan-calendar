@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 衡阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007633@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:衡阳·第二十九届钰鸢动漫展
+LOCATION:摩登百货 · 雁峰区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 633\n城市：衡阳市
+END:VEVENT
+END:VCALENDAR

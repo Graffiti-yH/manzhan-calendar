@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 玉林市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007750@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:陆川·第一届小小动漫展
+LOCATION:世客城 · 陆川县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 750\n城市：玉林市
+END:VEVENT
+END:VCALENDAR

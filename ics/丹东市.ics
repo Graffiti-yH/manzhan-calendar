@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 丹东市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007427@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:丹东·优尼GO动漫展真人大富翁游园会
+LOCATION:新柳商业城 · 元宝区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 427\n城市：丹东市
+END:VEVENT
+END:VCALENDAR

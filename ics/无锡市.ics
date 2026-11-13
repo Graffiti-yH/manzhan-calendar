@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 无锡市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007035@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261123
+SUMMARY:【免费活动】宜兴·次元破壁·未来境遇国漫游戏嘉
+ 年华
+LOCATION:宜兴八佰伴购物广场 · 宜兴市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 035\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006544@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261117
+SUMMARY:无锡·冰纷万象xUDAF城市次元动漫节
+LOCATION:冰纷万象滑冰场 · 滨湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 544\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007512@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:【免费活动】江阴·次元破壁·未来境遇 国漫游戏
+ 嘉年华
+LOCATION:江阴南门八佰伴 · 江阴市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 512\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007706@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:无锡·启航次元狂欢季2.0
+LOCATION:无锡江南大悦城 · 滨湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 706\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006932@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:无锡·第一届NF夏夜幻想动漫展
+LOCATION:无锡御鉴礼宴（三阳广场店） · 梁溪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 932\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007510@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20270103
+SUMMARY:无锡·番音回响
+LOCATION:锡上MONO · 梁溪区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 510\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007747@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:无锡·星部落动漫嘉年华
+LOCATION:无锡羽锋球馆 · 锡山区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 747\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006785@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270125
+SUMMARY:无锡·第十六届蛋黄酥国漫游戏展
+LOCATION:无锡太湖国际博览中心 · 滨湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 785\n城市：无锡市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007549@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270503
+SUMMARY:无锡·首届次元理想乡动漫游戏博览会-“欢天锡地
+ ”
+LOCATION:无锡太湖国际博览中心 · 滨湖区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 549\n城市：无锡市
+END:VEVENT
+END:VCALENDAR

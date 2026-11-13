@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 常州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007715@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:常州·漫溯星川次元嘉年华
+LOCATION:常州天宁大饭店(天宁寺常州火车站店) · 天宁区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 715\n城市：常州市
+END:VEVENT
+END:VCALENDAR

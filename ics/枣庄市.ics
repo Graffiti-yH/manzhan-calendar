@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 枣庄市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007341@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:滕州·第二届流云国风次元嘉年华
+LOCATION:鲁班大酒店 · 滕州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 341\n城市：枣庄市
+END:VEVENT
+END:VCALENDAR

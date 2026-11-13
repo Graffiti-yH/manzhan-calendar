@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 淄博市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007383@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:淄博·漫坊动漫游戏嘉年华
+LOCATION:莫兰迪宾悦酒店(淄博八大局华光路店) · 张店区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 383\n城市：淄博市
+END:VEVENT
+END:VCALENDAR

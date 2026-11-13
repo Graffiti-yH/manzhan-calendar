@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 衡水市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007329@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:衡水·第六届VO动漫派对
+LOCATION:之外书店 · 桃城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 329\n城市：衡水市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007483@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:衡水·第一届Dream Start动漫展-梦开始的地方
+LOCATION:滏东全民健身中心 · 桃城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 483\n城市：衡水市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007577@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:饶阳·第三届FLY动漫嘉年华
+LOCATION:顺全隆喜事汇 · 饶阳县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 577\n城市：衡水市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 淮安市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006611@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:淮安·次元X突破动漫游戏博览会——秋假特典
+LOCATION:淮安国际博览中心 · 清江浦区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 611\n城市：淮安市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007756@show.bilibili.com
+DTSTAMP:20261113T215354Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:盱眙·超能喵动漫嘉年华10
+LOCATION:盱眙香江国际大酒店 · 盱眙县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 756\n城市：淮安市
+END:VEVENT
+END:VCALENDAR
