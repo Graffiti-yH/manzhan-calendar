@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 重庆市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1006811@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:重庆GKR火影同人only
+LOCATION:冉家坝丽呈君顿酒店 · 渝北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 811\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007960@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:重庆·星幻动漫节2027第41届
+LOCATION:拾光轰趴馆 · 两江新区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 960\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007236@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270201
+SUMMARY:重庆·WACGW动漫游戏博览会
+LOCATION:重庆国际博览中心 · 渝北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 236\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007314@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:万州·第三届云樱动漫展
+LOCATION:汉马酒店(重庆万州万达广场店) · 万州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 314\n城市：重庆市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007900@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270215
+SUMMARY:重庆·第二十二届梦乡动漫展-新春限定版
+LOCATION:重庆国际博览中心 · 渝北区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 900\n城市：重庆市
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 铁岭市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007896@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:铁岭·星响ACG动漫嘉年华
+LOCATION:天兴酒店 · 银州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 896\n城市：铁岭市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007946@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:调兵山·哇酷哇酷第三届动漫展
+LOCATION:调兵山泓缘酒店 · 调兵山市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 946\n城市：铁岭市
+END:VEVENT
+END:VCALENDAR

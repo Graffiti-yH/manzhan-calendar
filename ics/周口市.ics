@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 周口市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007712@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:沈丘·第八届清梦动漫展
+LOCATION:康馨智慧商贸产业园 · 沈丘县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 712\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007170@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:周口·禾兔动漫展
+LOCATION:周口宴·礼宴中心 · 川汇区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 170\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007936@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:鹿邑·第11届漫维度动漫展
+LOCATION:幸福里主题生态酒店 · 鹿邑县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 936\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007964@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:项城·第11届桔文化cosplay动漫游戏展
+LOCATION:希尔顿惠庭酒店 · 项城市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 964\n城市：周口市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007233@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:周口·NPC漫工坊新年动漫文化节
+LOCATION:弗思特周口宴会中心 · 川汇区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 233\n城市：周口市
+END:VEVENT
+END:VCALENDAR

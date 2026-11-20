@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 亳州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007861@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:亳州·千落QL第17届动漫展——漫展迎新年！
+LOCATION:玫瑰婚礼庄园 · 谯城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 861\n城市：亳州市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007937@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:涡阳·第三届熊猫动漫展
+LOCATION:涡阳金桂山庄大酒店 · 涡阳县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 937\n城市：亳州市
+END:VEVENT
+END:VCALENDAR

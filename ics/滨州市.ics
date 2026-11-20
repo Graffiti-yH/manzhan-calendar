@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 滨州市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1008047@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:邹平·乐天动漫游戏嘉年华
+LOCATION:邹平 魏桥君澜大饭店 · 邹平市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 047\n城市：滨州市
+END:VEVENT
+END:VCALENDAR

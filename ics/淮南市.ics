@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 淮南市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007849@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:淮南·京蔷甜虾动漫蛋糕展-第二弹
+LOCATION:名人国际大酒店(广场北路店) · 田家庵区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 849\n城市：淮南市
+END:VEVENT
+END:VCALENDAR

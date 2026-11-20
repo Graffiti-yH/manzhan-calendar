@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 肇庆市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1008054@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:肇庆·第十四届AP动漫嘉年华
+LOCATION:肇庆市七星岩温德姆至尊酒店 · 端州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 054\n城市：肇庆市
+END:VEVENT
+END:VCALENDAR

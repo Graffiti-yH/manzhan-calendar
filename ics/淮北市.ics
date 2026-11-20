@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 淮北市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007397@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:淮北·星纪次元嘉年华
+LOCATION:同庆楼(濉溪店) · 濉溪县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 397\n城市：淮北市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007853@show.bilibili.com
+DTSTAMP:20261120T223527Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:淮北·2027新年向日葵动漫游戏嘉年华
+LOCATION:名嫁婚礼艺术中心 · 杜集区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 853\n城市：淮北市
+END:VEVENT
+END:VCALENDAR
