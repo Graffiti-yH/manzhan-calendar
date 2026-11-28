@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 济宁市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007039@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:济宁·第四届 二次元吃席大联欢 完结篇
+LOCATION:汇源饺子城 · 任城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 039\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007115@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:金乡·第3届 谷雨动漫游戏嘉年华
+LOCATION:金乡维也纳国际酒店 · 金乡县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 115\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008279@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:兖州·第二届奇遇动漫嘉年华
+LOCATION:印象兖州 · 兖州区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 279\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008278@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:曲阜·第一届奇遇动漫嘉年华
+LOCATION:星程酒店(济宁曲阜师范大学店) · 曲阜市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 278\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007342@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270210
+SUMMARY:梁山·梦源漫界同好交友会6.0
+LOCATION:快活林礼宴艺术中心(水泊大街店) · 梁山县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 342\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007103@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270211
+SUMMARY:济宁·2027森罗万象COSPLAY新年动漫展31
+LOCATION:蓼河大剧院 · 任城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 103\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007097@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270211
+SUMMARY:济宁·A+动漫游戏嘉年华32
+LOCATION:济宁大剧院 · 任城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 097\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008046@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:泗水·乐天动漫游戏嘉年华
+LOCATION:泗水泉源酒店 · 泗水县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 046\n城市：济宁市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008113@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:邹城·第四届奇遇动漫嘉年华
+LOCATION:邹城市兖圣大酒店(矿建西路南) · 邹城市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 113\n城市：济宁市
+END:VEVENT
+END:VCALENDAR

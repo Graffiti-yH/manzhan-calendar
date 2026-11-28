@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 保定市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007892@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:保定·第11届CM御宅动漫展
+LOCATION:万枫酒店 · 竞秀区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 892\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007898@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:保定·Gr~珝禾川漫展
+LOCATION:中国古动物博物馆 · 莲池区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 898\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007893@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:定州·第8届开元动漫展
+LOCATION:定州市工人文化宫 · 定州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 893\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007826@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:白沟·第六届ACG栖梦动漫展·两周年庆典
+LOCATION:河北出口商品展示中心 · 高碑店市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 826\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007335@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:涿州·第十一届ACE动漫嘉年华-新年庆典
+LOCATION:禧院 · 涿州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 335\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008188@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:曲阳·第九届曲次元动漫嘉年华-新年庆典
+LOCATION:锦江之星 · 曲阳县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 188\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007199@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:徐水·第六届次元打破动漫展
+LOCATION:609体育拓展中心 · 徐水区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 199\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008032@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:高碑店·芊次元动漫嘉年华19th
+LOCATION:中国登山训练基地攀岩馆 · 高碑店市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 032\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007578@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:涿州·ZMAX动漫游戏嘉年华11th
+LOCATION:私家小厨禧事会礼宴中心 · 涿州市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 578\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007467@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:保定·第四届云影动漫展
+LOCATION:保定亚华酒店 · 竞秀区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 467\n城市：保定市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007888@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:安国·第16届CM御宅动漫展
+LOCATION:安国数字中药都会议中心 · 安国市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 888\n城市：保定市
+END:VEVENT
+END:VCALENDAR

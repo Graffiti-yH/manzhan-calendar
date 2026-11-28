@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 大理白族自治州
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1008353@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:大理·第十届DWJ国风动漫嘉年华
+LOCATION:拥抱大理篮球公园 · 大理市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 353\n城市：大理白族自治州
+END:VEVENT
+BEGIN:VEVENT
+UID:1008103@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:大理·晚风动漫嘉年华
+LOCATION:维也纳国际酒店（大理下关店） · 大理市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 103\n城市：大理白族自治州
+END:VEVENT
+END:VCALENDAR

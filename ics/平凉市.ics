@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 平凉市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1008116@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:平凉·凌霜·永遇乐次元文化节
+LOCATION:平凉广成大酒店 · 崆峒区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 116\n城市：平凉市
+END:VEVENT
+END:VCALENDAR

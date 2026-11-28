@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 呼伦贝尔市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007950@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:扎兰屯·浮生闲新年动漫展
+LOCATION:金百灵大酒店 · 扎兰屯市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 950\n城市：呼伦贝尔市
+END:VEVENT
+END:VCALENDAR

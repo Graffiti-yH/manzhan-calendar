@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 德宏傣族景颇族自治州
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1008192@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:芒市·comivibe岁启桃夭国风展
+LOCATION:沈鸭子酒店 · 芒市
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 192\n城市：德宏傣族景颇族自治州
+END:VEVENT
+END:VCALENDAR

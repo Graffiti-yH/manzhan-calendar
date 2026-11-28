@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 昆明市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007839@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:昆明·『花见』·冬溯长夜宴会
+LOCATION:M60文化创意园 · 五华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 839\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006674@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:昆明·予梦国乙同人only
+LOCATION:昆明滇和缘婚礼艺术中心（经开区店） · 官渡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 674\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006675@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:昆明·予梦国乙同人only.三无桐子签售票（不含门票
+ ）
+LOCATION:昆明滇和缘婚礼艺术中心（经开区店） · 官渡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 675\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007911@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:昆明·盗全龙哑·四书同人ONLY 2.0
+LOCATION:沃力空间林招社区 · 五华区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 911\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008104@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:东川·星落动漫嘉年华
+LOCATION:昆明迪派商务酒店 · 东川区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 104\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008094@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:宜良·星落动漫嘉年华
+LOCATION:戴斯温德姆酒店(乡鸭湖店) · 宜良县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 094\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007626@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270201
+SUMMARY:云南·WACGW国漫游戏博览会
+LOCATION:昆明滇池国际会展中心 · 官渡区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 626\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008095@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:石林·星落动漫嘉年华
+LOCATION:石林红杉湖温泉酒店 · 石林彝族自治县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 095\n城市：昆明市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006913@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:昆明·公主梦境.芭比同人only
+LOCATION:纳哈那婚礼艺术中心 · 盘龙区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 913\n城市：昆明市
+END:VEVENT
+END:VCALENDAR

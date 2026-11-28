@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 驻马店市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007562@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:驻马店·“深空”动漫游戏嘉年华
+LOCATION:柏林国际酒店 · 驿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 562\n城市：驻马店市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008114@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:驻马店·狐妖第十八届动漫展
+LOCATION:驻马店国际会展中心 · 驿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 114\n城市：驻马店市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008141@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:西平·第三届屿枫动漫展
+LOCATION:豪顿国际酒店 · 西平县
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 141\n城市：驻马店市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008115@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270212
+SUMMARY:驻马店·狐妖第十九届动漫展
+LOCATION:驻马店国际会展中心 · 驿城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 115\n城市：驻马店市
+END:VEVENT
+END:VCALENDAR

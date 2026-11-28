@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 佛山市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007612@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:佛山·次元交错动漫嘉年华
+LOCATION:丽致潮乐园（丽致汇广场北门） · 南海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 612\n城市：佛山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007354@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:佛山·漫浪动漫游戏嘉年华2.0
+LOCATION:世博广场展览中心（魁奇路地铁A出口） · 禅城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 354\n城市：佛山市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008270@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270202
+SUMMARY:佛山·第四届Comic Expo国风动漫展-这个世界，由我来
+ 守护！
+LOCATION:佛山潭州国际会展中心 · 顺德区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 270\n城市：佛山市
+END:VEVENT
+END:VCALENDAR

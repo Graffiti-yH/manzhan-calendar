@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 绵阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007705@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261221
+SUMMARY:绵阳·米家同人ONLY1.0·四界异常
+LOCATION:百盛绵阳上马购物中心 · 涪城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 705\n城市：绵阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008147@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:绵阳·王者荣耀同人Only1.0·农到深处自然菜
+LOCATION:绵阳虹苑剧场 · 涪城区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 147\n城市：绵阳市
+END:VEVENT
+END:VCALENDAR

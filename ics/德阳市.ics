@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 德阳市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1008184@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:【免费活动】德阳·御见星尘悦动次元动漫节4.0
+LOCATION:吾悦广场(德阳店) · 旌阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 184\n城市：德阳市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007708@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:德阳·首届星次元国风动漫文化展
+LOCATION:群众文化活动中心 · 旌阳区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 708\n城市：德阳市
+END:VEVENT
+END:VCALENDAR

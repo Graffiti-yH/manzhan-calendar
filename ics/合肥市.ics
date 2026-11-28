@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//manzhan-calendar//Bilibili Manzhan Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B站漫展日历 · 合肥市
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:1007211@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:合肥·女神竞技场 二游嘉年华
+LOCATION:费加罗宴会艺术中心(省府店) · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 211\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007079@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:合肥·青芜漫叙次元嘉年华
+LOCATION:克拉宝格莉高定婚礼堂 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 079\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007033@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:合肥·创星纪宅舞动漫嘉年华
+LOCATION:少荃体育中心 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 033\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008315@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:合肥·冬至乐章女性向主题同人only
+LOCATION:合肥方圆荟(滨湖店) · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 315\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1006970@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270103
+SUMMARY:合肥·第二十二届环形宇宙动漫游戏嘉年华
+LOCATION:合肥滨湖国际会展中心 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1006
+ 970\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007423@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:合肥·银魂同人only-近藤勋夺还战
+LOCATION:蓝金湾大酒店 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 423\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1007740@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:合肥·纸梦相逢嘉年华
+LOCATION:合肥市瑶海区凌冠大酒店 · 瑶海区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1007
+ 740\n城市：合肥市
+END:VEVENT
+BEGIN:VEVENT
+UID:1008052@show.bilibili.com
+DTSTAMP:20261128T000105Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:合肥·星依庐月-中文虚拟歌手ONLY同人展
+LOCATION:GX360广场 · 包河区
+DESCRIPTION:购票：https://show.bilibili.com/platform/detail.html?id=1008
+ 052\n城市：合肥市
+END:VEVENT
+END:VCALENDAR
